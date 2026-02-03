@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison | VersusTech</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html" class="logo">VersusTech</a>
+        </nav>
+
+        <div class="vs-container">
+            <div id="item1" class="compare-card">
+                <!-- Data injected here -->
+            </div>
+            <div class="vs-box">VS</div>
+            <div id="item2" class="compare-card">
+                <!-- Data injected here -->
+            </div>
+        </div>
+
+        <div class="winners-box" id="winnersContainer">
+            <h3 style="margin-bottom: 20px; color: var(--accent);">Analysis Winners</h3>
+            <div id="winnersList">
+                <!-- Winners injected here -->
+            </div>
+        </div>
+
+        <div style="margin-top: 30px; text-align: center;">
+            <a href="form.html" class="btn btn-primary">Start New Search</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        window.onload = () => {
+            const items = JSON.parse(localStorage.getItem('selectedForCompare'));
+            const category = localStorage.getItem('category');
+            if (items && items.length === 2) {
+                renderComparison(items[0], items[1], category);
+            }
+        };
+    </script>
+</body>
+
+</html>

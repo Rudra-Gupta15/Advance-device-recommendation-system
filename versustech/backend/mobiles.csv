@@ -1,0 +1,27 @@
+name,brand,price,ram,storage,battery,camera,processor_score,official_link
+iPhone 15,Apple,79900,6,128,3349,48,95,https://www.apple.com/iphone-15/
+iPhone 15 Pro,Apple,134900,8,256,3274,48,98,https://www.apple.com/iphone-15-pro/
+Galaxy S24 Ultra,Samsung,129999,12,256,5000,200,97,https://www.samsung.com/galaxy-s24-ultra/
+Galaxy S24,Samsung,79999,8,128,4000,50,92,https://www.samsung.com/galaxy-s24/
+Pixel 8 Pro,Google,106999,12,128,5050,50,90,https://store.google.com/product/pixel_8_pro
+Pixel 8,Google,75999,8,128,4575,50,88,https://store.google.com/product/pixel_8
+OnePlus 12,OnePlus,64999,12,256,5400,50,94,https://www.oneplus.com/12
+OnePlus 12R,OnePlus,39999,8,128,5500,50,89,https://www.oneplus.com/12r
+Xiaomi 14,Xiaomi,69999,12,512,4610,50,93,https://www.mi.com/global/product/xiaomi-14/
+Nothing Phone (2),Nothing,39999,8,128,4700,50,85,https://nothing.tech/products/phone-2
+Redmi Note 13 Pro+,Xiaomi,31999,8,256,5000,200,82,https://www.mi.com/redmi-note-13-pro-plus/
+Realme GT 5G,Realme,35999,8,128,4500,64,88,https://www.realme.com/gt
+Moto Edge 50 Pro,Motorola,31999,8,256,4500,50,84,https://www.motorola.in/smartphones-motorola-edge-50-pro/p
+IQOO 12,IQOO,52999,12,256,5000,50,95,https://www.iqoo.com/in/products/12
+Vivo X100 Pro,Vivo,89999,16,512,5400,50,94,https://www.vivo.com/in/products/x100pro
+iPhone 14,Apple,59900,6,128,3279,12,88,https://www.apple.com/iphone-14/
+Galaxy A55,Samsung,39999,8,128,5000,50,78,https://www.samsung.com/galaxy-a55/
+Nothing Phone (2a),Nothing,23999,8,128,5000,50,75,https://nothing.tech/products/phone-2a
+POCO F6,Xiaomi,29999,8,256,5000,50,91,https://www.mi.com/in/product/poco-f6/
+Asus ROG Phone 8,Asus,94999,16,512,5500,50,96,https://rog.asus.com/phones/rog-phone-8/
+Galaxy Z Fold 5,Samsung,154999,12,256,4400,50,93,https://www.samsung.com/galaxy-z-fold5/
+iPhone 13,Apple,48999,4,128,3227,12,85,https://www.apple.com/iphone-13/
+OnePlus Nord 4,OnePlus,29999,8,128,5500,50,83,https://www.oneplus.com/nord-4
+Pixel 7a,Google,37999,8,128,4385,64,84,https://store.google.com/product/pixel_7a
+Moto G85,Motorola,17999,8,128,5000,50,72,https://www.motorola.in/smartphones-motorola-g85-5g/p
+Redmi 13C,Xiaomi,8999,4,128,5000,50,60,https://www.mi.com/in/product/redmi-13c/

@@ -1,0 +1,27 @@
+name,brand,price,ram,storage,cpu_score,gpu_score,battery,official_link
+MacBook Air M2,Apple,99900,8,256,90,85,18,https://www.apple.com/macbook-air-m2/
+MacBook Pro M3,Apple,169900,8,512,95,92,22,https://www.apple.com/macbook-pro/
+Dell XPS 13,Dell,114990,16,512,88,75,12,https://www.dell.com/xps-13
+HP Spectre x360,HP,139990,16,512,89,78,13,https://www.hp.com/spectre-x360
+Lenovo Legion Slim 5,Lenovo,105000,16,512,92,90,8,https://www.lenovo.com/legion-slim-5
+ASUS ROG Zephyrus G14,Asus,149990,16,1024,94,95,10,https://rog.asus.com/laptops/rog-zephyrus-g14/
+Acer Predator Helios Neo 16,Acer,119990,16,1024,91,92,6,https://www.acer.com/predator-helios-neo-16
+MacBook Air M1,Apple,74990,8,256,85,80,15,https://www.apple.com/macbook-air-m1/
+Dell Inspiron 15,Dell,45990,8,512,70,60,7,https://www.dell.com/inspiron-15
+HP Pavilion 15,HP,58990,16,512,75,65,8,https://www.hp.com/pavilion-15
+Lenovo IdeaPad Slim 3,Lenovo,35990,8,256,65,55,6,https://www.lenovo.com/ideapad-slim-3
+Acer Aspire 5,Acer,42990,8,512,72,62,8,https://www.acer.com/aspire-5
+MSI Katana GF66,MSI,79990,16,512,85,88,5,https://www.msi.com/laptop/katana-gf66
+Microsoft Surface Laptop 5,Microsoft,102990,8,256,82,70,12,https://www.microsoft.com/surface-laptop-5
+Samsung Galaxy Book3,Samsung,74990,16,512,80,68,14,https://www.samsung.com/galaxy-book3
+ASUS Vivobook 16X,Asus,54990,16,512,78,75,7,https://www.asus.com/vivobook-16x
+Razer Blade 14,Razer,219990,16,1024,96,98,9,https://www.razer.com/gaming-laptops/razer-blade-14
+Gigabyte G5,Gigabyte,69990,16,512,82,85,5,https://www.gigabyte.com/Laptop/G5
+Lenovo Yoga 7i,Lenovo,94990,16,512,84,72,11,https://www.lenovo.com/yoga-7i
+Dell Alienware m16,Dell,189990,32,1024,97,97,6,https://www.dell.com/alienware-m16
+ASUS TUF Gaming F15,Asus,62990,16,512,80,82,6,https://www.asus.com/tuf-gaming-f15
+HP Victus 15,HP,55990,8,512,78,80,6,https://www.hp.com/victus-15
+Acer Swift Go 14,Acer,69990,16,512,83,70,12,https://www.acer.com/swift-go-14
+LG Gram 16,LG,119990,16,512,86,65,18,https://www.lg.com/gram-16
+MacBook Pro M3 Max,Apple,349900,36,1024,99,99,20,https://www.apple.com/macbook-pro-14-and-16/
+RedmiBook 15 Pro,Xiaomi,42990,8,512,74,60,8,https://www.mi.com/redmibook-15-pro

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VersusTech | Smart Device Recommendations</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html" class="logo">VersusTech</a>
+        </nav>
+
+        <section class="hero">
+            <h1>Find Your <span style="color: var(--primary)">Perfect</span> Tech Match</h1>
+            <p>Advanced AI-driven recommendations for mobiles and laptops. Choose your category to begin.</p>
+
+            <div style="display: flex; gap: 30px; margin-top: 40px; justify-content: center; flex-wrap: wrap;">
+                <div class="category-card" onclick="selectCategory('mobile')">
+                    <div style="font-size: 3rem; margin-bottom: 10px;">📱</div>
+                    <h3>Mobile</h3>
+                </div>
+                <div class="category-card" onclick="selectCategory('laptop')">
+                    <div style="font-size: 3rem; margin-bottom: 10px;">💻</div>
+                    <h3>Laptop</h3>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

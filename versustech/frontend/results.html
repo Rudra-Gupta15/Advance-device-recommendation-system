@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendations | VersusTech</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html" class="logo">VersusTech</a>
+            <button id="compareBtn" class="btn btn-primary" style="display: none;">Compare Selected (2)</button>
+        </nav>
+
+        <header style="margin-top: 40px; text-align: center;">
+            <h2 id="results-title">Top 10 Recommendations</h2>
+            <p style="color: #94a3b8;">Select any 2 products to see a head-to-head comparison.</p>
+        </header>
+
+        <div id="resultsGrid" class="results-grid">
+            <!-- Product cards will be injected here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        window.onload = () => {
+            const results = JSON.parse(localStorage.getItem('recommendations'));
+            if (results) displayResults(results);
+        };
+    </script>
+</body>
+
+</html>

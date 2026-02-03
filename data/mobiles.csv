@@ -1,0 +1,1020 @@
+model,price_inr,ram_gb,processor,camera_mp,os,rating
+OnePlus 11 5G,54999,12.0,"Snapdragon 8 Gen2, Octa Core, 3.2 GHz Processor",50.0,Android v13,89.0
+OnePlus Nord CE 2 Lite 5G,19989,6.0,"Snapdragon 695, Octa Core, 2.2 GHz Processor",64.0,Android v12,81.0
+Samsung Galaxy A14 5G,16499,4.0,"Exynos 1330, Octa Core, 2.4 GHz Processor",50.0,Android v13,75.0
+Motorola Moto G62 5G,14999,6.0,"Snapdragon  695, Octa Core, 2.2 GHz Processor",50.0,Android v12,81.0
+Realme 10 Pro Plus,24999,6.0,"Dimensity 1080, Octa Core, 2.6 GHz Processor",108.0,Android v13,82.0
+Samsung Galaxy F23 5G (6GB RAM + 128GB),16999,6.0,"Snapdragon  750G, Octa Core, 2.2 GHz Processor",50.0,Android v12,80.0
+Apple iPhone 14,65999,6.0,"Bionic A15, Hexa Core, 3.22 GHz Processor",12.0,iOS v16,81.0
+Xiaomi Redmi Note 12 Pro Plus,29999,8.0,"Dimensity 1080, Octa Core, 2.6 GHz Processor",200.0,Android v12,86.0
+Nothing Phone 1,26749,8.0,"Snapdragon 778G Plus, Octa Core, 2.5 GHz Processor",50.0,No FM Radio,85.0
+OnePlus Nord 2T 5G,28999,8.0,"Dimensity  1300, Octa Core, 3 GHz Processor",50.0,No FM Radio,84.0
+Realme 10 Pro,18999,6.0,"Snapdragon 695, Octa Core, 2.2 GHz Processor",108.0,Android v13,82.0
+Oppo A78,18999,8.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",50.0,Android v12,79.0
+Xiaomi Redmi Note 12 Pro 5G,24762,6.0,"Dimensity 1080, Octa Core, 2.6 GHz Processor",50.0,No FM Radio,79.0
+Vivo T1 5G (6GB RAM + 128GB),16990,6.0,"Snapdragon  695, Octa Core, 2.2 GHz Processor",50.0,Android v12,80.0
+Samsung Galaxy S23 Ultra 5G,114990,8.0,"Snapdragon 8 Gen2, Octa Core, 3.2 GHz Processor",200.0,Android v13,
+Apple iPhone 13,62999,4.0,"Bionic A15, Hexa Core, 3.22 GHz Processor",12.0,iOS v15,79.0
+Vivo Y16,9999,3.0,"Helio P35, Octa Core, 2.3 GHz Processor",13.0,Android v12,65.0
+OPPO Reno 9 Pro Plus,45999,16.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,86.0
+OnePlus 10R 5G,32999,8.0,"Dimensity 8100 Max, Octa Core, 2.85 GHz Processor",50.0,Bluetooth,86.0
+Vivo Y22,14499,4.0,"Helio G70, Octa Core, 2 GHz Processor",50.0,Android v12,72.0
+OnePlus 11R,39999,8.0,"Snapdragon  8+ Gen1, Octa Core, 3.2 GHz Processor",50.0,Bluetooth,85.0
+Vivo V25 Pro 5G,35999,8.0,"Dimensity 1300, Octa Core, 3 GHz Processor",64.0,No FM Radio,85.0
+Poco X4 Pro 5G,14999,6.0,"Snapdragon 695 , Octa Core, 2.2 GHz Processor",64.0,Android v11,80.0
+Xiaomi Redmi Note 12,17859,4.0,"Snapdragon 4 Gen 1, Octa Core, 2 GHz Processor",48.0,Android v12,76.0
+Vivo V26 Pro,42990,12.0,"Dimensity 9000 Plus, Octa Core, 3.2 GHz Processor",64.0,No FM Radio,87.0
+Samsung Galaxy S20 FE 5G,31239,8.0,"Snapdragon 865, Octa Core, 2.84 GHz Processor",12.0,Android v10,88.0
+OnePlus Nord CE 2 Lite 5G (8GB RAM + 128GB),21995,8.0,"Snapdragon 695, Octa Core, 2.2 GHz Processor",64.0,Android v12,84.0
+Apple iPhone 14 Pro Max,129990,6.0,"Bionic  A16, Hexa Core Processor",48.0,iOS v16,76.0
+Vivo V25 5G,27999,8.0,"Dimensity  900, Octa Core, 2 GHz Processor",64.0,Android v12,83.0
+OnePlus 11 Pro,69999,8.0,"Snapdragon  8 Gen2, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,
+Realme 10 Pro (8GB RAM + 128GB),19999,8.0,"Snapdragon 695, Octa Core, 2.2 GHz Processor",108.0,Android v13,84.0
+Poco X5 Pro,20999,6.0,"Snapdragon 778G, Octa Core, 2.4 GHz Processor",108.0,Android v13,81.0
+Vivo V27,27990,8.0,"Dimensity  930, Octa Core, 2.2 GHz Processor",64.0,Android v13,83.0
+Apple iPhone 11,38999,4.0,"A13 Bionic, Hexa Core, 2.65 GHz Processor",12.0,iOS v13,73.0
+Samsung Galaxy M53 5G,23790,6.0,"Dimensity  900 5G, Octa Core, 2.4 GHz Processor",108.0,Android v12,85.0
+Samsung Galaxy S21 FE 5G,39999,8.0,"Exynos  2100, Octa Core, 2.9 GHz Processor",12.0,Android v11,87.0
+Oppo Reno 8T,29990,8.0,"Snapdragon  695, Octa Core, 2.2 GHz Processor",108.0,Android v13,87.0
+Samsung Galaxy S22 Ultra 5G,91999,12.0,"Snapdragon  8 Gen1, Octa Core, 3 GHz Processor",108.0,Bluetooth,
+Xiaomi Redmi Note 12 Pro Max 5G,32999,6.0,"Snapdragon  7 Gen1, Octa Core, 2.36 GHz Processor",108.0,Android v12,83.0
+OPPO Reno 9 5G,28499,8.0,"Snapdragon 778G, Octa Core, 2.4 GHz Processor",64.0,No FM Radio,83.0
+OnePlus Nord CE 3 5G,21999,6.0,"Snapdragon  695, Octa Core, 2.2 GHz Processor",108.0,Android v12,83.0
+Xiaomi Redmi Note 11 Pro Plus 5G,19999,6.0," Snapdragon  695, Octa Core, 2.2 GHz Processor",108.0,Android v11,83.0
+Motorola Edge 20 Fusion 5G,18999,6.0,"Dimensity 800U, Octa Core, 2.4 GHz Processor",108.0,Android v11,87.0
+Realme 10 Pro Plus (8GB RAM + 256GB),27999,8.0,"Dimensity 1080, Octa Core, 2.6 GHz Processor",108.0,Android v13,85.0
+Vivo Y35,18499,8.0,"Snapdragon 680, Octa Core, 2.4 GHz Processor",50.0,Android v12,80.0
+Samsung Galaxy M33 5G,17478,6.0,"Exynos  1280, Octa Core, 2.4 GHz Processor",50.0,Android v12,81.0
+Xiaomi Redmi Note 11,11936,4.0,"Snapdragon  680, Octa Core, 2.4 GHz Processor",50.0,Android v11,76.0
+Realme C33,8950,3.0,"Unisoc T612, Octa Core, 1.8 GHz Processor",50.0,Android v12,64.0
+Vivo Y16 (4GB RAM + 64GB),12489,4.0,"Helio P35, Octa Core, 2.3 GHz Processor",13.0,Android v12,68.0
+Samsung Galaxy A74 5G,42999,8.0,"Snapdragon 7 Gen1, Octa Core, 2.36 GHz Processor",108.0,Android v12,
+Samsung Galaxy A14 5G (6GB RAM + 128GB),18999,6.0,"Exynos 1330, Octa Core, 2.4 GHz Processor",50.0,Android v13,79.0
+iQOO Neo 7 5G,29999,8.0,"Dimensity 8200, Octa Core, 3.1 GHz Processor",64.0,No FM Radio,82.0
+Jio JioPhone 5G,11990,4.0,"Snapdragon 480+, Octa Core, 2.2 GHz Processor",13.0,Android v12,64.0
+Motorola Moto G82 5G,18999,6.0,"Snapdragon 695, Octa Core, 2.2 GHz Processor",50.0,Android v12,83.0
+Realme 10,13999,4.0,"Helio G99, Octa Core, 2.2 GHz Processor",50.0,Android v12,74.0
+Realme 9i 5G,14965,4.0,"Dimensity 810 5G, Octa Core, 2.4 GHz Processor",50.0,Android v12,75.0
+Apple iPhone 14 Plus,74999,6.0,"Bionic A15, Hexa Core, 3.22 GHz Processor",12.0,iOS v16,82.0
+Xiaomi Redmi Note 10S,10999,6.0,"Helio G95, Octa Core, 2.05 GHz Processor",64.0,Android v11,78.0
+Samsung Galaxy S23 Plus,84990,8.0,"Snapdragon 8 Gen2, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,89.0
+Motorola Moto G32,10499,4.0,"Snapdragon 680, Octa Core, 2.4 GHz Processor",50.0,Android v12,75.0
+Xiaomi Redmi Note 13 Pro 5G,17990,6.0,"Dimensity 720, Octa Core, 2 GHz Processor",108.0,Bluetooth,78.0
+Vivo S16,29990,8.0,"Snapdragon 870, Octa Core, 3.2 GHz Processor",64.0,No FM Radio,85.0
+Samsung Galaxy A23,18499,6.0,"Snapdragon  680, Octa Core, 2.4 GHz Processor",50.0,Android v12,79.0
+Vivo Y22 (6GB RAM + 128GB),16499,6.0,"Helio G70, Octa Core, 2 GHz Processor",50.0,Android v12,75.0
+Poco M4 Pro 5G (6GB RAM + 128GB),14999,6.0,"Dimensity  810 5G, Octa Core, 2.4 GHz Processor",50.0,Android v11,81.0
+Vivo S16 Pro,35499,8.0,"Dimensity 8200, Octa Core, 3.1 GHz Processor",50.0,No FM Radio,86.0
+OnePlus 10 Pro 5G,60999,8.0,"Snapdragon  8 Gen1, Octa Core, 3 GHz Processor",50.0,No FM Radio,89.0
+Xiaomi Redmi Note 12 Pro Plus (12GB RAM + 256GB),32999,12.0,"Dimensity 1080, Octa Core, 2.6 GHz Processor",200.0,Android v12,87.0
+Samsung Galaxy F23 5G,15999,4.0,"Snapdragon  750G, Octa Core, 2.2 GHz Processor",50.0,Android v12,78.0
+Oppo Find N Fold,99990,8.0,"Snapdragon  8+ Gen1, Octa Core, 3.2 GHz Processor",,Android v12,
+OPPO A17K,9499,3.0,"Helio G35, Octa Core, 2.3 GHz Processor",8.0,Android v12,62.0
+Vivo V23 5G (12GB RAM + 256GB),27994,12.0,"Dimensity  920 5G, Octa Core, 2.5 GHz Processor",64.0,Android v12,86.0
+iQOO Z6 Lite 5G,13989,4.0,"Snapdragon  4 Gen 1, Octa Core, 2 GHz Processor",50.0,Android v12,75.0
+OnePlus 10T,44999,8.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,85.0
+Xiaomi Redmi Note 10T 5G (6GB RAM +128GB),13999,6.0,"Dimensity 700 , Octa Core, 2.2 GHz Processor",48.0,Android v11,79.0
+Gionee G13 Pro,6190,4.0,"Tiger  T310, Quad Core, 2 GHz Processor",13.0,HarmonyOS v2,
+Apple iPhone 13 Pro,119900,6.0,"Bionic A15, Hexa Core, 3.22 GHz Processor",12.0,iOS v15.0,83.0
+OPPO F22 Pro,27660,8.0,"Snapdragon 6 Gen 1, Octa Core, 2.2 GHz Processor",64.0,Android v13,83.0
+Samsung Galaxy A34 5G,24999,6.0,"Exynos 1280, Octa Core Processor",48.0,Android v12,75.0
+Xiaomi Redmi 10A (4GB RAM + 64GB),8388,4.0,"Helio  G25, Octa Core, 2 GHz Processor",13.0,Android v11,66.0
+Motorola Moto G72 4G,15999,6.0,"Helio  G99, Octa Core, 2.2 GHz Processor",108.0,Android v12,83.0
+Samsung Galaxy A14 5G (8GB RAM + 128GB),20999,8.0,"Exynos 1330, Octa Core, 2.4 GHz Processor",50.0,Android v13,82.0
+Realme 9 5G,13999,4.0,"Dimensity  810 5G, Octa Core, 2.4 GHz Processor",48.0,Android v11,75.0
+Vivo T1 5G (8GB RAM + 128GB),19990,8.0,"Snapdragon  695, Octa Core, 2.2 GHz Processor",50.0,Android v12,83.0
+Samsung Galaxy M13 5G,13999,6.0,"Dimensity 700, Octa Core, 2.2 GHz Processor",50.0,Android v12,75.0
+Motorola Edge 30 5G,22999,6.0,"Snapdragon 778G+, Octa Core, 2.5 GHz Processor",50.0,No FM Radio,83.0
+Samsung Galaxy A23 5G,22999,6.0,"Snapdragon 695, Octa Core, 2.2 GHz Processor",50.0,Android v12,79.0
+OPPO K10 5G,16999,8.0,"Dimensity  810 5G, Octa Core, 2.4 GHz Processor",48.0,Android v12,79.0
+Xiaomi Redmi Note 11 (6GB RAM + 128GB),14290,6.0,"Snapdragon  680, Octa Core, 2.4 GHz Processor",50.0,Android v11,80.0
+Samsung Galaxy A73 5G,41999,8.0,"Snapdragon 778G, Octa Core, 2.4 GHz Processor",108.0,Android v12,
+Vivo Y21 2021,13489,4.0,"Helio P35, Octa Core, 2.3 GHz Processor",13.0,Android v11,69.0
+OnePlus Ace Racing Edition 5G,22990,8.0,"Dimensity 8100 Max, Octa Core, 2.85 GHz Processor",64.0,No FM Radio,83.0
+Motorola Moto G62 (8GB RAM + 128GB),16499,8.0,"Snapdragon  695, Octa Core, 2.2 GHz Processor",50.0,Android v12,84.0
+Vivo X90 Pro Plus 5G,73999,12.0,"Snapdragon 8 Gen2, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,
+Realme C33 (4GB RAM + 64GB),9999,4.0,"Unisoc T612, Octa Core, 1.8 GHz Processor",50.0,Android v12,67.0
+Realme 9i,12499,4.0,"Snapdragon  680, Octa Core, 2.4 GHz Processor",50.0,Android v11,75.0
+OPPO A17,12499,4.0,"Helio G35, Octa Core, 2.3 GHz Processor",50.0,Android v12,72.0
+iQOO 11 5G,59999,8.0,"Snapdragon 8 Gen2, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,88.0
+Vivo X Fold 5G,106990,12.0,"Snapdragon 8 Gen1, Octa Core, 3 GHz Processor",,Android v12,
+Vivo T1 5G,15990,4.0,"Snapdragon  695, Octa Core, 2.2 GHz Processor",50.0,Android v12,78.0
+Apple iPhone 14 Pro,119990,6.0,"Bionic  A16, Hexa Core Processor",48.0,iOS v16,75.0
+Xiaomi Redmi Note 11 Pro Max 5G,19999,6.0,"Snapdragon 778G, Octa Core, 2.4 GHz Processor",108.0,Android v11,83.0
+Motorola Moto S30 Pro,23990,8.0,"Snapdragon 888+, Octa Core, 2.9 GHz Processor",50.0,No FM Radio,83.0
+Realme 10s,12999,8.0,"Dimensity 810 5G, Octa Core, 2.4 GHz Processor",50.0,Android v12,80.0
+OPPO F19 Pro Plus 5G,19990,8.0,"Dimensity 800U , Octa Core, 2.4 GHz Processor",48.0,Android v11,82.0
+Xiaomi 13 Pro 5G,58990,8.0,"Snapdragon 8 Gen2, Octa Core, 3.2 GHz Processor",50.0,Android v13,
+Vivo V27 Pro,43999,12.0,"Dimensity 9000 Plus, Octa Core, 3.2 GHz Processor",108.0,No FM Radio,87.0
+Samsung Galaxy S22 5G,49999,8.0,"Snapdragon  8 Gen1, Octa Core, 3 GHz Processor",50.0,Bluetooth,86.0
+Vivo T1 44W (6GB RAM + 128GB),15999,6.0,"Snapdragon 680, Octa Core, 2.4 GHz Processor",50.0,Android v12,79.0
+OnePlus 10R 5G (12GB RAM + 256GB),36999,12.0,"Dimensity 8100 Max, Octa Core, 2.85 GHz Processor",50.0,Bluetooth,87.0
+Tecno Phantom X2,39999,8.0,"Dimensity 9000, Octa Core, 3.05 GHz Processor",64.0,No FM Radio,85.0
+Apple iPhone 12,51999,4.0,"Bionic A14, Hexa Core, 3.1 GHz Processor",,No FM Radio,74.0
+Xiaomi Redmi K50i 5G,22999,6.0,"Dimensity  8100, Octa Core, 2.85 GHz Processor",64.0,Bluetooth,82.0
+Samsung Galaxy A53 5G,31999,6.0,"Exynos 1280, Octa Core, 2.4 GHz Processor",64.0,Android v12,87.0
+Xiaomi Redmi A1,6171,2.0,"Helio A22, Quad Core, 2 GHz Processor",8.0,Android v12,
+OPPO Reno8 5G,29340,8.0,"Dimensity 1300, Octa Core, 3 GHz Processor",50.0,No FM Radio,83.0
+Samsung Galaxy M53 5G (8GB RAM + 128GB),25289,8.0,"Dimensity  900 5G, Octa Core, 2.4 GHz Processor",108.0,Android v12,87.0
+iQOO Z6 Pro 5G,21788,6.0,"Snapdragon  778G, Octa Core, 2.4 GHz Processor",64.0,Android v12,78.0
+Tesla Pi Phone,69999,16.0,Octa Core Processor,50.0,Android v13,83.0
+Samsung Galaxy S23,70990,8.0,"Snapdragon 8 Gen2, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,88.0
+Motorola Edge 30 Pro 5G,34999,8.0,"Snapdragon 8 Gen1, Octa Core, 3 GHz Processor",50.0,No FM Radio,89.0
+OnePlus Nord 2T (12GB RAM + 256GB),33900,12.0,"Dimensity  1300, Octa Core, 3 GHz Processor",50.0,No FM Radio,85.0
+Google Pixel 6A,29999,6.0,"Google  Tensor, Octa Core Processor",12.0,Android v12,71.0
+Infinix Note 12 Pro 5G,18999,8.0,"Dimensity 810 5G, Octa Core, 2.4 GHz Processor",108.0,Android v12,84.0
+Samsung Galaxy M33 5G (8GB RAM + 128GB),19499,8.0,"Exynos  1280, Octa Core, 2.4 GHz Processor",50.0,Android v12,84.0
+Vivo V23 5G,24994,8.0,"Dimensity  920 5G, Octa Core, 2.5 GHz Processor",64.0,Android v12,83.0
+Motorola Moto G42,10999,4.0,"Snapdragon 680, Octa Core, 2.4 GHz Processor",50.0,Android v12,78.0
+OnePlus Nord CE 2 Lite 5G (8GB RAM + 256GB),24999,8.0,"Snapdragon 695, Octa Core, 2.2 GHz Processor",64.0,Android v12,85.0
+Samsung Galaxy A33 5G,25999,6.0,"Exynos  1280, Octa Core, 2.4 GHz Processor",48.0,Android v12,82.0
+Google Pixel 7A,34990,6.0,"Google  Tensor, Octa Core Processor",12.0,Android v12,69.0
+Xiaomi Redmi 11 Prime 5G,13466,4.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",50.0,Android v12,74.0
+Xiaomi Redmi Note 10 Lite,9999,4.0,"Snapdragon 720G, Octa Core, 2.3 GHz Processor",48.0,Android v10.0,76.0
+Motorola Moto E40,7999,4.0,"Tiger T700, Octa Core, 1.8 GHz Processor",48.0,Android v11,71.0
+Nothing Phone 1 (8GB RAM + 256GB),28249,8.0,"Snapdragon 778G Plus, Octa Core, 2.5 GHz Processor",50.0,No FM Radio,86.0
+Poco X4 Pro 5G (6GB RAM + 128GB),16499,6.0,"Snapdragon 695 , Octa Core, 2.2 GHz Processor",64.0,Android v11,82.0
+Xiaomi Redmi Note 11 Pro Plus 5G (8GB RAM + 256GB),22999,8.0," Snapdragon  695, Octa Core, 2.2 GHz Processor",108.0,Android v11,87.0
+Apple iPhone 11 (128GB),46999,4.0,"A13 Bionic, Hexa Core, 2.65 GHz Processor",12.0,iOS v13,75.0
+Realme C35 (6GB RAM + 128GB),13999,6.0,"Tiger  T616, Octa Core, 1.8 GHz Processor",50.0,Android v11,74.0
+OPPO K10,13490,6.0,"Snapdragon 680, Octa Core, 2.4 GHz Processor",50.0,Android v11,78.0
+iQOO Neo 6 5G,28999,8.0,"Snapdragon 870, Octa Core, 3.2 GHz Processor",64.0,No FM Radio,82.0
+iQOO Z6 5G,15499,4.0,"Snapdragon  695 , Octa Core, 2.2 GHz Processor",50.0,Android v12,78.0
+OPPO Reno 9 Pro 5G,39999,16.0,"Dimensity 8100 Max, Octa Core, 2.85 GHz Processor",50.0,No FM Radio,86.0
+Poco M4 Pro 5G,12999,4.0,"Dimensity  810 5G, Octa Core, 2.4 GHz Processor",50.0,Android v11,76.0
+Jio Phone 3,4499,2.0,"Quad Core, 1.4 GHz Processor",5.0,Android v8.1 (Oreo),
+OnePlus Clover,14999,4.0,"Snapdragon 460 , Octa Core, 1.8 GHz Processor",13.0,Android v10,69.0
+Samsung Galaxy F04,8499,4.0,"Helio P35, Octa Core, 2.3 GHz Processor",13.0,Android v12,68.0
+iQOO 7,24990,8.0,"Snapdragon 870, Octa Core, 3.2 GHz Processor",48.0,No FM Radio,83.0
+Samsung Galaxy M34 5G,16999,6.0,"Exynos 1200, Octa Core, 2.4 GHz Processor",64.0,Android v12,84.0
+Xiaomi Redmi 10,9589,4.0,"Snapdragon 680, Octa Core, 2.4 GHz Processor",50.0,Android v11,71.0
+Apple iPhone 12 Mini,40999,4.0,"Bionic A14, Hexa Core, 3.1 GHz Processor",,No FM Radio,74.0
+Xiaomi Redmi Note 12 (6GB RAM + 128GB),19988,6.0,"Snapdragon 4 Gen 1, Octa Core, 2 GHz Processor",48.0,Android v12,79.0
+Motorola Moto G52,11999,4.0,"Snapdragon 680, Octa Core, 2.4 GHz Processor",50.0,Android v12,75.0
+Apple iPhone 15 Pro Max,142990,8.0,Bionic  A16,50.0,iOS v15,79.0
+Oppo A98,30990,8.0,"Snapdragon 8 Gen1, Octa Core, 3 GHz Processor",108.0,Android v12,87.0
+Infinix Zero 5G 2023,19499,8.0,"Dimensity 1080, Octa Core, 2.6 GHz Processor",50.0,Android v12,85.0
+Nokia 2780 Flip,4990,4.0,"Snapdragon QM215, Quad Core, 1.3 GHz Processor",,"Memory Card Supported, upto 32 GB",
+Realme C30,5299,2.0,"Tiger T612, Octa Core, 1.82 GHz Processor",8.0,Android v11,
+OPPO F21 Pro 5G,25969,8.0," Snapdragon 695, Octa Core, 2.2 GHz Processor",64.0,Android v12,82.0
+Realme 11 Pro,28999,6.0,"Snapdragon  8 Gen1, Octa Core, 3 GHz Processor",64.0,Android v12,82.0
+Oppo Find N2 5G,94990,12.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",,Memory Card Not Supported,
+Realme 9 4G,14999,6.0,"Snapdragon 680, Octa Core, 2.4 GHz Processor",108.0,Android v12,81.0
+Cola Phone,14999,4.0,"Helio G99, Octa Core, 2.2 GHz Processor",50.0,Android v12,74.0
+Apple iPhone 13 Pro Max,129900,6.0,"Bionic A15, Hexa Core, 3.22 GHz Processor",12.0,iOS v15,84.0
+Oppo Reno 10 Pro Plus,58990,12.0,"Snapdragon 8 Gen2, Octa Core, 3.2 GHz Processor",64.0,No FM Radio,88.0
+Vivo X90 5G,41990,8.0,"Dimensity 9200, Octa Core, 3.05 GHz Processor",50.0,Android v13,88.0
+Samsung Galaxy F13,10999,4.0,"Exynos 850, Octa Core, 2 GHz Processor",50.0,Android v12,74.0
+Xiaomi Redmi Note 10S (6GB RAM + 128GB),11999,6.0,"Helio G95, Octa Core, 2.05 GHz Processor",64.0,Android v11,79.0
+Realme 10 (8GB RAM + 128GB),16999,8.0,"Helio G99, Octa Core, 2.2 GHz Processor",50.0,Android v12,79.0
+iQOO 9 SE 5G,30990,8.0,"Snapdragon  888 , Octa Core, 2.84 GHz Processor",48.0,No FM Radio,83.0
+Infinix Hot 20,17999,4.0,"Dimensity 810, Octa Core, 2.4 GHz Processor",50.0,Android v12,75.0
+Letv Y1 Pro,5499,4.0,"Tiger T310, Quad Core, 2 GHz Processor",8.0,No FM Radio,
+Xiaomi Redmi Note 13 Pro Max 5G,20499,6.0,"Snapdragon  7 Gen1, Octa Core, 2.36 GHz Processor",108.0,Android v12,83.0
+Realme Narzo 50 Pro 5G,20490,6.0,"Dimensity  920 5G, Octa Core, 2.5 GHz Processor",48.0,Android v12,81.0
+OPPO A74 5G,15490,6.0,"Snapdragon  480 , Octa Core, 2 GHz Processor",48.0,Android v11,77.0
+Apple iPhone 9,29990,3.0,"A13 Bionic, Hexa Core, 2.65 GHz Processor",12.0,iOS v13.0,61.0
+iQOO Z6 Lite (6GB RAM + 128GB),15499,6.0,"Snapdragon  4 Gen 1, Octa Core, 2 GHz Processor",50.0,Android v12,79.0
+Xiaomi Redmi Note 11SE,11999,6.0,"Helio G95, Octa Core, 2.05 GHz Processor",64.0,Android v11,80.0
+Realme Narzo 50,10999,4.0,"Helio G96, Octa Core, 2 GHz Processor",50.0,Android v11,74.0
+Vivo Y75 5G,21990,8.0,"Dimensity  700 5G, Octa Core, 2.2 GHz Processor",50.0,Android v12,82.0
+Vivo V25 (12GB RAM + 256GB),31999,12.0,"Dimensity  900, Octa Core, 2 GHz Processor",64.0,Android v12,85.0
+POCO M4 Pro 4G,11999,6.0,"Helio G96, Octa Core, 2.05 GHz Processor",64.0,Android v11,77.0
+Infinix Zero Ultra,36999,8.0,"Dimensity 920 5G, Octa Core, 2.5 GHz Processor",200.0,Android v12,89.0
+Tecno Spark Go 2023,6999,3.0,"Helio A22, Quad Core, 2 GHz Processor",13.0,Android v12,62.0
+Motorola Moto X40,39999,8.0,"Snapdragon 8 Gen2, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,89.0
+Samsung Galaxy F24 5G,14999,4.0,"Snapdragon  695, Octa Core, 2.2 GHz Processor",50.0,Android v12,78.0
+Realme 10 5G,14499,8.0,"Dimensity  700 5G, Octa Core, 2.2 GHz Processor",50.0,Android v12,79.0
+OnePlus Nord 3 5G,27999,8.0,"Dimensity  8200, Octa Core, 3.1 GHz Processor",50.0,No FM Radio,84.0
+Motorola Moto G82 (8GB RAM + 128GB),20499,8.0,"Snapdragon 695, Octa Core, 2.2 GHz Processor",50.0,Android v12,86.0
+iKall Z19 Pro,8099,4.0,"Quad Core, 1.6 GHz Processor",13.0,Android v11.0,60.0
+LeEco S1 Pro,10999,8.0,"Tiger T7150, Quad Core, 1.8 GHz Processor",13.0,No FM Radio,65.0
+Realme C2s,3499,3.0,"Helio  P22 , Octa Core, 2 GHz Processor",13.0,Android v9.0 (Pie),63.0
+Duoqin F22 Pro,9990,4.0,"Helio  G85, Octa Core, 2 GHz Processor",8.0,Android v12,
+Samsung Galaxy M54 5G,34999,6.0,"Snapdragon 888, Octa Core, 2.84 GHz Processor",64.0,Android v12,85.0
+Nokia N73 5G,46999,12.0,"Snapdragon  8 Gen1, Octa Core, 3 GHz Processor",200.0,Android v12.1,
+Motorola Edge 30 Fusion 5G,39999,8.0,"Snapdragon 888+, Octa Core, 2.9 GHz Processor",50.0,Android v12,88.0
+Realme C35,11828,4.0,"Tiger  T616, Octa Core, 1.8 GHz Processor",50.0,Android v11,70.0
+OPPO Reno 8 Pro House of Dragon Edition,45999,12.0,"Dimensity 8100-Max, Octa Core, 2.85 GHz Processor",50.0,No FM Radio,86.0
+OnePlus Nord CE 3 Lite 5G,18999,6.0,"Snapdragon 695, Octa Core, 2.2 GHz Processor",50.0,Android v12,81.0
+Poco X4 Pro 5G (8GB RAM + 128GB),17999,8.0,"Snapdragon 695 , Octa Core, 2.2 GHz Processor",64.0,Android v11,84.0
+Samsung Galaxy M04,8499,4.0,"Helio P35, Octa Core, 2.3 GHz Processor",13.0,Android v12,66.0
+OPPO A77s,17999,8.0,"Snapdragon 680, Octa Core, 2.4 GHz Processor",50.0,Android v12,76.0
+Samsung Galaxy A13,14450,4.0,"Octa Core, 2 GHz Processor",50.0,Android v12,75.0
+Motorola Edge 30 Ultra,54999,8.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",200.0,No FM Radio,
+Xiaomi 13 Ultra 5G,71999,12.0,"Snapdragon 8 Gen2, Octa Core, 3.2 GHz Processor",108.0,No FM Radio,
+Motorola Moto G52 (6GB RAM + 128GB),12999,6.0,"Snapdragon 680, Octa Core, 2.4 GHz Processor",50.0,Android v12,79.0
+Poco M4 5G,11499,4.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",50.0,Android v12,75.0
+Nothing Phone 1 (12GB RAM + 256GB),35999,12.0,"Snapdragon 778G Plus, Octa Core, 2.5 GHz Processor",50.0,No FM Radio,87.0
+Samsung Galaxy A54 5G,34999,6.0,"Exynos 1380, Octa Core Processor",50.0,Android v13,76.0
+Tecno Pova 4,11999,8.0,"Helio G99, Octa Core, 2.2 GHz Processor",50.0,Android v12,73.0
+Xiaomi Redmi Note 12 Pro (8GB RAM + 256GB),27994,8.0,"Dimensity 1080, Octa Core, 2.6 GHz Processor",50.0,No FM Radio,82.0
+Apple iPhone 14 Pro Max (256GB),139990,6.0,"Bionic  A16, Hexa Core Processor",48.0,iOS v16,77.0
+Vivo V25 Pro (12GB RAM + 256GB),39999,12.0,"Dimensity 1300, Octa Core, 3 GHz Processor",64.0,No FM Radio,86.0
+Realme 9 5G (6GB RAM + 128GB),15499,6.0,"Dimensity  810 5G, Octa Core, 2.4 GHz Processor",48.0,Android v11,79.0
+Realme 9 Pro 5G,18999,6.0,"Snapdragon  695, Octa Core, 2.2 GHz Processor",64.0,Android v12,80.0
+Lava Blaze 5G,10999,4.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",50.0,Android v12,73.0
+Honor X9a,27999,8.0,"Snapdragon 695, Octa Core, 2.2 GHz Processor",64.0,No FM Radio,81.0
+Google Pixel 7 Pro 5G,81999,12.0,"Google  Tensor G2, Octa Core, 2.85 GHz Processor",50.0,No FM Radio,
+Tecno Pova 3,9999,4.0,"Helio G88, Octa Core, 2 GHz Processor",50.0,Android v11,74.0
+Vivo V23 Pro 5G,31994,8.0,"Dimensity 1200, Octa Core, 3 GHz Processor",108.0,Android v12,85.0
+Samsung Galaxy A04e,9299,3.0,"Helio P35, Octa Core, 2.3 GHz Processor",13.0,Android v12,65.0
+Xiaomi Redmi K60,29990,8.0,"Snapdragon  8+ Gen1, Octa Core, 3.2 GHz Processor",64.0,No FM Radio,84.0
+Realme 9 Pro Plus 5G,25900,6.0,"Dimensity  920 5G, Octa Core, 2.5 GHz Processor",50.0,Android v12,78.0
+Realme 9i 5G (6GB RAM + 128GB),16999,6.0,"Dimensity 810 5G, Octa Core, 2.4 GHz Processor",50.0,Android v12,78.0
+Motorola Edge 30 5G (8GB RAM + 128GB),24999,8.0,"Snapdragon 778G+, Octa Core, 2.5 GHz Processor",50.0,No FM Radio,85.0
+Xiaomi Redmi Note 11 (6GB RAM + 64GB),12188,6.0,"Snapdragon  680, Octa Core, 2.4 GHz Processor",50.0,Android v11,79.0
+Vivo Y02,8999,3.0,"Helio, Octa Core Processor",8.0,Android v12,
+POCO C31 (4GB RAM + 64GB),7499,4.0,"Helio G35, Octa Core, 2.3 GHz Processor",13.0,Android v10,68.0
+Realme Narzo 50 5G,17999,6.0,"Dimensity 810 5G, Octa Core, 2.4 GHz Processor",48.0,Android v11,79.0
+Realme GT Neo 3T,24999,6.0,"Snapdragon 870, Octa Core, 3.2 GHz Processor",64.0,No FM Radio,79.0
+OPPO Reno 8 Pro 5G,45999,12.0,"Dimensity 8100-Max, Octa Core, 2.85 GHz Processor",50.0,No FM Radio,86.0
+OnePlus 10 Pro 5G (12GB RAM + 256GB),65499,12.0,"Snapdragon  8 Gen1, Octa Core, 3 GHz Processor",50.0,No FM Radio,
+iQOO 11 Pro 5G,58990,8.0,"Snapdragon 8 Gen2, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,89.0
+Vivo T1x 4G,11999,4.0,"Snapdragon 680, Octa Core, 2.4 GHz Processor",50.0,Android v12,74.0
+Xiaomi Redmi 10 Power,11999,8.0,"Snapdragon 680, Octa Core, 2.4 GHz Processor",50.0,Android v11,77.0
+OPPO A58,18990,6.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",50.0,Android v12,76.0
+Vivo T1 44W,14499,4.0,"Snapdragon 680, Octa Core, 2.4 GHz Processor",50.0,Android v12,77.0
+Xiaomi Mix Fold 2 5G,106990,12.0,"Snapdragon  8+ Gen1 , Octa Core, 3.2 GHz Processor",,Android v12,
+Vivo Y16 (3GB RAM + 64GB),10499,3.0,"Helio P35, Octa Core, 2.3 GHz Processor",13.0,Android v12,66.0
+OPPO Reno 8 Z,26990,8.0,"Snapdragon  695, Octa Core, 2.2 GHz Processor",64.0,Android v12,86.0
+Vivo Y75 4G,19990,8.0,"Helio G96, Octa Core, 2.05 GHz Processor",50.0,Android v12,82.0
+Xiaomi Redmi Note 12 Explorer,24999,8.0,"Dimensity 1080, Octa Core, 2.6 GHz Processor",200.0,Android v12,89.0
+OPPO A57 4G (4GB RAM + 64 GB),13969,4.0,"Helio G35, Octa Core, 2.3 GHz Processor",13.0,Android v12,69.0
+Samsung Galaxy A75 5G,44999,8.0,"Snapdragon 778G+, Octa Core Processor",108.0,Android v12,83.0
+Vivo T1 Pro 5G (8GB RAM + 128GB),24999,8.0,"Snapdragon 778G, Octa Core, 2.4 GHz Processor",64.0,Android v12,84.0
+Google Pixel 7 5G,53100,8.0,"Google Tensor G2, Octa Core, 2.85 GHz Processor",50.0,No FM Radio,86.0
+Xiaomi Redmi Note 11T 5G (6GB RAM + 128GB),16999,6.0,"Dimensity  810 5G, Octa Core, 2.4 GHz Processor",50.0,Android v11,81.0
+OPPO F21s Pro 4G,21899,8.0,"Snapdragon  680, Octa Core, 2.4 GHz Processor",64.0,Android v12,82.0
+Apple iPhone 14 (256GB),75999,6.0,"Bionic A15, Hexa Core, 3.22 GHz Processor",12.0,iOS v16,82.0
+Motorola Moto G73,25999,8.0,"Dimensity 930, Octa Core, 2.2 GHz Processor",50.0,Android v13,85.0
+Nubia Red Magic 8 Pro 5G,46990,8.0,"Snapdragon 8 Gen2, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,84.0
+Motorola Moto G31,9999,4.0,"Helio  G85, Octa Core, 2 GHz Processor",50.0,Android v11,75.0
+Tecno Phantom X2 Pro,49999,12.0,"Dimensity 9000, Octa Core, 3.05 GHz Processor",50.0,Bluetooth,89.0
+Infinix Zero 20,17999,8.0,"Helio G99, Octa Core, 2.2 GHz Processor",108.0,Android v12,87.0
+iQOO Z6 5G (6GB RAM + 128GB),16940,6.0,"Snapdragon  695 , Octa Core, 2.2 GHz Processor",50.0,Android v12,80.0
+Xiaomi Redmi Note 11 Pro 5G,17990,6.0,"Snapdragon 695, Octa Core, 2.2 GHz Processor",108.0,Android v11,81.0
+OPPO A1 Pro,20990,8.0,"Snapdragon 695, Octa Core, 2.2 GHz Processor",108.0,Android v13,84.0
+Samsung Galaxy S22 FE 5G,51999,8.0,"Exynos  2300, Octa Core Processor",12.0,Android v12,79.0
+Samsung Galaxy S22 Plus 5G,64449,8.0,"Snapdragon  8 Gen1, Octa Core, 3 GHz Processor",50.0,Bluetooth,87.0
+Vivo U3x,8990,6.0,"Snapdragon  480 , Octa Core, 2 GHz Processor",13.0,No FM Radio,71.0
+Motorola Moto G23,19999,4.0,"Helio  G85, Octa Core, 2 GHz Processor",50.0,Android v13,77.0
+Poco M4 5G (6GB RAM + 128GB),13499,6.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",50.0,Android v12,79.0
+Tecno Pova 5G,15499,8.0,"Dimensity 900, Octa Core, 2.4 GHz Processor",50.0,Android v11,78.0
+POCO C31,6499,3.0,"Helio G35, Octa Core, 2.3 GHz Processor",13.0,Android v10,65.0
+Apple iPhone XR2,71999,4.0,Apple  A13,12.0,iOS v12.3,60.0
+Samsung Galaxy A53 (8GB RAM + 256GB),36499,8.0,"Exynos 1280, Octa Core, 2.4 GHz Processor",64.0,Android v12,89.0
+Infinix Note 12 5G,15999,6.0,"Dimensity 810 5G, Octa Core, 2.4 GHz Processor",50.0,Android v12,78.0
+OPPO Reno7 Pro 5G,31994,12.0,"Dimensity  1200 Max, Octa Core, 3 GHz Processor",50.0,Android v11,87.0
+OnePlus Ace 2,34999,8.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,84.0
+Redmi Note 11 Pro 2023,18999,6.0,"Snapdragon 712, Octa Core, 2.3 GHz Processor",108.0,Android v11,81.0
+Nothing Phone 2,39990,8.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,88.0
+Samsung Galaxy A32 (8GB RAM + 128GB),16499,8.0,"Helio G80, Octa Core, 2 GHz Processor",64.0,Android v11,82.0
+Nokia 2720 V Flip,6199,512.0,"Snapdragon 205 , Dual Core, 1.1 GHz Processor",,Memory Card Supported,
+Google Pixel 6 Pro,54300,12.0,"Google  Tensor, Octa Core, 2.8 GHz Processor",50.0,No FM Radio,89.0
+Infinix Note 12i (2022),9999,4.0,"Helio G85, Octa Core, 2 GHz Processor",50.0,Android v12,73.0
+Xiaomi Redmi 11 Prime 5G (6GB RAM + 128GB),15990,6.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",50.0,Android v12,77.0
+Xiaomi Redmi Note 11 Pro Plus 5G (8GB RAM + 128GB),22700,8.0," Snapdragon  695, Octa Core, 2.2 GHz Processor",108.0,Android v11,86.0
+Xiaomi 12 Pro 5G,50990,8.0,"Snapdragon 8 Gen1, Octa Core, 3 GHz Processor",50.0,No FM Radio,89.0
+Apple iPhone 13 Mini,64900,4.0,"Bionic A15, Hexa Core, 3.22 GHz Processor",12.0,iOS v15,79.0
+Tecno Pova 3 (6GB RAM + 128GB),13799,6.0,"Helio G88, Octa Core, 2 GHz Processor",50.0,Android v11,77.0
+Realme C31 (4GB RAM + 64GB),8999,4.0,"Tiger T612, Octa Core, 1.82 GHz Processor",13.0,Android v11,65.0
+Asus ROG Phone 6 Pro 5G,89999,18.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",50.0,Android v12,88.0
+Vivo V23e 5G,21994,8.0,"Dimensity  810 5G, Octa Core, 2.4 GHz Processor",50.0,Android v12,84.0
+Apple iPhone 14 Mini,69990,6.0,Bionic A16,12.0,iOS v15,70.0
+Xiaomi Redmi Note 10T 5G,12999,4.0,"Dimensity 700 , Octa Core, 2.2 GHz Processor",48.0,Android v11,75.0
+iQOO Neo 7 SE 5G,24990,8.0,"Dimensity 8200, Octa Core, 3.1 GHz Processor",64.0,Android v13,83.0
+Samsung Galaxy A23 (8GB RAM + 128GB),19990,8.0,"Snapdragon  680, Octa Core, 2.4 GHz Processor",50.0,Android v12,82.0
+Xiaomi Redmi Note 12 Pro (8GB RAM + 128GB),26999,8.0,"Dimensity 1080, Octa Core, 2.6 GHz Processor",50.0,No FM Radio,82.0
+Xiaomi Redmi Note 12 Turbo,19999,8.0,"Snapdragon 778G, Octa Core, 2.4 GHz Processor",50.0,Android v13,81.0
+Infinix Note 12 Pro,16900,8.0,"Helio  G99, Octa Core, 2.2 GHz Processor",108.0,Android v12,83.0
+Infinix Hot 20 (6GB RAM+ 128GB),19999,6.0,"Dimensity 810, Octa Core, 2.4 GHz Processor",50.0,Android v12,78.0
+Apple iPhone 14 Pro Max (1TB),182999,6.0,"Bionic  A16, Hexa Core Processor",48.0,iOS v16,78.0
+Samsung Galaxy M13,12999,6.0,"Exynos  850, Octa Core, 2 GHz Processor",50.0,Android v12,75.0
+Poco M4 Pro 5G (8GB RAM + 128GB),15999,8.0,"Dimensity  810 5G, Octa Core, 2.4 GHz Processor",50.0,Android v11,82.0
+Xiaomi Redmi Note 10S (8GB RAM + 128GB),13999,8.0,"Helio G95, Octa Core, 2.05 GHz Processor",64.0,Android v11,82.0
+Realme C11 2021 (4GB RAM + 64GB),7749,4.0,"SC9863A, Octa Core, 1.6 GHz Processor",8.0,Android v11,61.0
+Samsung Galaxy A23 5G (8GB RAM + 128GB),24999,8.0,"Snapdragon 695, Octa Core, 2.2 GHz Processor",50.0,Android v12,81.0
+Motorola Edge 30 Ultra (12GB RAM + 256GB),59999,12.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",200.0,No FM Radio,
+OPPO F21s Pro,25895,8.0,"Snapdragon  695, Octa Core, 2.2 GHz Processor",64.0,Android v12,82.0
+Xiaomi 13 5G,46990,8.0,"Snapdragon 8 Gen2, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,89.0
+Xiaomi Redmi 10A,7499,3.0,"Helio  G25, Octa Core, 2 GHz Processor",13.0,Android v11,64.0
+Vivo Y01A,7790,2.0,"Helio P35, Octa Core, 2.3 GHz Processor",8.0,Android v11,60.0
+Xiaomi Redmi K50i (8GB RAM + 256GB),25999,8.0,"Dimensity  8100, Octa Core, 2.85 GHz Processor",64.0,Bluetooth,85.0
+Realme C30 (3GB RAM + 32GB),6299,3.0,"Tiger T612, Octa Core, 1.82 GHz Processor",8.0,Android v11,60.0
+Motorola Moto G51 5G,12999,4.0,"Snapdragon  480+, Octa Core, 2.2 GHz Processor",50.0,Android v11,77.0
+Xiaomi Redmi 10 (6GB RAM + 128GB),11999,6.0,"Snapdragon 680, Octa Core, 2.4 GHz Processor",50.0,Android v11,75.0
+Xiaomi Mi 11 Lite NE 5G,21890,6.0,"Snapdragon  778G , Octa Core, 2.4 GHz Processor",64.0,Android v11,83.0
+Samsung Galaxy Z Flip 3,69999,8.0,"Snapdragon 888, Octa Core, 2.84 GHz Processor",,Memory Card Not Supported,84.0
+Apple iPhone 12 (128GB),55999,4.0,"Bionic A14, Hexa Core, 3.1 GHz Processor",,No FM Radio,75.0
+OnePlus 10T (16GB RAM + 256GB),55999,16.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,87.0
+Samsung Galaxy A13 (4GB RAM + 128GB),14999,4.0,"Octa Core, 2 GHz Processor",50.0,Android v12,75.0
+OPPO Reno7 5G,25994,8.0,"Dimensity 900, Octa Core, 2 GHz Processor",64.0,Android v11,85.0
+OnePlus 9RT 5G,42999,8.0,"Snapdragon  888 , Octa Core, 2.84 GHz Processor",50.0,No FM Radio,85.0
+Samsung Galaxy A53 5G (8GB RAM + 128GB),33499,8.0,"Exynos 1280, Octa Core, 2.4 GHz Processor",64.0,Android v12,89.0
+Samsung Galaxy S22 Ultra 5G (12GB RAM + 512GB),118999,12.0,"Snapdragon  8 Gen1, Octa Core, 3 GHz Processor",108.0,Bluetooth,
+Motorola Moto G71 5G,16999,6.0,"Snapdragon 695, Octa Core, 2.2 GHz Processor",50.0,Android v11,80.0
+itel S16 Pro,6990,2.0,"Quad Core, 1.3 GHz Processor",8.0,Android v10,
+Vivo Y100,29990,8.0,"Dimensity  900, Octa Core, 2.4 GHz Processor",50.0,Android v12,82.0
+Samsung Galaxy M13 5G (4GB RAM + 64GB),12944,4.0,"Dimensity 700, Octa Core, 2.2 GHz Processor",50.0,Android v12,71.0
+POCO X5 GT,29990,8.0,"Dimensity 9000 Plus, Octa Core, 3.2 GHz Processor",64.0,Android v13,84.0
+Honor X9 5G,16999,8.0,"Snapdragon 695, Octa Core, 2.2 GHz Processor",48.0,Bluetooth,80.0
+iQOO 11 (16GB RAM + 256GB),64999,16.0,"Snapdragon 8 Gen2, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,89.0
+Samsung Galaxy Z Fold 4,154998,12.0,"Snapdragon  8+ Gen1, Octa Core, 3.2 GHz Processor",,Android v12,
+Royole FlexPai 2,109999,8.0,"Snapdragon 865, Octa Core, 2.84 GHz Processor",,"Memory Card Supported, upto 256 GB",87.0
+Apple iPhone 14 Plus (256GB),84999,6.0,"Bionic A15, Hexa Core, 3.22 GHz Processor",12.0,iOS v16,83.0
+Samsung Galaxy A33 5G (8GB RAM + 128GB),27499,8.0,"Exynos  1280, Octa Core, 2.4 GHz Processor",48.0,Android v12,85.0
+Tecno Spark 9,8999,6.0,"Helio G37, Octa Core, 2.3 GHz Processor",13.0,Android v12,69.0
+Google Pixel 6,40480,8.0,"Google Tensor, Octa Core, 2.8 GHz Processor",50.0,No FM Radio,84.0
+Xiaomi Redmi Note 10 Pro (6GB RAM + 128GB),17999,6.0,"Snapdragon 732G , Octa Core, 2.3 GHz Processor",64.0,Android v11,81.0
+Samsung Galaxy S21 Ultra,105999,12.0,"Exynos  2100, Octa Core, 2.9 GHz Processor",108.0,No FM Radio,
+Infinix Hot 20 Play,8999,4.0,"Helio G37, Octa Core, 2.3 GHz Processor",13.0,Android v12,67.0
+Vivo T1x (6GB RAM + 128GB),14999,6.0,"Snapdragon 680, Octa Core, 2.4 GHz Processor",50.0,Android v12,77.0
+OPPO F23 Pro,19990,8.0,"Snapdragon  695, Octa Core, 2.2 GHz Processor",64.0,Android v12,82.0
+iQOO Z6 Pro 5G (8GB RAM + 128GB),23399,8.0,"Snapdragon  778G, Octa Core, 2.4 GHz Processor",64.0,Android v12,80.0
+Samsung Galaxy A73 5G (8GB RAM + 256GB),41990,8.0,"Snapdragon 778G, Octa Core, 2.4 GHz Processor",108.0,Android v12,
+Realme 9 5G SE (8GB RAM + 128GB),22998,8.0,"Snapdragon  778G, Octa Core, 2.4 GHz Processor",48.0,Android v11,82.0
+Poco F4 5G,25999,6.0,"Snapdragon  870, Octa Core, 3.2 GHz Processor",64.0,No FM Radio,82.0
+Infinix Note 12,11700,4.0,"Helio G88, Octa Core, 2 GHz Processor",50.0,Android v11,74.0
+Samsung Galaxy A03 Core,6499,2.0,"Unisoc  SC9836A, Quad Core, 1.6 GHz Processor",8.0,Android v10,
+Motorola Moto G60,15999,6.0,"Snapdragon  732G, Octa Core, 2.3 GHz Processor",108.0,Android v11,84.0
+OnePlus 9 Pro,64800,8.0,"Snapdragon 888, Octa Core, 2.84 GHz Processor",48.0,Android v11,89.0
+Xiaomi Redmi Note 11S,14590,6.0,"Helio  G96, Octa Core, 2.05 GHz Processor",108.0,Android v11,80.0
+Xiaomi Redmi 9 Activ,7499,4.0,"Helio G35, Octa Core, 2.3 GHz Processor",13.0,Android v11,68.0
+Tecno Camon 19 Pro 5G,21999,8.0,"Dimensity 810 5G, Octa Core, 2.4 GHz Processor",64.0,Bluetooth,82.0
+Samsung Galaxy A04,11999,4.0,"Helio P35, Octa Core, 2.3 GHz Processor",50.0,Android v12,71.0
+POCO M4 Pro 4G (6GB RAM + 128GB),12999,6.0,"Helio G96, Octa Core, 2.05 GHz Processor",64.0,Android v11,79.0
+OnePlus Nord N20 5G,20990,6.0,"Snapdragon 695, Octa Core, 2.2 GHz Processor",64.0,Android v11,81.0
+Apple iPhone 13 (256GB),72999,4.0,"Bionic A15, Hexa Core, 3.22 GHz Processor",12.0,iOS v15,79.0
+Oppo Find X6 Pro,77990,12.0,"Snapdragon 8 Gen2, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,
+Vivo X90 Pro 5G,56999,8.0,"Dimensity 9200, Octa Core, 3.05 GHz Processor",50.0,Android v13,
+Motorola Moto G53,21999,4.0,"Snapdragon 480+, Octa Core, 2.2 GHz Processor",50.0,Android v13,79.0
+Motorola Moto G22,9499,4.0,"Helio  G37, Octa Core, 2.3 GHz Processor",50.0,Android v12,75.0
+Xiaomi Redmi 9i Sport,7499,4.0,"Helio G25, Octa Core, 2 GHz Processor",13.0,Android v10,66.0
+Jio JioPhone Next,4649,2.0,"Qualcomm 215, Quad Core, 1.3 GHz Processor",13.0,Android v11,
+Vivo Y93,18000,4.0,"Helio P22, Octa Core, 2 GHz Processor",13.0,Android v8.1 (Oreo),62.0
+Xiaomi Redmi K60 Pro,38999,8.0,"Snapdragon 8 Gen2, Octa Core, 3.2 GHz Processor",54.0,No FM Radio,85.0
+Realme C30s,7145,2.0,"Unisoc SC9863A, Octa Core, 1.6 GHz Processor",8.0,Android v12,
+Vivo Y22s,14990,8.0,"Snapdragon 680, Octa Core, 2.4 GHz Processor",50.0,Android v12,77.0
+OPPO A77,15499,4.0,"Helio G35, Octa Core, 2.3 GHz Processor",50.0,Android v12,70.0
+Xiaomi Redmi 10A Sport,9999,6.0,"Helio G25, Octa Core, 2 GHz Processor",13.0,Android v11,69.0
+Poco F4 (12GB RAM + 256GB),29999,12.0,"Snapdragon  870, Octa Core, 3.2 GHz Processor",64.0,No FM Radio,86.0
+Realme 9 4G (8GB RAM + 128GB),15999,8.0,"Snapdragon 680, Octa Core, 2.4 GHz Processor",108.0,Android v12,84.0
+Xiaomi 12T Pro 5G,59990,8.0,"Snapdragon  8+ Gen1, Octa Core, 3.2 GHz Processor",200.0,No FM Radio,89.0
+iQOO 9 5G,34990,8.0,"Snapdragon  888+, Octa Core, 2.9 GHz Processor",48.0,No FM Radio,84.0
+Apple iPhone 12 Mini (128GB),45999,4.0,"Bionic A14, Hexa Core, 3.1 GHz Processor",,No FM Radio,75.0
+Samsung Galaxy S24 Ultra,119990,12.0,"Snapdragon 8+ Gen 2, Octa Core Processor",200.0,Android v13,85.0
+OPPO Find N Flip,89990,8.0,"Dimensity 9000, Octa Core, 3.05 GHz Processor",,Memory Card Not Supported,88.0
+OnePlus 10T (12GB RAM + 256GB),50999,12.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,87.0
+Tecno Spark 9 (4GB RAM + 64GB),7999,4.0,"Helio G37, Octa Core, 2.3 GHz Processor",13.0,Android v12,65.0
+Samsung Galaxy S21 FE 5G (8GB RAM + 256GB),43999,8.0,"Exynos  2100, Octa Core, 2.9 GHz Processor",12.0,Android v11,88.0
+Xiaomi Redmi Note 11T 5G (8GB RAM + 128GB),18499,8.0,"Dimensity  810 5G, Octa Core, 2.4 GHz Processor",50.0,Android v11,83.0
+Sony Xperia Pro-I,134999,12.0,"Snapdragon 888, Octa Core, 2.84 GHz Processor",12.0,Android v11,
+Vivo V21 Pro,32999,8.0,"Snapdragon 765G , Octa Core, 2.4 GHz Processor",64.0,No FM Radio,85.0
+Poco X3,13499,6.0,"Snapdragon  732G, Octa Core, 2.3 GHz Processor",64.0,Android v10,80.0
+Samsung Galaxy S20 FE,35489,8.0,"Exynos 990, Octa Core, 2.73 GHz Processor",12.0,Android v10.0,86.0
+Google Pixel 4,20120,6.0,"Snapdragon 855, Octa Core, 2.8 GHz Processor",16.0,Android v10,78.0
+Samsung Galaxy S10 Plus,42999,8.0,"Exynos 9820, Octa Core, 2.7 GHz Processor",16.0,Android v9.0 (Pie),81.0
+Nokia 2660 Flip,4649,107.0,No Wifi,2.0,0.3 MP Rear Camera,
+Realme 11 Pro Plus,24999,6.0,"Dimensity  930, Octa Core, 2.2 GHz Processor",50.0,Android v12,78.0
+OPPO F21 Pro 4G,20999,8.0,"Snapdragon  680, Octa Core, 2.4 GHz Processor",64.0,Android v12,82.0
+Realme GT 2 5G,28994,8.0,"Snapdragon  888 , Octa Core, 2.84 GHz Processor",50.0,No FM Radio,84.0
+Samsung Galaxy S21,48900,8.0,"Exynos  2100, Octa Core, 2.9 GHz Processor",64.0,No FM Radio,88.0
+Samsung Galaxy A71,22494,8.0,"Snapdragon 730, Octa Core, 2.2 GHz Processor",64.0,Android v10,86.0
+Vivo Y02s,8990,3.0,"Helio P35, Octa Core, 2.3 GHz Processor",8.0,Android v12,61.0
+Letv Y2 Pro,6999,4.0,"Unisoc, Octa Core Processor",13.0,No FM Radio,
+Tecno Spark 8C (4GB RAM + 64GB),8890,4.0,"Unisoc  T606, Octa Core, 2 GHz Processor",13.0,Android v11,63.0
+iQOO Z6 5G (8GB RAM + 128GB),18498,8.0,"Snapdragon  695 , Octa Core, 2.2 GHz Processor",50.0,Android v12,82.0
+Vivo T1 Pro,23999,6.0,"Snapdragon 778G, Octa Core, 2.4 GHz Processor",64.0,Android v12,81.0
+Realme 9 Pro Plus 5G (8GB RAM + 128GB),22994,8.0,"Dimensity  920 5G, Octa Core, 2.5 GHz Processor",50.0,Android v12,81.0
+Samsung Galaxy A04s,12990,4.0,"Exynos 850, Octa Core, 2 GHz Processor",50.0,Android v12,71.0
+Realme 9i (6GB RAM + 128GB),14999,6.0,"Snapdragon  680, Octa Core, 2.4 GHz Processor",50.0,Android v11,78.0
+Realme 8 5G (8GB RAM + 128GB),18499,8.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",48.0,Android v11,80.0
+OPPO F19,14990,6.0,"Snapdragon 662 , Octa Core, 2 GHz Processor",48.0,Android v11,78.0
+OPPO Find N2 Flip,70990,8.0,"Dimensity 9000 Plus, Octa Core, 3.2 GHz Processor",,Memory Card Not Supported,88.0
+Samsung Galaxy M32 Prime Edition,12120,4.0,"Helio G80, Octa Core, 2 GHz Processor",64.0,Android v11,75.0
+Oukitel WP19,29990,8.0,"Helio G95, Octa Core, 2 GHz Processor",64.0,Android v12,84.0
+Realme 9 Pro 5G (8GB RAM + 128GB),20999,8.0,"Snapdragon  695, Octa Core, 2.2 GHz Processor",64.0,Android v12,82.0
+Xiaomi Redmi Note 10 Lite (6GB RAM + 128GB),11999,6.0,"Snapdragon 720G, Octa Core, 2.3 GHz Processor",48.0,Android v10.0,80.0
+Samsung Galaxy A13 5G,17990,4.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",50.0,Android v11,73.0
+Xiaomi Redmi Note 11 5G,14990,4.0,"Dimensity  810 5G, Octa Core, 2.4 GHz Processor",50.0,Android v11,77.0
+itel P36,6490,1.0,"Spreadtrum  SC7731E, Quad Core, 1.3 GHz Processor",8.0,Bluetooth,
+Jio JioPhone 2,2999,512.0,"Dual Core, 1 GHz Processor",2.0,KAI OS,
+Realme GT Neo 5,34999,8.0,"Snapdragon  8+ Gen1, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,83.0
+Apple iPhone 15 Ultra,149900,8.0,"Bionic  A17, Octa Core Processor",48.0,iOS v17,79.0
+Poco C50,6499,2.0,"Helio A22, Quad Core, 2 GHz Processor",8.0,Android v12,
+Samsung Galaxy Note 30 Ultra 5G,104999,12.0,"Snapdragon  8+ Gen1, Octa Core, 3.2 GHz Processor",200.0,Android v12,
+Realme 9i (4GB RAM + 128GB),13999,4.0,"Snapdragon  680, Octa Core, 2.4 GHz Processor",50.0,Android v11,75.0
+Xiaomi Redmi Note 11T 5G,16999,6.0,"Dimensity  810 5G, Octa Core, 2.4 GHz Processor",50.0,Android v11,79.0
+Vivo X80 Pro 5G,79999,12.0,"Snapdragon  8 Gen1, Octa Core, 3 GHz Processor",50.0,Android v12,
+OPPO Reno 6 Pro 5G,36760,12.0,"Dimensity 1200, Octa Core, 3 GHz Processor",64.0,Android v11,87.0
+Xiaomi Mi 11i 5G,23499,6.0,"Dimensity  920 5G, Octa Core, 2.5 GHz Processor",108.0,Android v11,81.0
+Asus ROG Phone 7,75990,18.0,"Snapdragon 8 Gen2, Octa Core, 3.2 GHz Processor",64.0,Android v13,87.0
+Oppo A77 5G,21990,6.0,"Snapdragon  810, Octa Core, 2.4 GHz Processor",48.0,Android v12,76.0
+Realme 9 5G SE,18999,6.0,"Snapdragon  778G, Octa Core, 2.4 GHz Processor",48.0,Android v11,80.0
+Samsung Galaxy A03,7249,3.0,"Unisoc  T606, Octa Core, 1.6 GHz Processor",48.0,Android v11,66.0
+OnePlus Nord N200,16990,4.0,"Snapdragon  480 , Octa Core, 2 GHz Processor",13.0,Android v11,75.0
+Xiaomi Mi 11X,23890,6.0,"Snapdragon 870, Octa Core, 3.2 GHz Processor",48.0,No FM Radio,80.0
+OPPO Reno 6,26380,8.0,"Dimensity 900, Octa Core, 2 GHz Processor",64.0,Android v11,83.0
+Realme X50 Pro 5G (12GB RAM + 256GB),27999,12.0,"Snapdragon 865, Octa Core, 2.84 GHz Processor",64.0,Android v10,87.0
+Xiaomi Redmi 10A (6GB RAM + 128GB),10850,6.0,"Helio  G25, Octa Core, 2 GHz Processor",13.0,Android v11,70.0
+Redmi Note 12 Pro Speed Edition,19999,6.0,"Snapdragon 778G, Octa Core, 2.4 GHz Processor",108.0,Android v13,81.0
+Apple iPhone 14 Pro (256GB),129990,6.0,"Bionic  A16, Hexa Core Processor",48.0,iOS v16,76.0
+Motorola Moto G72,19990,6.0,"Snapdragon 695, Octa Core, 2.2 GHz Processor",108.0,Android v12,81.0
+Motorola Moto X30 Pro,41990,8.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",200.0,No FM Radio,
+Xiaomi 12S Ultra,69990,8.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,
+Honor 70 5G,39990,12.0,"Snapdragon  778G Plus, Octa Core, 2.5 GHz Processor",54.0,No FM Radio,88.0
+OnePlus 10 Pro 5G (12GB RAM + 512GB),74999,12.0,"Snapdragon  8 Gen1, Octa Core, 3 GHz Processor",50.0,No FM Radio,
+Vivo V23 Pro 5G (12GB RAM + 256GB),36994,12.0,"Dimensity 1200, Octa Core, 3 GHz Processor",108.0,Android v12,87.0
+OPPO A55 4G (6GB RAM + 128GB),14700,6.0,"Helio G35, Octa Core, 2.3 GHz Processor",50.0,Android v11,76.0
+Xiaomi Mi 11T Pro 5G,34990,8.0,"Snapdragon  888 , Octa Core, 2.84 GHz Processor",108.0,No FM Radio,86.0
+Nokia X50 5G,34999,6.0,Snapdragon 775,108.0,Android v11,76.0
+Xiaomi Redmi Note 10,13990,4.0,"Snapdragon 678, Octa Core, 2.2 GHz Processor",48.0,Android v11,75.0
+Vertu Signature Touch,650000,2.0,"Snapdragon 801, Octa Core, 1.5 GHz Processor",13.0,Android v4.4.2 (KitKat),62.0
+Samsung Galaxy M32 Prime Edition (6GB RAM + 128GB),14859,6.0,"Helio G80, Octa Core, 2 GHz Processor",64.0,Android v11,79.0
+Tecno Camon 19 Pro Mondrian Edition,17999,8.0,"Helio G96, Octa Core, 2.05 GHz Processor",64.0,Android v12,84.0
+Poco F5,34990,8.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",64.0,No FM Radio,85.0
+BLU F91 5G,14990,8.0,"Dimensity  810 5G, Octa Core, 2.4 GHz Processor",48.0,Android v11,85.0
+OPPO A16e,8999,3.0,"Helio P22, Octa Core, 2 GHz Processor",13.0,Android v11,65.0
+Motorola Moto E32,8999,4.0,"Helio G37, Octa Core, 2.3 GHz Processor",50.0,Android v12,71.0
+Xiaomi Redmi Note 11S (8GB RAM + 128GB),15824,8.0,"Helio  G96, Octa Core, 2.05 GHz Processor",108.0,Android v11,84.0
+Apple iPhone SE 3 2022,43900,64.0,"Bionic  A15, Hexa Core, 3.22 GHz Processor",,No FM Radio,
+Samsung Galaxy A52 (8GB RAM + 128GB),22494,8.0,"Snapdragon  720G, Octa Core, 2.3 GHz Processor",64.0,Android v11,86.0
+Poco X3 Pro,19650,6.0,"Snapdragon 860, Octa Core, 2.96 GHz Processor",48.0,Android v11,82.0
+Xiaomi Redmi 9A,6999,2.0,"Helio G25, Octa Core, 2 GHz Processor",13.0,Android v10,61.0
+Samsung Galaxy A32,16499,6.0,"Helio G80, Octa Core, 2 GHz Processor",64.0,Android v11,80.0
+Motorola Moto G13,15999,4.0,"Helio G85, Octa Core, 2 GHz Processor",50.0,Android v13,75.0
+Asus ROG Phone 6 Batman Edition,72999,16.0,"Dimensity 9000 Plus, Octa Core, 3.2 GHz Processor",50.0,Android v12,88.0
+Xiaomi Redmi Note 12 Pro Plus (6GB RAM + 128GB),26999,6.0,"Dimensity 1080, Octa Core, 2.6 GHz Processor",200.0,Android v12,84.0
+Infinix Smart 6 HD,6999,2.0,"Helio A22, Quad Core, 2 GHz Processor",8.0,Android v11,
+Apple iPhone 15 Pro,130990,8.0,Bionic  A16,,No FM Radio,75.0
+Realme C35 (4GB RAM + 128GB),12787,4.0,"Tiger  T616, Octa Core, 1.8 GHz Processor",50.0,Android v11,71.0
+Infinix Hot 12,9999,4.0,"Helio G37, Octa Core, 2.3 GHz Processor",50.0,Android v11,72.0
+Vivo X80 5G,54999,8.0,"Dimensity  9000, Octa Core, 3.05 GHz Processor",50.0,Android v12,86.0
+Vivo Y53s,15490,8.0,"Helio G80, Octa Core, 2 GHz Processor",64.0,Android v11,79.0
+Tecno Phantom X,25999,8.0,"Helio G95, Octa Core, 2.05 GHz Processor",50.0,Bluetooth,84.0
+Samsung Galaxy M04 (4GB RAM + 128GB),9499,4.0,"Helio P35, Octa Core, 2.3 GHz Processor",13.0,Android v12,68.0
+Redmi 12C,7999,4.0,"Helio  G85, Octa Core, 2 GHz Processor",50.0,Android v12,70.0
+Asus ZenFone 9,63990,8.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,86.0
+Sony Xperia L5 5G,15990,4.0,"Helio  P35, Octa Core, 2.3 GHz Processor",13.0,Android v12,73.0
+iQOO 9 SE 5G (12GB RAM + 256GB),34949,12.0,"Snapdragon  888 , Octa Core, 2.84 GHz Processor",48.0,No FM Radio,85.0
+Tecno Spark 8 Pro,8799,4.0,"Helio G85 , Octa Core, 2 GHz Processor",48.0,Android v11,72.0
+Xiaomi Redmi 10 Prime,12390,4.0,"Helio G88, Octa Core, 2 GHz Processor",50.0,Android v11,74.0
+Samsung Galaxy F22,11499,4.0,"Helio G80, Octa Core, 2 GHz Processor",48.0,Android v11,73.0
+Xiaomi Mi Mix Alpha,199990,12.0,"Snapdragon 855+, Octa Core, 2.96 GHz Processor",108.0,Android v10,
+OPPO Reno 10 Pro,42990,16.0,"Dimensity 9000, Octa Core, 3.05 GHz Processor",50.0,No FM Radio,86.0
+Nubia Z50,34999,8.0,"Snapdragon  8 Gen2, Octa Core, 3.2 GHz Processor",64.0,No FM Radio,82.0
+Samsung Galaxy F13 (4GB RAM + 128GB),11999,4.0,"Exynos 850, Octa Core, 2 GHz Processor",50.0,Android v12,75.0
+Nokia G11 Plus,10499,4.0,"Unisoc T606, Octa Core, 1.6 GHz Processor",50.0,Android v12,70.0
+Infinix Hot 12 Play,8910,4.0,"Tiger T610, Octa Core, 1.82 GHz Processor",13.0,Android v11,66.0
+Vivo T2 5G,24990,8.0,"Snapdragon  870, Octa Core, 3.2 GHz Processor",64.0,Android v12,85.0
+OPPO Reno7 Z 5G,17999,8.0,"Snapdragon  695 , Octa Core, 2.2 GHz Processor",64.0,Android v11,84.0
+Xiaomi Mi 11 Lite NE 5G (8GB RAM + 128GB),22999,8.0,"Snapdragon  778G , Octa Core, 2.4 GHz Processor",64.0,Android v11,86.0
+Realme Narzo 50i,6490,2.0,"Unisoc  SC9863A, Octa Core, 1.6 GHz Processor",8.0,Android v11,
+Infinix Zero X Pro,21990,8.0,"Helio  G95, Octa Core, 2.05 GHz Processor",108.0,Android v11,85.0
+Nokia 110 4G,1762,128.0,No Wifi,0.0,,
+Samsung Galaxy M32,12364,4.0,"Helio G80, Octa Core, 2 GHz Processor",64.0,Android v11,76.0
+Samsung Galaxy A82 5G,39990,6.0,"Snapdragon 855+, Octa Core, 2.96 GHz Processor",64.0,Android v11,86.0
+Xiaomi Poco F1,11999,6.0,"Snapdragon 845, Octa Core, 2.8 GHz Processor",12.0,Android v8.1 (Oreo),77.0
+Vivo Y25,7499,1.0,"Helio MT6580, Quad Core, 1.3 GHz Processor",5.0,Android v5.1 (Lollipop),
+Lyf Earth 1,3990,3.0,"Snapdragon 615, Octa Core, 1.5 GHz Processor",13.0,Android v5.1.1 (Lollipop),60.0
+Motorola Moto E13,10499,2.0,"Tiger T606, Octa Core, 2 GHz Processor",13.0,Android v13,65.0
+Tecno Pop 6 Pro,6299,2.0,"Helio A22, Quad Core, 2 GHz Processor",8.0,Android v12,
+Itel A24 Pro,5990,2.0,"Unisoc  SC9832E, Quad Core, 1.4 GHz Processor",2.0,Android v12,
+Vivo X Fold Plus,113990,12.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",,Android v12,
+Huawei Mate 50 RS Porsche Design,239999,512.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",50.0,Hongmeng OS v3.0,81.0
+Samsung Galaxy F63,21999,6.0,"Dimensity 900, Octa Core, 2 GHz Processor",64.0,Android v12,84.0
+iQOO Z6 4G (6GB RAM + 128GB),15999,6.0,"Snapdragon  680, Octa Core, 2.4 GHz Processor",50.0,Android v12,80.0
+Nokia 8000 4G,6899,512.0,"Snapdragon  210, Quad Core, 1.1 GHz Processor",2.0,Bluetooth,
+Sony Xperia 5 II,69990,8.0,"Snapdragon 865 , Octa Core, 2.84 GHz Processor",12.0,Android v10,86.0
+Vivo Y3 (4GB RAM + 128GB),12990,4.0,"Helio P35, Octa Core, 2.3 GHz Processor",13.0,Android v9.0 (Pie),71.0
+Sony Xperia 1 IV (12GB RAM + 512GB),92980,12.0,"Snapdragon 8 Gen1, Octa Core, 3 GHz Processor",12.0,Android v12,
+Tecno Pova 4 Pro,15999,8.0,"Helio G99, Octa Core, 2.2 GHz Processor",50.0,Android v12,74.0
+Huawei Nova 10 SE,23999,8.0,"Sanpdragon 680, Octa Core, 2.4 GHz Processor",108.0,Android v12,84.0
+Vivo T1x (4GB RAM + 128GB),12999,4.0,"Snapdragon 680, Octa Core, 2.4 GHz Processor",50.0,Android v12,75.0
+Nubia Red Magic 7S Pro,60990,12.0,"Snapdragon  8+ Gen1, Octa Core, 3.2 GHz Processor",64.0,No FM Radio,86.0
+Motorola Moto E32s (4GB RAM + 64GB),8859,4.0,"Helio G37, Octa Core, 1.8 GHz Processor",16.0,Android v12,67.0
+iQOO Neo 6 5G (12GB RAM + 256GB),33749,12.0,"Snapdragon 870, Octa Core, 3.2 GHz Processor",64.0,No FM Radio,84.0
+Samsung Galaxy A15,15990,6.0,Octa Core Processor,48.0,Android v12,63.0
+POCO X4 GT 5G,24990,8.0,"Dimensity 8100, Octa Core, 2.85 GHz Processor",64.0,Android v12,84.0
+Realme Narzo 50 5G (4GB RAM + 128GB),14999,4.0,"Dimensity 810 5G, Octa Core, 2.4 GHz Processor",48.0,Android v11,76.0
+Vivo Y77 5G,17990,6.0,"Dimensity  930, Octa Core, 2.2 GHz Processor",50.0,Android v12,76.0
+Honor 60 SE 5G,24990,8.0,"Dimensity 900, Octa Core, 2 GHz Processor",64.0,No FM Radio,75.0
+Xiaomi Redmi 11 Prime,11600,4.0,"Helio G99, Octa Core, 2.2 GHz Processor",50.0,Android v12,74.0
+Realme C31,8299,3.0,"Tiger T612, Octa Core, 1.82 GHz Processor",13.0,Android v11,62.0
+Motorola Moto G31 (6GB RAM+ 128GB),11999,6.0,"Helio  G85, Octa Core, 2 GHz Processor",50.0,Android v11,78.0
+Samsung Galaxy Z Flip 4 5G,89999,8.0,"Snapdragon  8+ Gen1, Octa Core, 3.2 GHz Processor",,Memory Card Not Supported,88.0
+OnePlus 6 (8GB RAM + 128GB),27999,8.0,"Snapdragon 845, Octa Core, 2.8 GHz Processor",20.0,Android v8.1 (Oreo),77.0
+Google Pixel 2 XL,15990,4.0,"Snapdragon 835, Octa Core, 2.35 GHz Processor",12.0,Android v8.0 (Oreo),69.0
+Xiaomi Redmi A1 Plus,7289,2.0,"Helio A22, Quad Core, 2 GHz Processor",8.0,Android v12,60.0
+Honor 70 5G (8GB RAM + 256GB),30990,8.0,"Snapdragon  778G Plus, Octa Core, 2.5 GHz Processor",54.0,No FM Radio,86.0
+Realme Narzo 50 (6GB RAM + 128GB),15499,6.0,"Helio G96, Octa Core, 2 GHz Processor",50.0,Android v11,77.0
+Vivo Y15s,8499,3.0,"Helio P35 , Octa Core, 2.3 GHz Processor",13.0,Android v11,66.0
+Samsung Galaxy M32 (6GB RAM + 128GB),14490,6.0,"Helio G80, Octa Core, 2 GHz Processor",64.0,Android v11,80.0
+Samsung Galaxy F42 5G,15490,6.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",64.0,Android v11,80.0
+Realme Q5 5G,14990,6.0,"Snapdragon 695, Octa Core, 2.2 GHz Processor",50.0,Android v12,78.0
+POCO M3 Pro 5G,15999,4.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",48.0,Android v11,75.0
+Google Pixel 5,36000,8.0,"Snapdragon 765G , Octa Core, 2.4 GHz Processor",16.0,Bluetooth,82.0
+OnePlus 12 Pro,69999,12.0,"Snapdragon  8 Gen2, Octa Core, 3.2 GHz Processor",108.0,No FM Radio,
+Xiaomi Redmi Note 12 Discovery Edition,26990,8.0,"Dimensity 1080, Octa Core, 2.6 GHz Processor",200.0,Android v12,86.0
+Samsung Galaxy M13 (4GB RAM + 64GB),10630,4.0,"Exynos  850, Octa Core, 2 GHz Processor",50.0,Android v12,71.0
+Oppo Reno 8 Pro (8GB RAM + 256GB),42990,8.0,"Dimensity 8100-Max, Octa Core, 2.85 GHz Processor",50.0,No FM Radio,85.0
+Vivo Y78 5G,24990,8.0,"Dimensity 1300, Octa Core, 3 GHz Processor",50.0,Android v12,77.0
+iQOO Z6 4G,14489,4.0,"Snapdragon  680, Octa Core, 2.4 GHz Processor",50.0,Android v12,77.0
+OPPO A76,16490,6.0,"Snapdragon  680 , Octa Core, 2.4 GHz Processor",13.0,Android v11,73.0
+Realme 9 Pro Plus 5G (8GB RAM + 256GB),24494,8.0,"Dimensity  920 5G, Octa Core, 2.5 GHz Processor",50.0,Android v12,82.0
+Vivo Y01,7999,2.0,"Helio P35, Octa Core, 2.3 GHz Processor",8.0,Android v11,61.0
+Motorola Moto Edge S30 5G,23990,6.0,"Snapdragon 888+ , Octa Core, 2.9 GHz Processor",108.0,No FM Radio,85.0
+Realme GT 2 Pro 5G,49959,8.0,"Snapdragon 8 Gen1, Octa Core, 3 GHz Processor",50.0,Bluetooth,89.0
+Apple iPhone 13 Pro (256GB),129900,6.0,"Bionic A15, Hexa Core, 3.22 GHz Processor",12.0,iOS v15.0,83.0
+Vivo Y73 2021,19990,8.0,"Helio G95, Octa Core, 2.05 GHz Processor",64.0,Android v11,80.0
+Samsung Galaxy F14,14990,4.0,Octa Core Processor,50.0,Android v13,67.0
+Vivo V20,23269,8.0,"Snapdragon  720G , Octa Core, 2.3 GHz Processor",64.0,Android v11,85.0
+Xiaomi Redmi Note 9 Pro,13999,4.0,"Snapdragon 720G, Octa Core, 2.3 GHz Processor",48.0,Android v10.0,75.0
+Samsung Guru Music 2 Dual Sim,1949,208.0,No Wifi,,,
+Itel MagicX Pro,2799,64.0,1 GHz Processor,0.0,Bluetooth,
+OnePlus 10R Prime Edition,35389,8.0,"Dimensity 8100 Max, Octa Core, 2.85 GHz Processor",50.0,Bluetooth,85.0
+Google Pixel 6 Pro (12GB RAM + 256GB),79700,12.0,"Google  Tensor, Octa Core, 2.8 GHz Processor",50.0,No FM Radio,
+Nokia C31,9499,3.0,"Unisoc  SC9863A, Octa Core, 1.6 GHz Processor",13.0,Android v12,62.0
+Infinix Hot 12 Pro (8GB RAM+ 128GB),12340,8.0,"Tiger T616, Octa Core, 2 GHz Processor",50.0,Android v12,76.0
+Poco M5,10799,4.0,"Helio G99, Octa Core, 2.2 GHz Processor",50.0,Android v12,74.0
+Xiaomi Redmi 10C (4GB RAM + 128GB),14990,4.0,"Snapdragon 680, Octa Core, 2.4 GHz Processor",50.0,Android v11,73.0
+ZTE Axon 40 Ultra 5G,61990,8.0,"Snapdragon 8 Gen1, Octa Core, 3 GHz Processor",64.0,No FM Radio,89.0
+Xiaomi 12 Pro 5G (12GB RAM + 256GB),51880,12.0,"Snapdragon 8 Gen1, Octa Core, 3 GHz Processor",50.0,No FM Radio,
+OPPO K10 (8GB RAM + 128GB),16990,8.0,"Snapdragon 680, Octa Core, 2.4 GHz Processor",50.0,Android v11,80.0
+Huawei Nova 9 SE,19990,8.0,"Snapdragon  680, Octa Core, 2.4 GHz Processor",108.0,Android v11,84.0
+Samsung Galaxy S22 5G (8GB RAM + 256GB),57999,8.0,"Snapdragon  8 Gen1, Octa Core, 3 GHz Processor",50.0,Bluetooth,87.0
+Lenovo Legion Y90,46990,12.0,"Snapdragon  8 Gen1, Octa Core, 3 GHz Processor",64.0,No FM Radio,87.0
+Vivo Y55 5G,20990,4.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",50.0,Android v11,77.0
+Nokia X100 5G,17990,6.0,"Snapdragon  480 , Octa Core, 2 GHz Processor",48.0,Android v11,82.0
+Realme 8s 5G (8GB RAM + 128GB),17499,8.0,"Dimensity  810 5G, Octa Core, 2.4 GHz Processor",64.0,Android v11,82.0
+Realme 8s 5G,17999,6.0,"Dimensity  810 5G, Octa Core, 2.4 GHz Processor",64.0,Android v11,80.0
+Nokia X60 Pro 5G,49990,8.0,"Snapdragon  870, Octa Core, 3.2 GHz Processor",200.0,Android v11,
+itel Magic 2 4G,2399,117.0,No 3G,2.0,"Memory Card Supported, upto 64 GB",
+Poco X5,14999,4.0,"Snapdragon 695, Octa Core, 2.2 GHz Processor",48.0,Android v12,74.0
+Xiaomi Redmi Note 10 Pro Max (6GB RAM + 128GB),19980,6.0,"Snapdragon  732G, Octa Core, 2.3 GHz Processor",108.0,Android v11,82.0
+iQOO 7 (12GB RAM + 256GB),35990,12.0,"Snapdragon 870, Octa Core, 3.2 GHz Processor",48.0,No FM Radio,85.0
+Realme 8,15999,4.0,"Helio G95, Octa Core, 2 GHz Processor",64.0,Android v11,78.0
+Samsung Galaxy S20,41999,8.0,"Exynos  990, Octa Core, 2.73 GHz Processor",64.0,Android v10.0,88.0
+Xiaomi Redmi K60E,25999,8.0,"Dimensity 8200, Octa Core, 3.1 GHz Processor",48.0,No FM Radio,83.0
+Motorola Moto E32s,7990,3.0,"Helio G37, Octa Core, 1.8 GHz Processor",16.0,Android v12,65.0
+OnePlus Nord 3T 5G,29990,8.0,"Dimensity  1300, Octa Core, 3 GHz Processor",50.0,No FM Radio,84.0
+OPPO F23 Pro Plus 5G,27990,8.0,"Snapdragon  7 Gen1, Octa Core, 2.36 GHz Processor",50.0,Android v12,83.0
+Poco F5 Pro,29999,8.0,"Snapdragon  8+ Gen1, Octa Core, 3.2 GHz Processor",64.0,No FM Radio,84.0
+OPPO A16e (4GB RAM + 64GB),8999,4.0,"Helio P22, Octa Core, 2 GHz Processor",13.0,Android v11,68.0
+POCO M4 Pro 4G (8GB RAM + 128GB),13999,8.0,"Helio G96, Octa Core, 2.05 GHz Processor",64.0,Android v11,81.0
+Realme Narzo 50A,11499,4.0,"Helio  G85, Octa Core, 2 GHz Processor",50.0,Android v11,71.0
+Asus ROG Phone 5s 5G,39999,8.0,"Snapdragon  888+, Octa Core, 2.9 GHz Processor",64.0,No FM Radio,87.0
+Realme GT Master Edition 5G,27999,8.0,"Snapdragon  778G , Octa Core, 2.4 GHz Processor",64.0,No FM Radio,84.0
+Samsung Galaxy A32 5G,24499,6.0,"Dimensity 720, Octa Core, 2 GHz Processor",48.0,Android v11,79.0
+Nubia Red Magic 8 Pro Plus,60999,12.0,"Snapdragon 8 Gen2, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,86.0
+Samsung Galaxy Z Fold 3,110999,12.0,"Snapdragon 888, Octa Core, 2.84 GHz Processor",,Android v11,89.0
+LG Wing 5G,54999,8.0,"Snapdragon  765G , Octa Core, 2.4 GHz Processor",,"Memory Card (Hybrid), upto 2 TB",89.0
+Xiaomi Redmi Note 9 Pro Max,16490,6.0,"Snapdragon 720G, Octa Core, 2.3 GHz Processor",64.0,Android v10.0,80.0
+Samsung Galaxy A52,24990,6.0,"Snapdragon  720G, Octa Core, 2.3 GHz Processor",64.0,Android v11,83.0
+Nokia 105 (2019),1299,4.0,No Wifi,,,
+Vivo Y71,25000,3.0,"Snapdragon 425, Quad Core, 1.4 GHz Processor",13.0,Android v8.1 (Oreo),
+Lyf C459,1999,1.0,"Snapdragon MSM8909, Quad Core, 1.1 GHz Processor",5.0,Android v6.0 (Marshmallow),
+Samsung Galaxy A04e (3GB RAM + 64GB),9950,3.0,"Helio P35, Octa Core, 2.3 GHz Processor",13.0,Android v12,66.0
+Oppo A56s,12999,8.0,"Dimensity 810, Octa Core, 2.4 GHz Processor",13.0,Android v12,75.0
+Oppo Reno 8T 4G,19999,8.0,"Helio G99, Octa Core, 2.2 GHz Processor",50.0,Android v13,83.0
+OPPO Reno 10,32999,8.0,"Snapdragon 778G Plus, Octa Core, 2.5 GHz Processor",50.0,No FM Radio,84.0
+Nokia G60,28498,6.0,"Snapdragon  695, Octa Core, 2.2 GHz Processor",50.0,Android v12,81.0
+OPPO A77 (4GB RAM + 128 GB),15998,4.0,"Helio G35, Octa Core, 2.3 GHz Processor",50.0,Android v12,71.0
+Nokia 8210 4G,3749,107.0,No Wifi,2.0,"Memory Card Supported, upto 32 GB",
+Motorola Edge 40 Pro 5G,59990,8.0,"Snapdragon 8 Gen2, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,89.0
+Oppo K10x 5G,16990,6.0,"Snapdragon 695, Octa Core, 2.2 GHz Processor",64.0,No FM Radio,78.0
+iQOO Z6 Pro 5G (12GB RAM + 256GB),27999,12.0,"Snapdragon  778G, Octa Core, 2.4 GHz Processor",64.0,Android v12,82.0
+Nokia G21 (6GB RAM + 128GB),13499,6.0,"Unisoc  T606, Octa Core, 1.6 GHz Processor",50.0,Android v11,75.0
+Samsung Galaxy A13 (6GB RAM + 128GB),16499,6.0,"Octa Core, 2 GHz Processor",50.0,Android v12,78.0
+OPPO A16K (4GB RAM + 64GB),10999,4.0,"Helio G35, Octa Core, 2.3 GHz Processor",13.0,Android v11,66.0
+Xiaomi Redmi 10C,13990,4.0,"Snapdragon 680, Octa Core, 2.4 GHz Processor",50.0,Android v11,71.0
+Tecno Spark 9 Pro,9999,4.0,"Helio  G85, Octa Core, 2 GHz Processor",48.0,Android v12,74.0
+Realme GT Neo 3 5G,31994,8.0,"Dimensity  8100, Octa Core, 2.85 GHz Processor",50.0,No FM Radio,83.0
+Xiaomi 11i HyperCharge 5G,24820,6.0,"Dimensity  920 5G, Octa Core, 2.5 GHz Processor",108.0,Android v11,83.0
+iQOO Neo 6 SE 5G,22990,8.0,"Snapdragon 870, Octa Core, 3.2 GHz Processor",64.0,Android v12,83.0
+iQOO 9 Pro 5G,59990,8.0,"Snapdragon 8 Gen1, Octa Core, 3 GHz Processor",50.0,No FM Radio,88.0
+Realme Narzo 50i (4GB RAM + 64GB),8999,4.0,"Unisoc  SC9863A, Octa Core, 1.6 GHz Processor",8.0,Android v11,62.0
+Xiaomi Redmi 9 Activ (6GB RAM + 128GB),10499,6.0,"Helio G35, Octa Core, 2.3 GHz Processor",13.0,Android v11,72.0
+Jio JioPhone Next (3GB RAM + 32GB),7499,3.0,"Qualcomm 215, Quad Core, 1.3 GHz Processor",13.0,Pragati OS (Powered by Android),
+Xiaomi Redmi Note 8 2021,9990,4.0,"Helio G85, Octa Core, 2 GHz Processor",48.0,Android v11,75.0
+Xiaomi Redmi Note 10 5G,12490,4.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",48.0,Android v11,76.0
+Vivo Y20G,13990,4.0,"Helio G80, Octa Core, 2 GHz Processor",13.0,Android v11,69.0
+Samsung Galaxy A22 5G,17990,6.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",48.0,Android v11,79.0
+Vivo V21,24999,8.0,"Dimensity 800U, Octa Core, 2.4 GHz Processor",64.0,Android v11,83.0
+Realme 7 Pro (8GB RAM + 128GB),21999,8.0,"Snapdragon 720G , Octa Core, 2.3 GHz Processor",64.0,Android v10,85.0
+OnePlus Nord Lite,19999,8.0,"Snapdragon 690, Octa Core, 2 GHz Processor",48.0,Android v10,77.0
+Samsung Galaxy S20 Ultra 5G,99999,12.0,"Exynos 990, Octa Core, 2.73 GHz Processor",108.0,Android v10.0,
+Apple iPhone 11 Pro Max,109900,4.0,"A13 Bionic, Hexa Core, 2.65 GHz Processor",12.0,iOS v13,77.0
+Apple iPhone 7s,52990,3.0,"Fusion APL1024, Quad Core, 2.37 GHz Processor",13.0,No FM Radio,
+Namotel Achhe Din,99,1325.0,"1 GB RAM, 4 GB inbuilt",5.0,,
+Sony Xperia Ace IV,19990,8.0,"Snapdragon 4 Gen 1, Octa Core, 2 GHz Processor",50.0,Android v13,80.0
+Samsung Galaxy A04e (4GB RAM + 128GB),11499,4.0,"Helio P35, Octa Core, 2.3 GHz Processor",13.0,Android v12,69.0
+Eunity U1 5605N,699,500.0,No 3G,1.0,"Memory Card Supported, upto 16 GB",
+Xiaomi Redmi Note 12 4G,13999,4.0,"Helio G99, Octa Core, 2.2 GHz Processor",48.0,Android v13,75.0
+Oukitel WP21,22990,12.0,"Helio G99, Octa Core, 2.2 GHz Processor",,Memory Card (Hybrid),82.0
+Vivo V28,28990,8.0,"Snapdragon 6 Gen 1, Octa Core, 2.2 GHz Processor",108.0,Android v13,84.0
+Poco F4 5G (8GB RAM + 128GB),27999,8.0,"Snapdragon  870, Octa Core, 3.2 GHz Processor",64.0,No FM Radio,85.0
+Xiaomi Redmi Note 11T Pro 5G,19990,6.0,"Dimensity  8100, Octa Core, 2.85 GHz Processor",64.0,Android v12,82.0
+Realme Narzo 50 Pro 5G (8GB RAM + 128GB),22999,8.0,"Dimensity 920 5G, Octa Core, 2.5 GHz Processor",48.0,Android v12,83.0
+Vivo T1 44W (8GB RAM + 128GB),17999,8.0,"Snapdragon 680, Octa Core, 2.4 GHz Processor",50.0,Android v12,82.0
+Xiaomi Redmi Note 11S (6GB RAM + 128GB),15499,6.0,"Helio  G96, Octa Core, 2.05 GHz Processor",108.0,Android v11,81.0
+Lava Agni 5G,17990,8.0,"Dimensity  810 5G, Octa Core, 2.4 GHz Processor",64.0,Android v11,84.0
+Realme 8i (6GB RAM + 128GB),13999,6.0,"Helio G96, Octa Core, 2.05 GHz Processor",50.0,Android v11,77.0
+OPPO A55 4G,13499,4.0,"Helio G35, Octa Core, 2.3 GHz Processor",50.0,Android v11,73.0
+POCO M3 Pro 5G (6GB RAM + 128GB),14799,6.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",48.0,Android v11,79.0
+Realme C21Y,6999,3.0,"Unisoc T610, Octa Core, 1.8 GHz Processor",13.0,Android v11,62.0
+OPPO A16,11999,4.0,"Helio G35, Octa Core, 2.3 GHz Processor",13.0,Android v11,69.0
+Vivo V21 5G,23994,8.0,"Dimensity 800U, Octa Core, 2.4 GHz Processor",64.0,Android v11,85.0
+Nokia 225 4G,3589,64.0,Unisoc T117,0.0,RTOS (Series 30+),
+Apple iPhone 12 Pro (512GB),139900,6.0,"Bionic A14, Hexa Core, 3.1 GHz Processor",,No FM Radio,80.0
+Sony Xperia 1 II,69999,8.0,"Snapdragon  865 , Octa Core, 2.84 GHz Processor",12.0,Android v10,89.0
+Motorola Edge Plus,57999,12.0,"Snapdragon  865 , Octa Core, 2.84 GHz Processor",108.0,No FM Radio,89.0
+Samsung Galaxy Note 20,86000,8.0,"Exynos  990, Octa Core, 2.73 GHz Processor",64.0,No FM Radio,87.0
+Samsung Galaxy A12,11999,4.0,"Helio P35, Octa Core, 2.3 GHz Processor",48.0,Android v10,71.0
+Xiaomi Redmi Note 12 Pro 4G,14999,6.0,"Snapdragon 732G, Octa Core, 2.3 GHz Processor",50.0,No FM Radio,77.0
+Realme GT Neo 3T (8GB RAM + 128GB),26499,8.0,"Snapdragon 870, Octa Core, 3.2 GHz Processor",64.0,No FM Radio,81.0
+Realme C30s (4GB RAM + 64GB),8990,4.0,"Unisoc SC9863A, Octa Core, 1.6 GHz Processor",8.0,Android v12,62.0
+Apple iPhone 14 (512GB),95999,6.0,"Bionic A15, Hexa Core, 3.22 GHz Processor",12.0,iOS v16,82.0
+iQOO 9T 5G,47990,8.0,"Snapdragon  8+ Gen1, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,85.0
+Tecno Camon 19 Pro,17990,8.0,"Helio  G96, Octa Core, 2.05 GHz Processor",64.0,Bluetooth,81.0
+OnePlus Nord 2 Lite 5G,22999,8.0,"Snapdragon 695 , Octa Core, 2.2 GHz Processor",64.0,Android v12,83.0
+Nokia 105 Plus,1299,800.0,"4 MB RAM, 4 MB inbuilt",32.0,,
+Samsung Galaxy S22 Ultra 5G (8GB RAM + 128GB),99990,8.0,"Snapdragon  8 Gen1, Octa Core, 3 GHz Processor",108.0,Bluetooth,
+POCO F4 GT 5G,39999,8.0,"Snapdragon  8 Gen1, Octa Core, 3 GHz Processor",64.0,Android v12,86.0
+Xiaomi 11T Pro 5G (12GB RAM + 256GB),38999,12.0,"Snapdragon  888 , Octa Core, 2.84 GHz Processor",108.0,No FM Radio,88.0
+Vivo Y10,12490,4.0,"Helio P35, Octa Core, 2.3 GHz Processor",13.0,Bluetooth,63.0
+Nokia 2760 Flip,5490,3.0,1450 mAh Battery,3.0,,
+Samsung Galaxy A83 5G,39990,6.0,"Snapdragon 870, Octa Core, 3.2 GHz Processor",64.0,Android v11,86.0
+Motorola Moto A10,1339,1750.0,"4 MB RAM, 4 MB inbuilt",32.0,,
+Vivo Y33s,16685,8.0,"Helio G80, Octa Core, 2 GHz Processor",50.0,Android v11,80.0
+Huawei Mate 40 Pro 4G,69990,8.0,"Kirin  9000, Octa Core, 3.13 GHz Processor",50.0,Harmony v2.0,
+Micromax IN 2B,6999,4.0,"Unisoc  T610, Octa Core, 1.8 GHz Processor",13.0,Android v11,66.0
+Asus ROG Phone 6,71999,12.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",50.0,Android v12,86.0
+Realme X7 Max,26999,8.0,"Dimensity 1200, Octa Core, 3 GHz Processor",64.0,No FM Radio,84.0
+Realme 8 5G,16499,4.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",48.0,Android v11,75.0
+OPPO A55 5G,17990,6.0,"Dimensity 700, Octa Core, 2.2 GHz Processor",13.0,Android v11,74.0
+Xiaomi Redmi 9,8999,4.0,"Helio G35, Octa Core, 2.3 GHz Processor",13.0,Android v10,68.0
+Apple iPhone SE 2020,39900,3.0,"A13 Bionic, Hexa Core, 2.65 GHz Processor",12.0,No FM Radio,63.0
+Zanco Tiny T1,2799,200.0,"32 MB RAM, 32 MB inbuilt",,,
+Letv Y1 Pro Plus,5999,6.0,"Tiger T610, Quad Core, 1.8 GHz Processor",8.0,No FM Radio,60.0
+OnePlus Nord 5,34999,8.0,"Dimensity  9200, Octa Core Processor",64.0,No FM Radio,76.0
+Vivo Y73T,16990,8.0,"Dimensity 700, Octa Core, 2 GHz Processor",50.0,Android v11,77.0
+OPPO Reno 9 Z,22990,8.0,"Snapdragon  6 Gen 1, Octa Core, 2.2 GHz Processor",50.0,Android v13,84.0
+Vivo V25e,19990,8.0,"Helio G99, Octa Core, 2.2 GHz Processor",64.0,Android v12,84.0
+Infinix Hot 12 Pro,10850,6.0,"Tiger T616, Octa Core, 2 GHz Processor",50.0,Android v12,74.0
+Realme Narzo 50 5G (4GB RAM + 64GB),13499,4.0,"Dimensity 810 5G, Octa Core, 2.4 GHz Processor",48.0,Android v11,75.0
+itel it2163S,958,1200.0,"4 MB RAM, 4 MB inbuilt",32.0,,
+itel Vision 3,6699,3.0,"Unisoc  SC9863a, Octa Core, 1.6 GHz Processor",8.0,Android v11.0,61.0
+OPPO A96 4G,17999,8.0,"Snapdragon  680, Octa Core, 2.4 GHz Processor",50.0,Android v11,80.0
+Xiaomi Redmi Note 11E 5G,13990,4.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",50.0,Android v11,69.0
+Honor Magic 4 Pro Plus 5G,94990,12.0,"Snapdragon  8 Gen1, Octa Core, 3 GHz Processor",50.0,No FM Radio,
+Tecno Spark 9T,8968,4.0,"Helio G35, Octa Core, 2.3 GHz Processor",50.0,Android v12,72.0
+Infinix Smart 6,7320,2.0,"Helio A22, Quad Core, 2 GHz Processor",8.0,Android v11,60.0
+Realme C25Y (4GB RAM + 64GB),8999,4.0,"Tiger  T610, Octa Core, 1.8 GHz Processor",50.0,Android v11,69.0
+Samsung Galaxy A12 (6GB RAM + 128GB),13999,6.0,"Helio P35, Octa Core, 2.3 GHz Processor",48.0,Android v10,75.0
+Tecno Camon 19,14746,6.0,"Helio  G85, Octa Core, 2 GHz Processor",64.0,Android v12,79.0
+Xiaomi Redmi Note 10 Pro 5G,16999,6.0,"Dimensity 1100 5G, Octa Core, 2.6 GHz Processor",64.0,Android v11,83.0
+Xiaomi Mi 11X 5G (8GB RAM + 128GB),25990,8.0,"Snapdragon 870, Octa Core, 3.2 GHz Processor",48.0,No FM Radio,83.0
+Xiaomi Redmi Note 10 (6GB RAM + 128GB),16499,6.0,"Snapdragon 678, Octa Core, 2.2 GHz Processor",48.0,Android v11,78.0
+Xiaomi Redmi Note 10 Pro Max,19999,6.0,"Snapdragon  732G, Octa Core, 2.3 GHz Processor",108.0,Android v11,81.0
+Xiaomi Mi 10T 5G,23500,6.0,"Snapdragon 865, Octa Core, 2.84 GHz Processor",64.0,No FM Radio,80.0
+LG Velvet 5G,54999,6.0,"Snapdragon  765G, Octa Core, 2.4 GHz Processor",48.0,Android v10,85.0
+Motorola One Fusion Plus,19499,6.0,"Snapdragon 730G, Octa Core, 2.2 GHz Processor",64.0,Android v10,80.0
+LG V60 ThinQ,79990,8.0,"Snapdragon  865, Octa Core, 2.84 GHz Processor",,"Memory Card (Hybrid), upto 2 TB",
+Samsung Galaxy Note 10 Lite,39999,6.0,"Exynos 9810, Octa Core, 2.7 GHz Processor",12.0,Android v10.0,83.0
+Samsung Galaxy Note 10 Plus 5G,92999,12.0,"Exynos 9825, Octa Core, 2.7 GHz Processor",12.0,Android v9.0 (Pie),89.0
+Xiaomi Qin 1,1799,8.0,Helio MT6260A,,No FM Radio,
+iQOO Neo 7 Racing Edition,32990,8.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,84.0
+Samsung Galaxy A04s (4GB RAM + 128GB),14499,4.0,"Exynos 850, Octa Core, 2 GHz Processor",50.0,Android v12,72.0
+Vivo Y35 5G,13999,4.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",13.0,Android v13,70.0
+Vivo Y02 (2GB RAM + 32GB),7999,2.0,"Helio, Octa Core Processor",8.0,Android v12,
+itel Vision 3 (2GB RAM + 32GB),5785,2.0,"Unisoc  SC9863a, Octa Core, 1.6 GHz Processor",8.0,Android v11.0,
+Xiaomi Redmi Note 11R,12990,4.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",13.0,Android v12,73.0
+Poco M6 Pro,19990,8.0,"Dimensity  920 5G, Octa Core, 2.5 GHz Processor",108.0,Android v13,84.0
+OPPO A97 5G,23990,12.0,"Dimensity 810 5G, Octa Core, 2.4 GHz Processor",48.0,Android v12,79.0
+Samsung Galaxy A24,17999,6.0,"Exynos 7904, Octa Core, 1.8 GHz Processor",48.0,Android v12,77.0
+Infinix Note 13 Pro,16999,6.0,"Helio  G99, Octa Core, 2.2 GHz Processor",108.0,Android v12,80.0
+Honor Play 30,9999,4.0,"Snapdragon 480+, Octa Core, 2.2 GHz Processor",13.0,Android v11,68.0
+Infinix Smart 6 Plus,8299,3.0,"Helio G25, Octa Core, 2 GHz Processor",8.0,Android v12,63.0
+Sony Xperia 5 IV 5G,82199,8.0,"Snapdragon 8 Gen1, Octa Core, 3 GHz Processor",12.0,Android v12,89.0
+Samsung Guru GT-E1215,1850,1.0,800 mAh Battery,,,
+Nubia Z40 Pro 5G,49990,8.0,"Snapdragon  8 Gen1, Octa Core, 3 GHz Processor",64.0,No FM Radio,84.0
+Nokia G21,11999,4.0,"Unisoc  T606, Octa Core, 1.6 GHz Processor",50.0,Android v11,71.0
+Xiaomi 12 Lite 5G,29990,6.0,"Snapdragon 778G, Octa Core, 2.4 GHz Processor",108.0,Android v12,82.0
+Oppo Find N 5G,92249,8.0,"Snapdragon  888, Octa Core, 2.84 GHz Processor",,Android v11,
+Apple iPhone 13 Pro Max (256GB),139900,6.0,"Bionic A15, Hexa Core, 3.22 GHz Processor",12.0,iOS v15,84.0
+Vivo Y21s,14990,4.0,"Helio G80, Octa Core, 2 GHz Processor",50.0,Android v11,74.0
+OPPO F19s,15988,6.0,"Snapdragon 662 , Octa Core, 2 GHz Processor",48.0,Android v11,79.0
+Samsung Galaxy M21 2021,11725,4.0,"Exynos 9611, Octa Core, 2.3 GHz Processor",48.0,Android v11,76.0
+OPPO F19 Pro,17994,8.0,"Helio P95, Octa Core, 2.2 GHz Processor",48.0,Android v11,80.0
+OPPO X 2021,134999,8.0,"Snapdragon 865, Octa Core, 2.84 GHz Processor",,Android v11,86.0
+OnePlus Nord N10,25595,6.0,"Snapdragon 690, Octa Core, 2 GHz Processor",64.0,Android v10,81.0
+Gionee M12 Pro,7499,6.0,"Helio P60, Octa Core, 1.99 GHz Processor",16.0,Android v10,67.0
+Poco M2,10890,6.0,"Helio G80, Octa Core, 2 GHz Processor",13.0,Android v10.0,74.0
+OPPO F17 Pro,18990,8.0,"Helio P95, Octa Core, 2.2 GHz Processor",48.0,Android v10,83.0
+Motorola Moto G 5G,19990,6.0,"Snapdragon  750G , Octa Core, 2.2 GHz Processor",48.0,Android v10,82.0
+Samsung Galaxy A50s,15990,4.0,"Exynos  9611 , Octa Core, 2.3 GHz Processor",48.0,Android v9.0 (Pie),80.0
+Samsung Galaxy Note 10 Plus,58999,12.0,"Exynos 9825, Octa Core, 2.73 GHz Processor",12.0,Android v9.0 (Pie),89.0
+Vivo Y15,12500,4.0,"Helio P22, Octa Core, 2 GHz Processor",13.0,Android v9.0 (Pie),71.0
+Vivo S1 Pro,29999,8.0,"Snapdragon  665, Octa Core, 2 GHz Processor",48.0,Android v9.0 (Pie),82.0
+Vivo T3 Pro,31990,8.0,"Snapdragon  782G, Octa Core, 2.7 GHz Processor",64.0,Android v13,86.0
+Vivo V21s,29999,8.0,"Dimensity 800U , Octa Core, 2.4 GHz Processor",64.0,Android v12,86.0
+Asus ROG Phone 6D Ultimate,107990,16.0,"Dimensity 9000 Plus, Octa Core, 3.2 GHz Processor",,Memory Card Not Supported,
+Motorola Moto Edge 30 Neo,31990,8.0,"Snapdragon 695, Octa Core, 2.2 GHz Processor",64.0,No FM Radio,84.0
+Xiaomi 12T,48990,8.0,"Dimensity 8100 Ultra, Octa Core, 2.85 GHz Processor",108.0,No FM Radio,87.0
+Huawei Mate 50 Pro 5G,99990,8.0,"Kirin 9000E, Octa Core, 3.13 GHz Processor",64.0,Hongmeng OS v4.0,85.0
+Realme C32,9499,4.0,"Tiger T612, Octa Core, 1.82 GHz Processor",13.0,Android v12,65.0
+Huawei Mate Xs 2,162990,8.0,"Snapdragon 888, Octa Core, 2.84 GHz Processor",,"Memory Card (Hybrid), upto 256 GB",89.0
+iQOO Z7 Pro 5G,24999,6.0,"Snapdragon  7 Gen1, Octa Core, 2.36 GHz Processor",50.0,Android v12,80.0
+Apple iPhone 15,82990,6.0,Bionic  A16,50.0,iOS v15,72.0
+Infinix Note 11S (8GB RAM + 128GB),15999,8.0,"Helio G96, Octa Core, 2.05 GHz Processor",50.0,Android v11,79.0
+Tecno Spark 8 (4GB RAM + 64GB),8999,4.0,"Helio A25, Octa Core, 1.8 GHz Processor",16.0,Android v11,64.0
+Oppo A56 5G,17990,6.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",13.0,Android v11,73.0
+Vivo X80 Pro Plus 5G,82990,12.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,
+Xiaomi Redmi 10 Prime (6GB RAM + 128GB),12999,6.0,"Helio G88, Octa Core, 2 GHz Processor",50.0,Android v11,77.0
+Huawei Nova 9,29990,8.0,"Snapdragon  778G , Octa Core, 2.4 GHz Processor",50.0,No FM Radio,83.0
+Tecno Pop 5 Go,6999,1.0,"Spreadtrum  SC7731, Quad Core, 1.3 GHz Processor",5.0,Android v11,
+Huawei P50 Pro 4G,60999,8.0,"Snapdragon 888, Octa Core, 2.84 GHz Processor",50.0,HarmonyOS v2.0,
+Xiaomi Redmi K50 5G,27990,8.0,"Dimensity  8100, Octa Core, 2.85 GHz Processor",48.0,No FM Radio,83.0
+Nokia C01 Plus,5249,2.0,"Unisoc  SC9863A, Octa Core, 1.6 GHz Processor",5.0,Android v11,
+Realme Q3,14999,6.0,"Snapdragon  750G , Octa Core, 2.2 GHz Processor",48.0,Android v11,80.0
+OPPO Reno 6 Pro Plus 5G,44990,8.0,"Snapdragon 870, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,87.0
+Motorola Edge S,22490,6.0,"Snapdragon 870, Octa Core, 3.2 GHz Processor",64.0,Android v11,87.0
+Oppo Find X3 Pro,50990,12.0,"Snapdragon  888 , Octa Core, 2.84 GHz Processor",50.0,No FM Radio,
+Poco M3,11499,6.0,"Snapdragon 662, Octa Core, 2 GHz Processor",48.0,Android v10,75.0
+itel S16,5990,1.0,"Unisoc SC7731E, Quad Core, 1.3 GHz Processor",8.0,Android v10,
+Vivo V20 Pro,27000,8.0,"Snapdragon 765G , Octa Core, 2.4 GHz Processor",64.0,No FM Radio,84.0
+Xiaomi Mi 10T Pro 5G,29999,8.0,"Snapdragon 865 , Octa Core, 2.84 GHz Processor",108.0,No FM Radio,86.0
+Vivo V19 (8GB RAM + 256GB),27990,8.0,"Snapdragon  712 , Octa Core, 2.3 GHz Processor",48.0,Android v10.0,84.0
+Nokia 400 4G,3290,2.0,2000 mAh Battery,,,
+Samsung Galaxy S20 5G,74999,8.0,"Exynos  990, Octa Core, 2.73 GHz Processor",64.0,Android v10.0,89.0
+Vivo U3,9990,4.0,"Snapdragon  675, Octa Core, 2 GHz Processor",16.0,Android v9.0 (Pie),72.0
+Oppo K5 (8GB RAM + 128GB),19990,8.0,"Snapdragon  730G, Octa Core, 2.2 GHz Processor",64.0,Android v9.0 (Pie),82.0
+Realme XT,13279,4.0,"Snapdragon 712, Octa Core, 2.3 GHz Processor",64.0,Android v9.0 (Pie),75.0
+Vivo Y12 (3GB RAM + 64GB),11000,3.0,"Helio  P22, Octa Core, 2 GHz Processor",13.0,Android v9.0 (Pie),68.0
+Apple iPod Touch (7th Gen),18900,4.0,32 GB inbuilt,,Browser,
+Xiaomi Poco F1 (6GB RAM + 128GB),12999,6.0,"Snapdragon 845, Octa Core, 2.8 GHz Processor",12.0,Android v8.1 (Oreo),78.0
+Poco C50 (3GB RAM + 32GB),7299,3.0,"Helio A22, Quad Core, 2 GHz Processor",8.0,Android v12,61.0
+Karbonn KU3i,995,1000.0,"52 MB RAM, 32 MB inbuilt",16.0,,
+iKall Z19,7999,4.0,"Quad Core, 1.6 GHz Processor",20.0,Android v11.0,61.0
+Xiaomi Redmi K60 Gaming Edition,54990,8.0,"Snapdragon 8 Gen2, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,86.0
+Vivo S17 Pro,49990,12.0,"Dimensity 9200, Octa Core Processor",50.0,No FM Radio,77.0
+Honor 80 Pro Plus,54990,12.0,"Snapdragon 8 Gen1 , Octa Core, 3 GHz Processor",200.0,No FM Radio,
+Apple iPhone SE 4,49990,64.0,"Bionic  A15, Hexa Core, 3.22 GHz Processor",,No FM Radio,60.0
+Tecno Pova Neo 5G,15499,4.0,"Dimensity 810 5G, Octa Core, 2.4 GHz Processor",50.0,Android v12,71.0
+Apple iPhone 14 Pro Max (512GB),169900,6.0,"Bionic  A16, Hexa Core Processor",48.0,iOS v16,78.0
+Google Pixel 8,53990,8.0,"Google Tensor 3, Octa Core Processor",50.0,No FM Radio,75.0
+Vivo T2x 5G,18990,8.0,"Dimensity 1300, Octa Core, 3 GHz Processor",50.0,No FM Radio,80.0
+Motorola Moto G52 5G,16999,4.0,"Snapdragon 695, Octa Core, 2.2 GHz Processor",50.0,Android v12,76.0
+Motorola Edge 40 5G,34999,8.0,"Snapdragon 7 Gen1, Octa Core, 2.36 GHz Processor",50.0,No FM Radio,86.0
+Vivo X Note 5G (12GB RAM + 512GB),82990,12.0,"Snapdragon 8 Gen1, Octa Core, 3 GHz Processor",50.0,No FM Radio,
+Realme GT 2 Pro 5G (12GB RAM + 256GB),46999,12.0,"Snapdragon 8 Gen1, Octa Core, 3 GHz Processor",50.0,Bluetooth,89.0
+Vivo Y15C,8499,3.0,"Helio P35, Octa Core, 2.3 GHz Processor",13.0,Android v12,66.0
+Honor X8,16999,6.0,"Snapdragon  680, Octa Core, 2.4 GHz Processor",64.0,No FM Radio,76.0
+Samsung Galaxy A03 (4GB RAM + 64GB),11499,4.0,"Unisoc  T606, Octa Core, 1.6 GHz Processor",48.0,Android v11,69.0
+Samsung Galaxy S22 Plus 5G (8GB RAM + 256GB),88999,8.0,"Snapdragon  8 Gen1, Octa Core, 3 GHz Processor",50.0,Bluetooth,88.0
+Vivo Y33T,15990,8.0,"Snapdragon 680, Octa Core, 2.4 GHz Processor",50.0,Android v12,81.0
+Xiaomi 11i 5G (8GB RAM + 128GB),24990,8.0,"Dimensity  920 5G, Octa Core, 2.5 GHz Processor",108.0,Android v11,83.0
+Oppo Find X5 Pro 5G,79990,8.0,"Snapdragon 8 Gen1, Octa Core, 3 GHz Processor",50.0,No FM Radio,
+Tecno Spark Go 2022,6249,2.0,"Octa Core, 2.2 GHz Processor",13.0,Android v11,61.0
+Vivo Y21e,12499,3.0,"Snapdragon  680, Octa Core, 2.4 GHz Processor",13.0,Android v12,69.0
+Xiaomi Redmi 9A Sport,6499,2.0,"Helio G25, Octa Core, 2 GHz Processor",13.0,Android v11,61.0
+Apple iPhone 13 Pro Max (1TB),179900,6.0,"Bionic A15, Hexa Core, 3.22 GHz Processor",12.0,iOS v15,86.0
+Vivo Y12G (3GB RAM + 64GB),11990,3.0,"Snapdragon  439 , Octa Core, 2 GHz Processor",13.0,Android v11,68.0
+Vivo V23e,26990,8.0,"Helio G96, Octa Core, 2.05 GHz Processor",64.0,Android v11,82.0
+Samsung Galaxy F22 (6GB RAM + 128GB),13499,6.0,"Helio G80, Octa Core, 2 GHz Processor",48.0,Android v11,76.0
+Xiaomi 12 Ultra 5G,75999,12.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,
+Micromax IN 2C,5999,3.0,"Tiger T610, Octa Core, 1.8 GHz Processor",8.0,Android v11,60.0
+Samsung Galaxy A03s,8499,3.0,"Helio P35, Octa Core, 2.3 GHz Processor",13.0,Android v11,67.0
+OPPO A54 (4GB RAM + 128GB),11990,4.0,"Helio P35, Octa Core, 2.3 GHz Processor",13.0,Android v10,71.0
+Xiaomi Redmi 20X,10990,4.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",48.0,Android v10,77.0
+Xiaomi Mi Mix Fold,109990,12.0,"Snapdragon  888 , Octa Core, 2.84 GHz Processor",,Android v10,
+Realme Narzo 30 5G,16999,6.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",48.0,Android v11,80.0
+OPPO A54,12199,4.0,"Helio P35, Octa Core, 2.3 GHz Processor",13.0,Android v10,70.0
+Oppo A15s (4GB RAM + 128GB),11490,4.0,"Helio P35 , Octa Core, 2.3 GHz Processor",13.0,Android v10,72.0
+itel A56,5490,1.0,"Quad Core, 1.3 GHz Processor",8.0,Android v9.0 (Pie),
+Xiaomi Redmi 9 Power,11499,4.0,"Snapdragon  662 , Octa Core, 2 GHz Processor",48.0,Android v10,74.0
+Samsung Galaxy S21 Plus,59450,8.0,"Exynos 2100, Octa Core, 2.9 GHz Processor",64.0,No FM Radio,88.0
+POCO M2 Pro,12799,4.0,"Snapdragon 720G, Octa Core, 2.3 GHz Processor",48.0,Android v10.0,76.0
+Samsung Galaxy S20 Plus,83000,8.0,"Exynos 990, Octa Core, 2.73 GHz Processor",64.0,Android v10,88.0
+Realme 6 Pro,14490,6.0,"Snapdragon 720G, Octa Core, 2.3 GHz Processor",64.0,Android v10,80.0
+Huawei P40 Pro,82990,8.0,"Kirin 990, Octa Core, 2.86 GHz Processor",50.0,Android v10.0,
+Vivo Y11 (2019),9490,3.0,"Snapdragon 439, Octa Core, 2 GHz Processor",13.0,Android v9.0 (Pie),64.0
+Vivo V15 Pro (8GB RAM +128GB),25000,8.0,"Snapdragon 675, Octa Core, 2 GHz Processor",48.0,Android v9.0 (Pie),78.0
+Vivo Y95,15000,4.0,"Snapdragon 439, Octa Core, 1.95 GHz Processor",13.0,Android v8.1 (Oreo),65.0
+Vivo V11i,20990,4.0,"Helio P60, Octa Core, 2 GHz Processor",16.0,Android v8.1 (Oreo),70.0
+Samsung Galaxy S9 Plus (128GB),34999,6.0,"Exynos 9810, Octa Core, 2.8 GHz Processor",12.0,Android v8.0 (Oreo),78.0
+Realme GT Neo 4T,29999,8.0,"Snapdragon 8 Gen1, Octa Core, 3 GHz Processor",50.0,No FM Radio,80.0
+Vivo Y53t,11999,4.0,"Dimensity 700, Octa Core, 2 GHz Processor",13.0,Android v13,67.0
+Samsung Galaxy A04 (4GB RAM + 128GB),12999,4.0,"Helio P35, Octa Core, 2.3 GHz Processor",50.0,Android v12,72.0
+Leitz Phone 2,124990,12.0,"Snapdragon  8 Gen1, Octa Core, 3 GHz Processor",47.0,Android v12,89.0
+Xiaomi Redmi K60i,28999,8.0,"Dimensity  8200, Octa Core, 3.1 GHz Processor",50.0,Bluetooth,85.0
+Infinix Hot 20S,12999,8.0,"Helio G96, Octa Core, 2.05 GHz Processor",50.0,Android v12,77.0
+Realme GT Neo 3T (8GB RAM + 256GB),28499,8.0,"Snapdragon 870, Octa Core, 3.2 GHz Processor",64.0,No FM Radio,82.0
+Apple iPhone 14 Plus (512GB),104999,6.0,"Bionic A15, Hexa Core, 3.22 GHz Processor",12.0,iOS v16,83.0
+Apple iPhone 14 Pro (1TB),172999,6.0,"Bionic  A16, Hexa Core Processor",48.0,iOS v16,77.0
+Xiaomi Redmi 13 Prime 5G,17990,6.0,"Snapdragon 4 Gen 1, Octa Core, 2 GHz Processor",64.0,Android v13,79.0
+Xiaomi Redmi 11 Prime (6GB RAM + 128GB),13774,6.0,"Helio G99, Octa Core, 2.2 GHz Processor",50.0,Android v12,76.0
+itel Magic X,2239,117.0,No 3G,2.0,"Memory Card Supported, upto 64 GB",
+Nokia C21 Plus (4GB RAM + 64GB),8999,4.0,"Unisoc  SC9863A, Octa Core, 1.6 GHz Processor",13.0,Android v11,64.0
+OnePlus Nord N300,18990,4.0,"Dimensity 810 5G, Octa Core, 2.4 GHz Processor",48.0,Android v12,75.0
+Tecno Camon 19 Neo,14999,6.0,"Helio  G85, Octa Core, 2 GHz Processor",48.0,Bluetooth,77.0
+Realme Narzo 50i Prime,7999,3.0,"Tiger T612, Octa Core, 1.82 GHz Processor",8.0,Android v11,61.0
+Xiaomi Redmi K50 Ultra 5G,39999,8.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",108.0,No FM Radio,85.0
+OPPO A57 4G,11990,3.0,"Helio G35, Octa Core, 2.3 GHz Processor",13.0,Android v12,67.0
+Infinix Note 12 (6GB RAM + 128GB),12999,6.0,"Helio G88, Octa Core, 2 GHz Processor",50.0,Android v11,77.0
+Samsung Galaxy S23 FE 5G,54999,8.0,Octa Core Processor,64.0,Android v12,77.0
+Samsung Galaxy M51s 5G,24990,6.0,Octa Core Processor,64.0,Android v12,72.0
+Vivo X80 5G (12GB RAM + 256GB),59999,12.0,"Dimensity  9000, Octa Core, 3.05 GHz Processor",50.0,Android v12,88.0
+Poco X6 Pro 5G,19999,6.0,"Snapdragon 778G+, Octa Core Processor",64.0,Android v12,72.0
+Infinix Note 12 (G96),16999,8.0,"Helio G96, Octa Core, 2.05 GHz Processor",50.0,Android v12,79.0
+Samsung Galaxy M14,14999,4.0,"Exynos 1330, Octa Core Processor",48.0,Android v13,60.0
+Vivo T2 Pro 5G,29990,8.0,"Snapdragon  778G+, Octa Core Processor",50.0,Android v12,76.0
+Xiaomi Redmi 10 Prime Plus 5G,13990,4.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",50.0,Android v11,69.0
+Xiaomi Redmi Note 11 Pro 4G,17999,6.0,"Helio  G96, Octa Core, 2.05 GHz Processor",108.0,Android v11,81.0
+Realme Narzo 50A Prime,11399,4.0,"Tiger T612, Octa Core, 1.82 GHz Processor",50.0,Android v11,73.0
+Eunity U1 King,599,32.0,1.77 MHz Processor,0.0,,
+Vivo Y55s 5G,19990,8.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",50.0,Bluetooth,79.0
+Vivo Y21T,15499,4.0,"Snapdragon 680 , Octa Core, 2.4 GHz Processor",50.0,Android v11,74.0
+Gionee K10,6999,3.0,"Tiger  T310, Quad Core, 2 GHz Processor",13.0,Android v10,
+Xiaomi Redmi Note 10 Lite (4GB RAM + 128GB),12499,4.0,"Snapdragon 720G, Octa Core, 2.3 GHz Processor",48.0,Android v10.0,77.0
+Apple iPhone 13 (512GB),91999,4.0,"Bionic A15, Hexa Core, 3.22 GHz Processor",12.0,iOS v15,80.0
+Infinix Hot 11S,9690,4.0,"Helio G88, Octa Core, 2 GHz Processor",50.0,Android v11,71.0
+Realme GT Explorer Master Edition,32990,8.0,"Snapdragon  870, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,85.0
+Xiaomi Mi 12 5G,42990,8.0,"Snapdragon 8 Gen1, Octa Core, 3 GHz Processor",50.0,No FM Radio,87.0
+CAT S22 Flip,14999,2.0,"Qualcomm 215, Quad Core, 1.3 GHz Processor",,"Memory Card Supported, upto 128 GB",
+Xiaomi Mi 11 Lite (8GB RAM + 128GB),18699,8.0,"Snapdragon 732G , Octa Core, 2.3 GHz Processor",64.0,Android v11,82.0
+DIZO Star 500,1749,32.0,"SC6531E, 26 MHz Processor",0.0,Bluetooth,
+Realme Q3i 5G,10990,4.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",48.0,Android v11,76.0
+Xiaomi Mi 11X Pro,30990,8.0,"Snapdragon 888, Octa Core, 2.84 GHz Processor",108.0,No FM Radio,85.0
+Lenovo Legion Pro 2,59999,16.0,"Snapdragon  888, Octa Core, 2.84 GHz Processor",64.0,No FM Radio,89.0
+Samsung Galaxy M62,23999,6.0,"Exynos 9825, Octa Core, 2.73 GHz Processor",64.0,Android v11,83.0
+Realme Q2i,9999,4.0,"Dimensity 720, Octa Core, 2 GHz Processor",13.0,No FM Radio,69.0
+Nokia 215 4G,3099,64.0,Unisoc T117,,RTOS (Series 30+),
+Apple iPhone 12 Pro (256GB),119900,6.0,"Bionic A14, Hexa Core, 3.1 GHz Processor",,No FM Radio,80.0
+Xiaomi Redmi 9i (4GB RAM + 128GB),9299,4.0,"Helio G25, Octa Core, 2 GHz Processor",13.0,Android v10,67.0
+Realme 6 (6GB RAM + 64GB),12989,6.0,"Helio   G90T , Octa Core, 2.05 GHz Processor",64.0,Android v10,77.0
+Samsung Galaxy A01 Core,4999,1.0,"(28 nm), Quad Core, 1.5 GHz Processor",8.0,Android v10,
+LG Folder 2,11999,1470.0,"1 GB RAM, 8 GB inbuilt",,,
+Oppo Reno 5,29990,8.0,"Snapdragon  765G , Octa Core, 2.4 GHz Processor",64.0,Bluetooth,83.0
+Oppo A31 2020 (6GB RAM + 128GB),12490,6.0,"Helio P35, Octa Core, 2.3 GHz Processor",12.0,Android v9.0 (Pie),72.0
+Sony Xperia 10 II,27999,4.0,"Snapdragon  665, Octa Core, 2 GHz Processor",12.0,Android v10.0,75.0
+Vivo Y91c,8199,2.0,"Helio P22, Octa Core, 2 GHz Processor",13.0,Android v8.1 (Oreo),
+Huawei Nova 7i,21990,8.0,"Kirin  810, Octa Core, 2.2 GHz Processor",48.0,Android v10,81.0
+Vivo Y19,20000,4.0,"Helio  P65 , Octa Core, 2 GHz Processor",16.0,Android v9.0 (Pie),73.0
+Vivo U3 (6GB RAM + 64GB),11990,6.0,"Snapdragon  675, Octa Core, 2 GHz Processor",16.0,Android v9.0 (Pie),74.0
+Xiaomi Redmi Note 9,11989,4.0,"Helio G85, Octa Core, 2 GHz Processor",48.0,Android v10.0,75.0
+Xiaomi Redmi 8 (4GB RAM + 64GB),11490,4.0,"Snapdragon 439, Octa Core, 2 GHz Processor",12.0,Android v9.0 (Pie),66.0
+Motorola One Macro,11490,4.0,"Helio P70, Octa Core, 2 GHz Processor",13.0,Android v9.0 (Pie),68.0
+Google Pixel 3a XL,15999,4.0,"Qualcomm Snapdragon 670, Octa Core, 2 GHz Processor",12.0,No FM Radio,67.0
+Samsung Galaxy A40,17990,4.0,"Samsung Exynos 7885, Octa Core, 2.2 GHz Processor",16.0,Android v9.0 (Pie),69.0
+Samsung Galaxy S10 5G,78990,8.0,"Exynos 9820, Octa Core, 2.7 GHz Processor",16.0,Android v9.0 (Pie),86.0
+Huawei Honor 9N,10949,4.0,"Kirin 659, Octa Core, 2.36 GHz Processor",13.0,Android v8.0 (Oreo),66.0
+Xiaomi Redmi Note 4,10300,4.0,"Qualcomm Snapdragon 625, Octa Core, 2 GHz Processor",13.0,Android v6.0 (Marshmallow),65.0
+BlackZone Ultra 4G,1899,48.0,"Single Core, 1 GHz Processor",2.0,Bluetooth,
+Doogee V Max,45999,12.0,"Dimensity 1080, Octa Core, 2.6 GHz Processor",108.0,Android v12,88.0
+Huawei Nova Y61,21990,4.0,Octa Core Processor,50.0,EMUI v12,63.0
+iQOO Z9,19990,8.0,"Snapdragon  7 Gen2, Octa Core Processor",64.0,Android v13,76.0
+Vivo V29,32990,8.0,"Snapdragon  7 Gen1, Octa Core, 2.4 GHz Processor",64.0,Android v13,84.0
+Poco M5 (6GB RAM + 128GB),14499,6.0,"Helio G99, Octa Core, 2.2 GHz Processor",50.0,Android v12,77.0
+Nokia X30,41990,6.0,"Snapdragon  695, Octa Core, 2.2 GHz Processor",50.0,Android v12,85.0
+Tecno Pova Neo 2,13990,6.0,"Helio G85, Octa Core, 2 GHz Processor",16.0,Android v12,67.0
+Nokia 110 (2022),1599,4.0,No Wifi,32.0,,
+Nokia 5710 XpressAudio,4799,107.0,No Wifi,2.0,"Memory Card Supported, upto 32 GB",
+Vivo Y15C (3GB RAM + 64GB),10490,3.0,"Helio P35, Octa Core, 2.3 GHz Processor",13.0,Android v12,67.0
+Huawei Nova 10,29990,8.0,"Snapdragon 778G, Octa Core, 2.4 GHz Processor",50.0,No FM Radio,82.0
+Huawei Nova Y90,22990,8.0,"Snapdragon  680, Octa Core, 2.4 GHz Processor",50.0,EMUI v12,82.0
+Samsung Galaxy A92 5G,47990,8.0,"Dimensity 1300, Octa Core, 3 GHz Processor",48.0,Android v12,80.0
+Infinix Note 12 VIP,19999,8.0,"Helio  G96, Octa Core, 2.05 GHz Processor",108.0,Android v12,84.0
+OnePlus Nord 4 5G,29999,8.0,"Snapdragon  7 Gen1, Octa Core, 2.36 GHz Processor",50.0,No FM Radio,83.0
+Realme Narzo 50A Prime (4GB RAM + 128GB),11879,4.0,"Tiger T612, Octa Core, 1.82 GHz Processor",50.0,Android v11,74.0
+OnePlus Ace 5G,28990,8.0,"Dimensity 8100 Max, Octa Core, 2.85 GHz Processor",50.0,No FM Radio,84.0
+iQOO 9 5G (12GB RAM + 256GB),39990,12.0,"Snapdragon  888+, Octa Core, 2.9 GHz Processor",48.0,No FM Radio,85.0
+Xiaomi Redmi Note 12T 5G,15999,6.0,"Dimensity 720, Octa Core, 2 GHz Processor",64.0,Android v12,78.0
+Oppo A96 5G,22990,8.0,"Snapdragon 695 , Octa Core, 2.2 GHz Processor",48.0,Android v11,82.0
+Royole FlexPai 3 5G,149999,8.0,"Snapdragon 888, Octa Core, 2.84 GHz Processor",,"Memory Card Supported, upto 256 GB",87.0
+Tecno Camon 18,11499,4.0,"Helio  G88, Octa Core, 2 GHz Processor",48.0,Bluetooth,75.0
+Tecno Phantom X Pro,22999,8.0,"Helio G95, Octa Core, 2.05 GHz Processor",50.0,Bluetooth,84.0
+Tecno Spark 8T,7999,4.0,"Helio G35, Octa Core, 2.3 GHz Processor",50.0,Android v11,70.0
+Realme GT Neo2 5G,31999,8.0,"Snapdragon 870, Octa Core, 3.2 GHz Processor",64.0,No FM Radio,82.0
+Sony Xperia 10 III Lite 5G,30990,6.0,"Snapdragon  690 , Octa Core, 2 GHz Processor",12.0,Android v11,78.0
+Realme G1,7999,3.0,"Helio G35, Octa Core, 2.3 GHz Processor",13.0,Android v11,64.0
+Tecno Pova 2,10999,4.0,"Helio G85, Octa Core, 2 GHz Processor",48.0,Android v11,74.0
+Poco X4,14990,6.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",50.0,Android v12,79.0
+Motorola Moto G40 Fusion,14499,4.0,"Snapdragon  732G, Octa Core, 2.3 GHz Processor",64.0,Android v11,77.0
+OnePlus 9T,44999,8.0,"Snapdragon 888, Octa Core, 2.84 GHz Processor",108.0,Android v11,86.0
+Realme 8 (8GB RAM + 128GB),17999,8.0,"Helio G95, Octa Core, 2 GHz Processor",64.0,Android v11,83.0
+Realme Narzo 30 Pro 5G (8GB RAM +128GB),19999,8.0,"Dimensity 800U, Octa Core, 2.4 GHz Processor",48.0,Android v10,83.0
+Itel A23 Pro,3999,1.0,"Spreadtrum  SC9832E , Quad Core, 1.4 GHz Processor",5.0,No FM Radio,
+Samsung Galaxy S21 Ultra 5G (12GB RAM + 128GB),101999,12.0,"Exynos  2100, Octa Core, 2.9 GHz Processor",108.0,No FM Radio,
+Oppo Reno 5 Pro 5G,38700,8.0,"Dimensity 1000+, Octa Core, 2.6 GHz Processor",64.0,Bluetooth,84.0
+OnePlus Nord SE,19999,4.0,"Snapdragon 665, Octa Core, 2 GHz Processor",48.0,Android v10,73.0
+Samsung Galaxy M12,10999,4.0,"Exynos  850, Octa Core, 2 GHz Processor",48.0,Android v11,72.0
+OnePlus Nord N100,16990,4.0,"Snapdragon 460, Octa Core, 1.8 GHz Processor",13.0,Android v10,68.0
+Apple iPhone 12 Mini (256GB),55999,4.0,"Bionic A14, Hexa Core, 3.1 GHz Processor",,No FM Radio,75.0
+Apple iPhone 12 (256GB),67999,4.0,"Bionic A14, Hexa Core, 3.1 GHz Processor",,No FM Radio,76.0
+OPPO A15,9999,3.0,"Helio P35, Octa Core, 2.3 GHz Processor",13.0,Android v10.0,66.0
+Xiaomi Redmi Note 9 Pro (4GB RAM + 128GB),14439,4.0,"Snapdragon 720G, Octa Core, 2.3 GHz Processor",48.0,Android v10.0,77.0
+Nokia 150 (2020),2499,4.0,No Wifi,0.0,Bluetooth,
+Oppo A12,9990,3.0,"Helio P35, Octa Core, 1.8 GHz Processor",13.0,Android v9.0 (Pie),64.0
+Realme X50 Pro 5G (8GB RAM + 128GB),24999,8.0,"Snapdragon 865, Octa Core, 2.84 GHz Processor",64.0,Android v10,85.0
+Samsung Galaxy S20 Plus 5G,85990,8.0,"Exynos 990, Octa Core, 2.73 GHz Processor",64.0,Android v10,
+Xiaomi Redmi K20 Pro Signature Edition,480000,8.0,"Snapdragon  855, Octa Core, 2.8 GHz Processor",48.0,Android v9.0 (Pie),88.0
+Xiaomi Redmi Note 8 Pro,16999,6.0,"Helio  G90T, Octa Core, 2.05 GHz Processor",64.0,Android v9.0 (Pie),78.0
+Realme A1,8999,2.0,"Helio P70, Octa Core, 2.1 GHz Processor",13.0,Android v8.1 (Oreo),
+OPPO A73,15990,3.0,"Helio P23, Octa Core, 2.5 GHz Processor",13.0,Android v7.1 (Nougat),62.0
+Nokia 3310 4G,3999,1200.0,"256 MB RAM, 512 MB inbuilt",32.0,Browser,
+Lyf Earth 2,3890,3.0,"Snapdragon MSM8939, Octa Core, 1.5 GHz Processor",13.0,Android v5.1.1 (Lollipop),
+Samsung Guru E1200,1685,800.0,No Wifi,,,
+Apple iPhone 15 Plus,84990,8.0,"Bionic A16, Hexa Core Processor",12.0,iOS v16,75.0
+Vivo Y55s 2023,21999,4.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",50.0,Android v12,78.0
+iKall K88 Pro 4G,2099,1800.0,"48 MB RAM, 128 MB inbuilt",128.0,Browser,
+Lava Blaze NXT,8999,4.0,"Helio G37, Octa Core, 2.3 GHz Processor",13.0,Android v12,66.0
+Eunity U1 Livo,649,16.0,1.77 MHz Processor,0.0,,
+Tecno Camon 20 Premier,20999,6.0,"Dimensity  700 5G, Octa Core, 2.2 GHz Processor",50.0,Bluetooth,79.0
+OPPO Reno 8 House of Dragon Edition,32990,8.0,"Dimensity 1300, Octa Core, 3 GHz Processor",50.0,No FM Radio,84.0
+Motorola Moto E22s,9022,4.0,"Helio G37, Octa Core, 2.3 GHz Processor",16.0,Android v12,70.0
+Xiaomi Redmi A1 Plus (3GB RAM + 32GB),8399,3.0,"Helio A22, Quad Core, 2 GHz Processor",8.0,Android v12,61.0
+Infinix Hot 20i,9999,3.0,"Helio G25, Octa Core, 2 GHz Processor",13.0,Android v12,64.0
+Tecno Spark 9 (3GB RAM + 64GB),8390,3.0,"Helio G37, Octa Core, 2.3 GHz Processor",13.0,Android v12,63.0
+ZTE Axon 30S,19999,6.0,"Snapdragon 870 , Octa Core, 3.2 GHz Processor",50.0,Android v12,82.0
+Honor X6,13999,4.0,"Helio G25, Octa Core, 2 GHz Processor",50.0,Android v12,71.0
+Xiaomi Civi 2,29999,8.0,"Snapdragon 7 Gen1, Octa Core, 2.4 GHz Processor",50.0,No FM Radio,85.0
+TCL Ion X,8990,3.0,"Helio G25, Octa Core, 2 GHz Processor",13.0,Android,60.0
+Samsung Galaxy Z Fold 4 (12GB RAM + 1TB),163980,12.0,"Snapdragon  8+ Gen1, Octa Core, 3.2 GHz Processor",,Android v12,
+Nothing Phone 1 Lite,24990,6.0,"Snapdragon 778G Plus, Octa Core, 2.5 GHz Processor",50.0,No FM Radio,80.0
+Motorola Moto Edge X30 Pro,59990,8.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",200.0,No FM Radio,
+OnePlus Ace Pro,47990,12.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,86.0
+Realme GT 2 Explorer Master Edition,40990,8.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",50.0,Bluetooth,86.0
+Samsung Galaxy M35,22999,8.0,Octa Core Processor,64.0,Android v12,74.0
+Samsung Galaxy A05,12990,4.0,Octa Core Processor,48.0,Android v12,63.0
+Infinix Note 12 Turbo,14999,8.0,"Helio G96, Octa Core, 2 GHz Processor",50.0,Android v12,79.0
+POCO F5 GT 5G,42999,8.0,"Dimensity 1300, Octa Core, 3 GHz Processor",64.0,Android v12,86.0
+iQOO Z8 5G,14999,4.0,"Snapdragon  695 , Octa Core, 2.2 GHz Processor",50.0,Android v12,78.0
+Vivo Y55 4G,22990,8.0,"Snapdragon  680, Octa Core, 2.4 GHz Processor",50.0,Android v12,83.0
+Vivo X Fold 5G (12GB RAM + 512GB),118990,12.0,"Snapdragon 8 Gen1, Octa Core, 3 GHz Processor",,Android v12,
+Oppo K10 Pro 5G,29990,8.0,"Snapdragon 888, Octa Core, 2.84 GHz Processor",50.0,Android v12,81.0
+Tecno Spark 8C,7399,3.0,"Unisoc  T606, Octa Core, 2 GHz Processor",13.0,Android v11,62.0
+iQOO Z7 5G,17999,8.0,"Snapdragon  695, Octa Core, 2.2 GHz Processor",50.0,Android v12,80.0
+Infinix Note 11 (6GB RAM + 128GB),12799,6.0,"Helio G88, Octa Core, 2 GHz Processor",50.0,Android v11,77.0
+Xiaomi 11i HyperCharge 5G (8GB RAM + 128GB),26999,8.0,"Dimensity  920 5G, Octa Core, 2.5 GHz Processor",108.0,Android v11,86.0
+Samsung Galaxy F42 5G (8GB RAM + 128GB),22999,8.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",64.0,Android v11,82.0
+Apple iPhone 13 Pro (1TB),147900,6.0,"Bionic A15, Hexa Core, 3.22 GHz Processor",12.0,iOS v15.0,84.0
+Nubia Red Magic 6S 5G,44999,8.0,"Snapdragon 888+, Octa Core, 2.9 GHz Processor",64.0,No FM Radio,84.0
+Micromax IN 2B (6GB RAM + 64GB),7790,6.0,"Unisoc  T610, Octa Core, 1.8 GHz Processor",13.0,Android v11,68.0
+Nokia X60 5G,39990,6.0,"Snapdragon  870, Octa Core, 3.2 GHz Processor",200.0,Harmony v2.0,87.0
+Vivo Y12a,9999,3.0,"Snapdragon  439 , Octa Core, 2 GHz Processor",13.0,Android v11,65.0
+Oppo Reno 5A,22990,6.0,"Snapdragon 765G, Octa Core, 2.4 GHz Processor",64.0,Android v11,80.0
+Poco F3 GT,32999,6.0,"Dimensity 1200, Octa Core, 3 GHz Processor",64.0,No FM Radio,79.0
+Honor 50,32990,6.0,"Snapdragon 778G, Octa Core, 2.4 GHz Processor",108.0,Android v11,85.0
+OPPO A54 (6GB RAM + 128GB),14999,6.0,"Helio P35, Octa Core, 2.3 GHz Processor",13.0,Android v10,74.0
+Realme 8i,12499,4.0,"Helio G96, Octa Core, 2.05 GHz Processor",50.0,Android v11,74.0
+iQOO 7 Legend,39990,8.0,"Snapdragon  888 , Octa Core, 2.84 GHz Processor",48.0,No FM Radio,84.0
+Realme C11 2021,6499,2.0,"SC9863A, Octa Core, 1.6 GHz Processor",8.0,Android v11,61.0
+Samsung Galaxy A22,18499,6.0,"Helio G80, Octa Core, 2 GHz Processor",48.0,Android v11,76.0
+Realme GT 5G,30994,8.0,"Snapdragon  888 , Octa Core, 2.84 GHz Processor",64.0,No FM Radio,85.0
+Google Pixel 5A,32999,6.0,"Snapdragon 765G, Octa Core, 2.4 GHz Processor",16.0,No FM Radio,78.0
+Samsung Galaxy F12,10499,4.0,"Exynos 850, Octa Core, 2 GHz Processor",48.0,Android v11,73.0
+Samsung Galaxy F41 (6GB RAM + 128GB),19999,6.0,"Exynos 9611, Octa Core, 2.3 GHz Processor",64.0,Android v10.0,82.0
+Samsung Galaxy A21s (6GB RAM + 128GB),17499,6.0,"Exynos 850, Octa Core, 2 GHz Processor",48.0,Android v10,75.0
+Xiaomi Redmi 9A (6GB RAM + 128GB),10990,6.0,"Helio G25, Octa Core, 2 GHz Processor",13.0,Android v10,69.0
+Vivo V20 SE,19000,8.0,"Snapdragon  665, Octa Core, 2 GHz Processor",48.0,Android v10.0,82.0
+OPPO A53 2020 (6GB RAM + 128GB),13990,6.0,"Snapdragon 460, Octa Core, 1.8 GHz Processor",13.0,Android v10,70.0
+Realme Narzo 20,10499,4.0,"Helio G85 , Octa Core, 2 GHz Processor",48.0,Android v10,72.0
+itel Vision 1 (3GB RAM + 32GB),5890,3.0,"Unisoc  A55, Octa Core, 1.6 GHz Processor",8.0,Android v9 (Pie),
+Realme C11,6490,2.0,"Helio G35, Octa Core, 2.3 GHz Processor",13.0,Android v10,61.0
+Xiaomi Mi 10 5G (8GB RAM + 256GB),54999,8.0,"Snapdragon  865 , Octa Core, 2.84 GHz Processor",108.0,Android v10.0,88.0
+Vivo Y21 (2020),9990,4.0,"Snapdragon 450, Octa Core, 1.8 GHz Processor",13.0,Android v10,65.0
+OnePlus Z,24999,8.0,"Snapdragon 765G, Octa Core, 2.4 GHz Processor",64.0,Android v10,79.0
+Nokia 5310 Dual Sim,3399,1200.0,"8 MB RAM, 16 MB inbuilt",32.0,Browser,
+Sharp Aquos R5G,59990,12.0,"Snapdragon 865, Octa Core, 2.84 GHz Processor",48.0,Android v10,88.0
+Huawei Mate 30 RS Porsche Design,214990,12.0,"Kirin  990, Octa Core, 2.86 GHz Processor",40.0,Android v10,
+Samsung Galaxy A11,9990,2.0,"Octa Core, 1.8 GHz Processor",13.0,Android v10,63.0
+Realme C2,6999,2.0,"Helio P22, Octa Core, 2 GHz Processor",13.0,Android v9.0 (Pie),
+Huawei Mate X,169000,8.0,"Kirin  990, Octa Core, 2.86 GHz Processor",,"Memory Card (Hybrid), upto 256 GB",
+Samsung Galaxy A9 Pro (2019),39990,6.0,"Snapdragon 710, Octa Core, 2.2 GHz Processor",24.0,Android v9.0 (Pie),78.0
+Samsung Galaxy A7 (2018),21490,4.0,"Exynos 7885, Octa Core, 2.2 GHz Processor",24.0,Android v8.0 (Oreo),70.0
+Vivo Y55S,13490,3.0,"Snapdragon 425, Quad Core, 1.2 GHz Processor",13.0,Android v6.0 (Marshmallow),
+Poco C55,7999,4.0,"Helio  G85, Octa Core, 2 GHz Processor",50.0,Android v12,70.0
+Blackview BV5200 Pro,8990,4.0,"Helio G35, Octa Core, 2.3 GHz Processor",13.0,Android v12,67.0
+Honor X7a,13999,6.0,"Helio G37, Octa Core, 2.3 GHz Processor",50.0,Android v12,75.0
+OPPO A58x,13990,6.0,"Dimensity 700 5G, Octa Core, 2.2 GHz Processor",13.0,Android v12,72.0
+Doogee S99,14999,8.0,"Helio G96, Octa Core, 2.05 GHz Processor",108.0,Android v12,84.0
+Lava X3,6999,3.0,"Helio A22, Quad Core, 2 GHz Processor",8.0,Android v12,
+Motorola Edge 40 Fusion,42990,8.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",50.0,Android v13,87.0
+iKall Z18,6799,4.0,"Quad Core, 1.3 GHz Processor",20.0,Android v10.0,61.0
+Oukitel WP9,25899,6.0,"Helio P60, Octa Core, 2 GHz Processor",16.0,Android v10,72.0
+Xiaomi 14,54999,12.0,"Snapdragon 8 Gen2, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,89.0
+Motorola ThinkPhone,49990,8.0,"Snapdragon 8+ Gen1, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,89.0
+Xiaomi Civi 3,32990,8.0,"Dimensity 8200, Octa Core, 3.1 GHz Processor",64.0,No FM Radio,86.0
+Realme Narzo 50i Prime (4GB RAM + 64GB),8720,4.0,"Tiger T612, Octa Core, 1.82 GHz Processor",8.0,Android v11,64.0
+Oppo Find X6,69990,8.0,"Snapdragon 8 Gen2, Octa Core, 3.2 GHz Processor",50.0,No FM Radio,89.0
+itel A23s,4787,2.0,"Spreadtrum  SC9832E, Quad Core, 1.4 GHz Processor",2.0,No FM Radio,
+Google Pixel 8 Pro,70990,12.0,"Google  Tensor 3, Octa Core Processor",50.0,No FM Radio,80.0
+Vivo X Fold 2,119990,12.0,"Snapdragon 8 Gen2, Octa Core, 3.2 GHz Processor",,Android v12,
+Motorola Moto Edge S30 Pro,34990,8.0,"Snapdragon 8 Gen1, Octa Core, 3 GHz Processor",64.0,No FM Radio,83.0
+Honor X8 5G,14990,6.0,"Snapdragon  480+, Octa Core, 2.2 GHz Processor",48.0,Android v11,75.0
+POCO X4 GT 5G (8GB RAM + 256GB),28990,8.0,"Dimensity 8100, Octa Core, 2.85 GHz Processor",64.0,Android v12,85.0
+Motorola Moto G91 5G,19990,6.0,"Snapdragon 695, Octa Core, 2.2 GHz Processor",108.0,Android v12,80.0
+Samsung Galaxy M52s 5G,24990,8.0,Octa Core Processor,64.0,Android v12,74.0
