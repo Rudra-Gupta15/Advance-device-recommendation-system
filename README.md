@@ -1,6 +1,7 @@
 # Smart Device Recommendation System 💻📱
 
-VersusTech is a full-stack web application designed to simplify the electronics buying process. By leveraging a custom Python recommendation engine, it analyzes technical specifications (RAM, CPU, GPU) and budget constraints to provide users with tailored mobile and laptop suggestions.
+
+Advance-device-recommendation-system is a full-stack web application designed to simplify the electronics buying process. By leveraging a custom Python recommendation engine, it analyzes technical specifications (RAM, CPU, GPU) and budget constraints to provide users with tailored mobile and laptop suggestions.
 
 ## ✨ Features
 
