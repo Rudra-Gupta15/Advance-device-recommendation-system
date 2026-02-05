@@ -1,32 +1,67 @@
-# VersusTech | Smart Device Recommendation System 💻📱
+✨ Features
+Dual-Category Intelligence: Specialized recommendation logic optimized for both Mobile and Laptop hardware.
 
-VersusTech is a full-stack web application designed to help users navigate the crowded electronics market. By leveraging a Python-based recommendation engine, users can find the perfect mobile or laptop based on budget, technical specifications (RAM, CPU, GPU), and specific usage preferences.
+Spec-Driven Filtering: Filter by budget, brand, storage, and specialized hardware (e.g., RTX Graphics for gaming).
 
+Advanced Mode: Toggle between general user-friendly advice and spec-heavy technical filtering.
 
-## ✨ Features
+Side-by-Side Comparison: Integrated tool to compare two specific devices to assist in final decision-making.
 
--   **Dual-Category Support:** Specialized recommendation logic for both Mobiles and Laptops.
--   **Smart Filtering:** Filter by budget, brand, RAM, storage, and even specific needs like "RTX Graphics" for gamers.
--   **Advanced Mode:** Toggle between general recommendations and spec-heavy technical filtering.
--   **Product Comparison:** Side-by-side analysis of two devices to help make the final decision.
--   **Direct Marketplace Links:** Automatically generates search links for Amazon, Flipkart, and Official brand sites.
+Marketplace Integration: Dynamically generates search links for major platforms like Amazon and Flipkart.
 
-## 🛠️ Tech Stack
+Extensive Testing Suite: Includes various unit and flow tests (e.g., test_laptop_flow.py, test_api.py) to ensure recommendation accuracy.
 
--   **Frontend:** HTML5, CSS3 (Modern UI with Inter font), JavaScript (ES6+).
--   **Backend:** Python 3.x, Flask, Flask-CORS.
--   **Data Management:** CSV-based dataset for lightweight and fast processing.
+🛠️ Tech Stack
+Frontend: HTML5, CSS3 (Modern UI), JavaScript (ES6+), Inter Font.
 
-## 📁 Project Structure
+Backend: Python 3.x, Flask, Flask-CORS.
 
-```text
-├── data/                   # Raw datasets for laptops and mobiles
+Data Handling: Pandas for processing CSV-based datasets.
+
+📁 Project Structure
+Plaintext
+device-recommendation/
 ├── versustech/
-│   ├── backend/            # Flask API and Recommendation Logic
-│   │   ├── app.py          # Main API Entry point
-│   │   └── recommender.py  # Core recommendation algorithm
-│   └── frontend/           # UI Components
-│       ├── index.html      # Landing Page
-│       ├── form.html       # Preference Input
-│       └── script.js       # API Integration & UI Logic
-└── requirements.txt        # Python dependencies
+│   ├── backend/             # Flask API & Business Logic
+│   │   ├── app.py           # Main Entry Point
+│   │   ├── recommender.py   # Core Recommendation Engine
+│   │   └── data/            # Local CSV Datasets
+│   └── frontend/            # User Interface
+│       ├── index.html       # Landing Page
+│       ├── form.html        # Specification Input
+│       ├── results.html     # Recommendation Display
+│       ├── script.js        # API Integration & UI Logic
+│       └── style.css        # Custom Styling
+├── tests/                   # Extensive Test Suite
+│   ├── test_laptop_flow.py  # End-to-end laptop logic test
+│   ├── test_api.py          # API Endpoint validation
+│   └── test_best_column.py  # Data processing validation
+├── Recording_2026.mp4       # Project Demo Video
+├── requirements.txt         # Project Dependencies
+└── README.md
+🚀 Getting Started
+1. Clone the repository
+Bash
+git clone https://github.com/your-username/device-recommendation.git
+cd device-recommendation
+2. Set up the Environment
+Bash
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# Linux/Mac
+source venv/bin/activate
+3. Install Dependencies
+Bash
+pip install -r requirements.txt
+4. Run the Application
+Start the backend: python versustech/backend/app.py
+
+Open versustech/frontend/index.html in your browser.
+
+🧪 Testing
+The project includes several test scripts to verify the recommendation logic. You can run them individually to ensure the backend is behaving as expected:
+
+Bash
+python test_laptop_flow.py
+python test_api.py
