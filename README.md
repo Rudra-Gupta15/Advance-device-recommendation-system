@@ -1,25 +1,25 @@
-✨ Features
-Dual-Category Intelligence: Specialized recommendation logic optimized for both Mobile and Laptop hardware.
+# VersusTech | Smart Device Recommendation System 💻📱
 
-Spec-Driven Filtering: Filter by budget, brand, storage, and specialized hardware (e.g., RTX Graphics for gaming).
+VersusTech is a full-stack web application designed to simplify the electronics buying process. By leveraging a custom Python recommendation engine, it analyzes technical specifications (RAM, CPU, GPU) and budget constraints to provide users with tailored mobile and laptop suggestions.
 
-Advanced Mode: Toggle between general user-friendly advice and spec-heavy technical filtering.
+## ✨ Features
 
-Side-by-Side Comparison: Integrated tool to compare two specific devices to assist in final decision-making.
+- **Dual-Category Intelligence**: Specialized recommendation logic optimized for both Mobile and Laptop hardware.
+- **Spec-Driven Filtering**: Filter by budget, brand, storage, and specialized hardware (e.g., RTX Graphics for gaming).
+- **Advanced Mode**: Toggle between general user-friendly advice and spec-heavy technical filtering.
+- **Side-by-side Comparison**: Integrated tool to compare two specific devices to assist in final decision-making.
+- **Marketplace Integration**: Dynamically generates search links for major platforms like Amazon and Flipkart.
+- **Extensive Testing Suite**: Includes various unit and flow tests to ensure recommendation accuracy.
 
-Marketplace Integration: Dynamically generates search links for major platforms like Amazon and Flipkart.
+## 🛠️ Tech Stack
 
-Extensive Testing Suite: Includes various unit and flow tests (e.g., test_laptop_flow.py, test_api.py) to ensure recommendation accuracy.
+- **Frontend**: HTML5, CSS3 (Modern UI), JavaScript (ES6+), Inter Font
+- **Backend**: Python 3.x, Flask, Flask-CORS
+- **Data Handling**: Pandas for processing CSV-based datasets
 
-🛠️ Tech Stack
-Frontend: HTML5, CSS3 (Modern UI), JavaScript (ES6+), Inter Font.
+## 📁 Project Structure
 
-Backend: Python 3.x, Flask, Flask-CORS.
-
-Data Handling: Pandas for processing CSV-based datasets.
-
-📁 Project Structure
-Plaintext
+```
 device-recommendation/
 ├── versustech/
 │   ├── backend/             # Flask API & Business Logic
@@ -39,29 +39,67 @@ device-recommendation/
 ├── Recording_2026.mp4       # Project Demo Video
 ├── requirements.txt         # Project Dependencies
 └── README.md
-🚀 Getting Started
-1. Clone the repository
-Bash
+```
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/your-username/device-recommendation.git
 cd device-recommendation
-2. Set up the Environment
-Bash
+```
+
+### 2. Set up the Environment
+
+```bash
 python -m venv venv
+
 # Windows
 venv\Scripts\activate
+
 # Linux/Mac
 source venv/bin/activate
-3. Install Dependencies
-Bash
+```
+
+### 3. Install Dependencies
+
+```bash
 pip install -r requirements.txt
-4. Run the Application
-Start the backend: python versustech/backend/app.py
+```
 
-Open versustech/frontend/index.html in your browser.
+### 4. Run the Application
 
-🧪 Testing
+**Start the backend:**
+
+```bash
+python versustech/backend/app.py
+```
+
+**Open the UI:** Open `versustech/frontend/index.html` in your web browser.
+
+## 🧪 Testing
+
 The project includes several test scripts to verify the recommendation logic. You can run them individually to ensure the backend is behaving as expected:
 
-Bash
+```bash
 python test_laptop_flow.py
 python test_api.py
+python test_best_column.py
+```
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📧 Support
+
+For issues, questions, or suggestions, please open an issue on GitHub.
+
+---
+
+Made with ❤️ by [Your Name/Team]
