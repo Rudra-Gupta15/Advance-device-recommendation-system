@@ -14,15 +14,92 @@ function toggleCategorySpecs() {
     const cpuGroup = document.getElementById('cpu-group');
     const cpuLabel = document.getElementById('cpu-label');
     const rtxGroup = document.getElementById('rtx-group');
+    const modeGroup = document.getElementById('mode-group'); // Added ID in form.html
+
+    const laptopMockup = document.getElementById('laptop-mockup-container');
+    const mobileMockup = document.getElementById('mobile-mockup-container');
+
+    const formTitle = document.getElementById('form-title');
 
     if (category === 'mobile') {
+        if (formTitle) formTitle.innerText = "Mobile Preferences";
         cpuLabel.innerText = "Minimum Processor Power";
+
+        // Hide specific elements for Mobile as requested
         rtxGroup.style.display = 'none';
+        if (modeGroup) modeGroup.style.display = 'none';
+        if (cpuGroup) cpuGroup.style.display = 'none'; // Remove processor power input
+
+        laptopMockup.style.display = 'none';
+        mobileMockup.style.display = 'block';
     } else {
+        if (formTitle) formTitle.innerText = "Laptop Preferences";
         cpuLabel.innerText = "Minimum CPU Power";
+
+        // Show elements for Laptop
         rtxGroup.style.display = 'flex';
+        if (modeGroup) modeGroup.style.display = 'block'; // Restore User Mode
+        if (cpuGroup) cpuGroup.style.display = 'block';   // Restore CPU Power
+
+        laptopMockup.style.display = 'flex';
+        mobileMockup.style.display = 'none';
+    }
+
+    // Filter Primary Use Options
+    const prefSelect = document.getElementById('preference');
+    if (prefSelect) {
+        for (let i = 0; i < prefSelect.options.length; i++) {
+            const opt = prefSelect.options[i];
+            if (opt.value === 'camera') {
+                opt.style.display = (category === 'mobile') ? 'block' : 'none';
+                if (category === 'laptop' && prefSelect.value === 'camera') {
+                    prefSelect.value = 'gaming'; // Default to something else if hidden
+                }
+            }
+        }
+    }
+    updateBrandDropdown(category);
+    updateMockup();
+}
+
+const BRANDS = {
+    mobile: ["Apple", "Samsung", "Google", "OnePlus", "Xiaomi", "Nothing", "Realme", "Motorola", "IQOO", "Vivo", "Asus"],
+    laptop: ["Apple", "Dell", "HP", "Lenovo", "Asus", "Acer", "MSI", "Microsoft", "Samsung", "Razer", "Gigabyte", "LG", "Xiaomi"]
+};
+
+function updateBrandDropdown(category) {
+    const brandSelect = document.getElementById('brand');
+    if (!brandSelect) return;
+
+    // Keep the "Any Brand" option
+    brandSelect.innerHTML = '<option value="">Any Brand</option>';
+
+    const brandList = BRANDS[category] || [];
+    brandList.sort().forEach(brand => {
+        const option = document.createElement('option');
+        option.value = brand;
+        option.textContent = brand;
+        brandSelect.appendChild(option);
+    });
+}
+
+function updateMockup() {
+    const category = document.getElementById('category').value;
+    const ram = document.getElementById('min_ram').value;
+    const storage = document.getElementById('min_storage').value;
+
+    // We only update status message for mobile in ditto look
+    if (category === 'mobile') {
+        const status = document.getElementById('m-status');
+        if (status) status.innerText = "5G Ready";
     }
 }
+
+// Add listeners for real-time update
+['min_ram', 'min_storage', 'min_cpu', 'needs_rtx'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.addEventListener('change', updateMockup);
+});
 
 // Attach event listener for category change
 const categorySelect = document.getElementById('category');
@@ -72,33 +149,208 @@ if (recommendForm) {
         toggleCategorySpecs();
         localStorage.removeItem('temp_category');
     }
+
+    // Event Listeners for Form Interactivity
+    const categorySelect = document.getElementById('category');
+    if (categorySelect) {
+        categorySelect.addEventListener('change', () => {
+            toggleCategorySpecs();
+            updateFormOptions();
+        });
+    }
+
+    // Dynamic Options Update
+    const budgetInput = document.getElementById('budget');
+
+    async function updateFormOptions() {
+        const category = document.getElementById('category').value;
+        const budget = document.getElementById('budget').value;
+        const ramSelect = document.getElementById('min_ram');
+        const storageSelect = document.getElementById('min_storage');
+        const cpuSelect = document.getElementById('min_cpu'); // Only for laptops usually but checking logic
+
+        try {
+            const response = await fetch(`${API_URL}/options`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ category, budget })
+            });
+            const options = await response.json();
+
+            // Helper to update select
+            const updateSelect = (select, values, suffix) => {
+                const currentVal = select.value;
+                select.innerHTML = '<option value="0">Any</option>';
+                values.forEach(val => {
+                    const opt = document.createElement('option');
+                    opt.value = val;
+                    opt.textContent = `${val}${suffix}`;
+                    select.appendChild(opt);
+                });
+                // Restore value if invalid set to 0
+                if (values.includes(parseInt(currentVal))) {
+                    select.value = currentVal;
+                }
+            };
+
+            if (options.ram && ramSelect) updateSelect(ramSelect, options.ram, 'GB+');
+            if (options.storage && storageSelect) updateSelect(storageSelect, options.storage, 'GB+');
+
+        } catch (e) {
+            console.error("Failed to fetch dynamic options", e);
+        }
+    }
+
+    // Debounce budget input
+    let timeout = null;
+    if (budgetInput) {
+        budgetInput.addEventListener('input', () => {
+            clearTimeout(timeout);
+            timeout = setTimeout(updateFormOptions, 500);
+        });
+        // Initial call
+        updateFormOptions();
+    }
+
+    if (categorySelect) {
+        categorySelect.addEventListener('change', () => {
+            toggleCategorySpecs();
+            updateFormOptions();
+        });
+    }
 }
 
 // Display Results
 let selectedItems = [];
 
-function displayResults(products) {
+function displayResults(data) {
     const grid = document.getElementById('resultsGrid');
+    const bestContainer = document.getElementById('bestMatchContainer');
+
     if (!grid) return;
 
-    grid.innerHTML = products.map((p, index) => `
-        <div class="product-card" onclick="toggleSelection(${index}, ${JSON.stringify(p).replace(/"/g, '&quot;')})">
-            <span class="score-badge">Score: ${Math.round(p.final_score * 100)}%</span>
-            <h3 style="margin-bottom: 10px;">${p.name}</h3>
-            <p style="color: var(--primary); font-weight: 700;">₹${p.price.toLocaleString()}</p>
-            <div style="margin-top: 15px; font-size: 0.9rem; color: #94a3b8;">
-                ${p.ram ? `RAM: ${p.ram}GB |` : ''} 
-                ${p.storage ? `Storage: ${p.storage}GB` : ''}
-                <br>
-                ${p.processor_score ? `CPU Score: ${p.processor_score}` : ''}
-                ${p.cpu_score ? `CPU: ${p.cpu_score} | GPU: ${p.gpu_score}` : ''}
+    // Handle different data formats (Old Array vs New Object)
+    let recommendations = [];
+    let bestMatch = null;
+
+    if (Array.isArray(data)) {
+        recommendations = data;
+    } else if (data && data.recommendations) {
+        recommendations = data.recommendations;
+        bestMatch = data.best_match;
+    }
+
+    grid.innerHTML = '';
+
+    if (recommendations.length === 0) {
+        grid.innerHTML = '<p style="text-align: center; grid-column: 1/-1;">No recommendations found. Try adjusting filters.</p>';
+        return;
+    }
+
+    recommendations.forEach((item, index) => {
+        const card = document.createElement('div');
+        card.className = 'horizontal-card';
+        card.onclick = () => toggleSelection(index, item);
+        card.dataset.item = JSON.stringify(item);
+
+        const score = Math.round(item.final_score * 100);
+        const isMobile = localStorage.getItem('category') === 'mobile';
+
+        // Icons Logic
+        let specsHTML = '';
+        if (isMobile) {
+            specsHTML = `
+                <div class="spec-item"><i>📱</i> <span>${item.screen_size || '6.5"'}</span></div>
+                <div class="spec-item"><i>💾</i> <span>${item.ram}GB</span></div>
+                <div class="spec-item"><i>💿</i> <span>${item.storage}GB</span></div>
+                <div class="spec-item"><i>🔋</i> <span>${item.battery}mAh</span></div>
+             `;
+        } else {
+            // Laptop Icons: Screen, Weight, RAM, Storage
+            // Use ⚖️ for weight
+            specsHTML = `
+                <div class="spec-item"><i>💻</i> <span>${item.screen_size || '15.6"'}</span></div>
+                <div class="spec-item"><i>⚖️</i> <span>${item.weight || '1.8 kg'}</span></div>
+                <div class="spec-item"><i>💾</i> <span>${item.ram}GB</span></div>
+                <div class="spec-item"><i>💿</i> <span>${item.storage}GB</span></div>
+             `;
+        }
+
+        // Image Placeholder
+        const imgUrl = item.img_url || (isMobile ? 'https://cdn-icons-png.flaticon.com/512/644/644458.png' : 'https://cdn-icons-png.flaticon.com/512/428/428001.png');
+
+        card.innerHTML = `
+            <div class="score-badge-circle">
+                <span class="score-val">${score}</span>
+                <span class="score-label">Points</span>
             </div>
-        </div>
-    `).join('');
+            
+            <div class="card-img-side">
+                <img src="${imgUrl}" alt="${item.model}" onerror="this.src='logo.jpg'"> 
+            </div>
+            
+            <div class="card-info-side">
+                <h3 class="h-card-title">${item.model}</h3>
+                <div class="h-card-price">₹${item.price.toLocaleString('en-IN')}</div>
+                <div class="spec-grid">
+                    ${specsHTML}
+                </div>
+            </div>
+            
+            <button class="add-btn">+</button>
+        `;
+        grid.appendChild(card);
+    });
+
+    // Render Best Match Sidebar (List of 5)
+    bestContainer.innerHTML = ''; // Clear previous
+
+    // bestMatch is now an array (or single object if backend not updated yet, handle both)
+    let bestItems = [];
+    if (Array.isArray(bestMatch)) {
+        bestItems = bestMatch;
+    } else if (bestMatch) {
+        bestItems = [bestMatch];
+    }
+
+    if (bestItems.length > 0) {
+        const isMobile = localStorage.getItem('category') === 'mobile';
+
+        bestItems.forEach(match => {
+            let specsHTML = '';
+            if (isMobile) {
+                specsHTML = `
+                    <div class="best-spec-item"><span>RAM</span><strong>${match.ram}GB</strong></div>
+                    <div class="best-spec-item"><span>Stor</span><strong>${match.storage}GB</strong></div>
+                 `;
+            } else {
+                specsHTML = `
+                     <div class="best-spec-item"><span>RAM</span><strong>${match.ram}GB</strong></div>
+                     <div class="best-spec-item"><span>SSD</span><strong>${match.storage}GB</strong></div>
+                 `;
+            }
+
+            const bestCard = document.createElement('div');
+            bestCard.className = 'best-card';
+            bestCard.style.marginBottom = '20px'; // Spacing between items
+
+            bestCard.innerHTML = `
+                <h4 style="font-size: 1.1rem; margin-bottom: 5px;">${match.model}</h4>
+                <div class="price" style="font-size: 1.2rem; margin-bottom: 10px;">₹${match.price.toLocaleString('en-IN')}</div>
+                <div class="best-specs" style="margin-bottom: 10px;">
+                    ${specsHTML}
+                </div>
+                <a href="${match.amazon_link || '#'}" target="_blank" class="btn btn-primary" style="padding: 8px 15px; font-size: 0.8rem;">View Deal</a>
+            `;
+            bestContainer.appendChild(bestCard);
+        });
+    } else {
+        bestContainer.innerHTML = '<p style="text-align:center; color:#666;">No Best Pick available.</p>';
+    }
 }
 
 function toggleSelection(index, product) {
-    const cards = document.querySelectorAll('.product-card');
+    const cards = document.querySelectorAll('.horizontal-card');
     const card = cards[index];
 
     if (card.classList.contains('selected')) {
@@ -127,77 +379,165 @@ function toggleSelection(index, product) {
 
 // Render Comparison
 async function renderComparison(item1, item2, category) {
-    const item1Div = document.getElementById('item1');
-    const item2Div = document.getElementById('item2');
+    const hero1 = document.getElementById('hero1');
+    const hero2 = document.getElementById('hero2');
+    const reasons1 = document.getElementById('reasons1');
+    const reasons2 = document.getElementById('reasons2');
 
-    const renderSpecs = (item) => `
-        <h2 style="margin-bottom: 15px;">${item.name}</h2>
-        <p style="font-size: 1.5rem; color: var(--primary); margin-bottom: 20px;">₹${item.price.toLocaleString()}</p>
-        <div style="text-align: left; background: rgba(0,0,0,0.3); padding: 15px; border-radius: 10px; border: 1px solid var(--glass-border);">
-            <p><strong>Brand:</strong> ${item.brand}</p>
-            <p><strong>RAM:</strong> ${item.ram}GB</p>
-            <p><strong>Storage:</strong> ${item.storage}GB</p>
-            ${category === 'mobile' ?
-            `<p><strong>Battery:</strong> ${item.battery}mAh</p><p><strong>Camera:</strong> ${item.camera}MP</p>` :
-            `<p><strong>Battery:</strong> ${item.battery}hrs</p><p><strong>CPU Score:</strong> ${item.cpu_score}</p><p><strong>GPU Score:</strong> ${item.gpu_score}</p>`
-        }
-        </div>
-        <div style="margin-top: 20px;">
-            <a href="#" onclick="showPrices('${item.name}')" class="btn btn-primary" style="padding: 8px 15px; font-size: 0.8rem;">View Price Links</a>
-        </div>
+    // 1. Render Hero Section
+    const score1 = Math.round(item1.final_score * 100);
+    const score2 = Math.round(item2.final_score * 100);
+
+    const isMobile = category === 'mobile';
+    const img1 = item1.img_url || (isMobile ? 'https://cdn-icons-png.flaticon.com/512/644/644458.png' : 'https://cdn-icons-png.flaticon.com/512/428/428001.png');
+    const img2 = item2.img_url || (isMobile ? 'https://cdn-icons-png.flaticon.com/512/644/644458.png' : 'https://cdn-icons-png.flaticon.com/512/428/428001.png');
+
+    hero1.innerHTML = `
+        <div class="score-badge-circle" style="left: -10px; top: -10px;">${score1}<span style="font-size:0.6rem; display:block;">POINTS</span></div>
+        <h2 style="font-size: 1.1rem; margin-bottom: 20px;">${item1.model || item1.name}</h2>
+        <img src="${img1}" style="width: 100%; max-width: 250px; border-radius: 10px;">
+        <div class="price-tag-hero">₹${item1.price.toLocaleString()}</div>
+        <a href="${item1.amazon_link || '#'}" target="_blank" class="btn btn-primary-outline btn-sm">Check Price</a>
     `;
 
-    item1Div.innerHTML = renderSpecs(item1);
-    item2Div.innerHTML = renderSpecs(item2);
+    hero2.innerHTML = `
+        <div class="score-badge-circle" style="right: -10px; top: -10px;">${score2}<span style="font-size:0.6rem; display:block;">POINTS</span></div>
+        <h2 style="font-size: 1.1rem; margin-bottom: 20px;">${item2.model || item2.name}</h2>
+        <img src="${img2}" style="width: 100%; max-width: 250px; border-radius: 10px;">
+        <div class="price-tag-hero">₹${item2.price.toLocaleString()}</div>
+        <a href="${item2.amazon_link || '#'}" target="_blank" class="btn btn-primary-outline btn-sm">Check Price</a>
+    `;
 
-    // Call Compare API
-    try {
-        const response = await fetch(`${API_URL}/compare`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ item1, item2, category })
-        });
-        const result = await response.json();
-        const details = result.details;
+    // 2. Radar Chart Logic
+    const ctx = document.getElementById('comparisonChart').getContext('2d');
 
-        const vsRow = (label, val1, val2, winner, suffix = "") => `
-            <div class="vs-detail-row">
-                <div class="vs-val ${winner === 'item1' ? 'vs-winner' : ''}">${val1}${suffix}</div>
-                <div class="vs-label">${label}</div>
-                <div class="vs-val ${winner === 'item2' ? 'vs-winner' : ''}">${val2}${suffix}</div>
-            </div>
-        `;
+    // Normalize Data (0-100)
+    const norm = (val, max) => Math.min(100, Math.max(20, (val / max) * 100));
 
-        let detailsHtml = `
-            <h3 style="text-align: center; margin-bottom: 20px; color: var(--primary);">Specifications Versus</h3>
-            ${vsRow('RAM', item1.ram, item2.ram, details.ram.winner, "GB")}
-            ${vsRow('STORAGE', item1.storage, item2.storage, details.storage.winner, "GB")}
-            ${category === 'mobile' ?
-                vsRow('POWER', item1.processor_score, item2.processor_score, details.power.winner) +
-                vsRow('CAMERA', item1.camera, item2.camera, details.camera.winner, "MP") :
-                vsRow('POWER', item1.cpu_score + item1.gpu_score, item2.cpu_score + item2.gpu_score, details.power.winner) +
-                vsRow('CPU', item1.cpu_score, item2.cpu_score, details.cpu.winner) +
-                vsRow('GPU', item1.gpu_score, item2.gpu_score, details.gpu.winner)
-            }
-            ${vsRow('BATTERY', item1.battery, item2.battery, details.battery.winner, category === 'mobile' ? "mAh" : "hrs")}
-        `;
-
-        // Inject detailed VS section
-        const winnersContainer = document.getElementById('winnersContainer');
-        const detailVsBox = document.createElement('div');
-        detailVsBox.className = 'vs-details-container';
-        detailVsBox.innerHTML = detailsHtml;
-        winnersContainer.parentNode.insertBefore(detailVsBox, winnersContainer);
-
-        document.getElementById('winnersList').innerHTML = `
-            <div class="winner-item"><span>Budget Winner:</span> <strong style="color: var(--primary)">${result.budget_winner}</strong></div>
-            <div class="winner-item"><span>Specification Winner:</span> <strong style="color: var(--primary)">${result.spec_winner}</strong></div>
-            <div class="winner-item"><span>Overall Winner:</span> <strong style="color: var(--accent); font-size: 1.2rem;">${result.overall_winner}</strong></div>
-        `;
-    } catch (error) {
-        console.error('Error fetching winners:', error);
+    let data1, data2, labels;
+    if (isMobile) {
+        labels = ['RAM', 'Storage', 'Battery', 'Camera', 'Display', 'Value'];
+        data1 = [
+            norm(item1.ram, 16),
+            norm(item1.storage, 512),
+            norm(item1.battery, 6000),
+            norm(item1.camera, 108),
+            norm(parseFloat(item1.screen_size) || 6.5, 7),
+            score1
+        ];
+        data2 = [
+            norm(item2.ram, 16),
+            norm(item2.storage, 512),
+            norm(item2.battery, 6000),
+            norm(item2.camera, 108),
+            norm(parseFloat(item2.screen_size) || 6.5, 7),
+            score2
+        ];
+    } else {
+        // Laptop
+        labels = ['Performance (CPU)', 'Graphics (GPU)', 'Memory (RAM)', 'Storage', 'Portability', 'Value'];
+        data1 = [
+            norm(item1.cpu_score, 100),
+            norm(item1.gpu_score, 100),
+            norm(item1.ram, 64),
+            norm(item1.storage, 2048),
+            100 - norm(parseFloat(item1.weight) || 2.0, 4.0), // Invert weight (lighter is better)
+            score1
+        ];
+        data2 = [
+            norm(item2.cpu_score, 100),
+            norm(item2.gpu_score, 100),
+            norm(item2.ram, 64),
+            norm(item2.storage, 2048),
+            100 - norm(parseFloat(item2.weight) || 2.0, 4.0),
+            score2
+        ];
     }
+
+    new Chart(ctx, {
+        type: 'radar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: item1.model,
+                data: data1,
+                fill: true,
+                backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                borderColor: 'rgb(255, 99, 132)',
+                pointBackgroundColor: 'rgb(255, 99, 132)',
+            }, {
+                label: item2.model,
+                data: data2,
+                fill: true,
+                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                borderColor: 'rgb(54, 162, 235)',
+                pointBackgroundColor: 'rgb(54, 162, 235)',
+            }]
+        },
+        options: {
+            elements: { line: { borderWidth: 3 } },
+            scales: { r: { min: 0, max: 100, ticks: { display: false } } }
+        }
+    });
+
+    // 3. Generate "Why Better" Pros
+    const generatePros = (main, other, label, unit = '', higherIsBetter = true) => {
+        let val1 = parseFloat(main[label.toLowerCase().replace(' ', '_')] || main[label.split(' ')[0].toLowerCase()] || 0);
+        let val2 = parseFloat(other[label.toLowerCase().replace(' ', '_')] || other[label.split(' ')[0].toLowerCase()] || 0);
+
+        // Handle field mapping exceptions
+        if (label === 'RAM') { val1 = main.ram; val2 = other.ram; }
+        if (label === 'Storage') { val1 = main.storage; val2 = other.storage; }
+
+        if (val1 === val2) return null;
+
+        const diff = Math.abs(val1 - val2);
+        const percent = ((diff / Math.min(val1, val2)) * 100).toFixed(0);
+
+        const isBetter = higherIsBetter ? (val1 > val2) : (val1 < val2);
+
+        if (isBetter) {
+            if (label === 'RAM') return `${diff}GB more RAM memory`;
+            if (label === 'Storage') return `${diff}GB more internal storage`;
+            if (label === 'Battery') return `${diff}${unit} larger battery capacity`;
+            if (label === 'Weight') return `${diff.toFixed(2)}kg lighter`;
+            if (label === 'Screen') return `${diff.toFixed(1)}" larger screen size`;
+            if (label === 'CPU') return `Faster Processor (Score +${diff.toFixed(0)})`;
+            if (label === 'GPU') return `Better Gaming Performance (+${diff.toFixed(0)} pts)`;
+        }
+        return null;
+    };
+
+    const attributes = isMobile
+        ? ['RAM', 'Storage', 'Battery', 'Camera', 'Screen']
+        : ['RAM', 'Storage', 'Weight', 'CPU', 'GPU'];
+
+    let html1 = `<h4>Why is ${item1.model} better?</h4><ul class="pro-list">`;
+    let html2 = `<h4>Why is ${item2.model} better?</h4><ul class="pro-list">`;
+
+    attributes.forEach(attr => {
+        const unit = (attr === 'Battery' && isMobile) ? 'mAh' : '';
+        const higherBetter = (attr !== 'Weight');
+
+        const p1 = generatePros(item1, item2, attr, unit, higherBetter);
+        const p2 = generatePros(item2, item1, attr, unit, higherBetter);
+
+        if (p1) html1 += `<li>${p1}</li>`;
+        if (p2) html2 += `<li>${p2}</li>`;
+    });
+
+    html1 += '</ul>';
+    html2 += '</ul>';
+
+    reasons1.innerHTML = html1;
+    reasons2.innerHTML = html2;
 }
+
+
+
+
+
+
 
 async function showPrices(name) {
     try {

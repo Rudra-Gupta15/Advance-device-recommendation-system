@@ -10,21 +10,46 @@
 </head>
 
 <body>
+    <div class="sidebar">
+        <a href="https://rudra-portfolio-liart.vercel.app/" target="_blank" class="logo"><img src="logo.jpg"
+                alt="Logo"></a>
+        <div class="sidebar-nav">
+            <a href="index.html" class="nav-item">🏠</a>
+            <a href="form.html" class="nav-item">📋</a>
+            <a href="catalog.html" class="nav-item">📱</a>
+            <a href="#" class="nav-item active">📈</a>
+            <a href="#" class="nav-item">⚙️</a>
+        </div>
+    </div>
+
     <div class="container">
-        <nav>
-            <a href="index.html" class="logo">VersusTech</a>
+        <nav style="flex-direction: row; justify-content: flex-end; border: none; padding: 20px 0;">
             <button id="compareBtn" class="btn btn-primary" style="display: none;">Compare Selected (2)</button>
         </nav>
-
         <header style="margin-top: 40px; text-align: center;">
-            <h2 id="results-title">Top 10 Recommendations</h2>
+            <h2 id="results-title">Top 20 Recommendations</h2>
             <p style="color: #94a3b8;">Select any 2 products to see a head-to-head comparison.</p>
         </header>
 
-        <div id="resultsGrid" class="results-grid">
-            <!-- Product cards will be injected here -->
+        <div class="results-wrapper">
+            <div id="resultsGrid" class="results-grid">
+                <!-- Product cards will be injected here -->
+            </div>
+
+            <aside class="best-column">
+                <div class="best-header">
+                    <h3>Best to Known</h3>
+                    <p>Top Pick for You</p>
+                </div>
+                <div id="bestMatchContainer">
+                    <!-- Best Match Injected Here -->
+                </div>
+            </aside>
         </div>
     </div>
+    <footer class="container">
+        <p class="footer-credit">Created by: <strong>Rudra Kumar Gupta</strong></p>
+    </footer>
     <script src="script.js"></script>
     <script>
         window.onload = () => {

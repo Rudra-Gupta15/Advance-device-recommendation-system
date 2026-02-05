@@ -10,95 +10,136 @@
 </head>
 
 <body>
-    <div class="container">
-        <nav>
-            <a href="index.html" class="logo">VersusTech</a>
-        </nav>
-
-        <div class="form-card">
-            <h2 style="margin-bottom: 20px;">What are you looking for?</h2>
-            <form id="recommendForm">
-                <div class="form-group">
-                    <label>Category</label>
-                    <select id="category" required>
-                        <option value="mobile">Mobile Phone</option>
-                        <option value="laptop">Laptop</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label>Maximum Budget (INR)</label>
-                    <input type="number" id="budget" placeholder="e.g. 50000" required>
-                </div>
-
-                <div class="form-group">
-                    <label>User Mode</label>
-                    <select id="mode" required onchange="togglePreferences()">
-                        <option value="normal">Normal User</option>
-                        <option value="advanced">Advanced User</option>
-                    </select>
-                </div>
-
-                <div id="preferences-group" class="form-group">
-                    <label>Priority (Pick One)</label>
-                    <select id="preference">
-                        <option value="gaming">Gaming / Performance</option>
-                        <option value="camera">Camera (for Mobiles)</option>
-                        <option value="battery">Battery Life</option>
-                        <option value="office">Office / Productivity</option>
-                    </select>
-                </div>
-
-                <!-- Dynamic Specs Section -->
-                <div id="specs-section">
-                    <div class="form-group">
-                        <label>Minimum RAM (GB)</label>
-                        <select id="min_ram">
-                            <option value="0">Any</option>
-                            <option value="4">4GB+</option>
-                            <option value="8">8GB+</option>
-                            <option value="12">12GB+</option>
-                            <option value="16">16GB+</option>
-                            <option value="32">32GB+</option>
-                        </select>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Minimum Storage (GB)</label>
-                        <select id="min_storage">
-                            <option value="0">Any</option>
-                            <option value="128">128GB+</option>
-                            <option value="256">256GB+</option>
-                            <option value="512">512GB+</option>
-                            <option value="1024">1TB+</option>
-                        </select>
-                    </div>
-
-                    <div class="form-group" id="cpu-group">
-                        <label id="cpu-label">Minimum CPU Power</label>
-                        <select id="min_cpu">
-                            <option value="0">Any</option>
-                            <option value="70">Balanced (70+)</option>
-                            <option value="85">High Performance (85+)</option>
-                            <option value="95">Extreme (95+)</option>
-                        </select>
-                    </div>
-
-                    <div class="form-group" id="rtx-group" style="display: flex; align-items: center; gap: 10px;">
-                        <input type="checkbox" id="needs_rtx" style="width: auto;">
-                        <label for="needs_rtx" style="margin-bottom: 0;">Dedicated GPU / RTX Required</label>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label>Preferred Brand (Optional)</label>
-                    <input type="text" id="brand" placeholder="e.g. Apple, Samsung">
-                </div>
-
-                <button type="submit" class="btn btn-primary" style="width: 100%;">Get Recommendations</button>
-            </form>
+    <div class="sidebar">
+        <a href="https://rudra-portfolio-liart.vercel.app/" target="_blank" class="logo"><img src="logo.jpg"
+                alt="Logo"></a>
+        <div class="sidebar-nav">
+            <a href="index.html" class="nav-item">🏠</a>
+            <a href="form.html" class="nav-item active">📋</a>
+            <a href="catalog.html" class="nav-item">📱</a>
+            <a href="#" class="nav-item">⚙️</a>
         </div>
     </div>
+
+    <div class="container">
+        <div class="form-container">
+            <div class="form-card">
+                <h2 id="form-title" style="margin-bottom: 10px;">Mobile Preferences</h2>
+                <p style="color: #94a3b8; margin-bottom: 30px;">Refine your search for the best match.</p>
+                <form id="recommendForm">
+                    <div class="form-group">
+                        <label>Category</label>
+                        <select id="category" required>
+                            <option value="mobile">Mobile Phone</option>
+                            <option value="laptop">Laptop</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Maximum Budget (INR)</label>
+                        <input type="number" id="budget" value="60000" step="5000" required>
+                    </div>
+
+                    <div class="form-group" id="mode-group">
+                        <label>User Mode</label>
+                        <select id="mode" required onchange="togglePreferences()">
+                            <option value="normal">Normal User</option>
+                            <option value="advanced">Advanced User</option>
+                        </select>
+                    </div>
+
+                    <div id="preferences-group" class="form-group">
+                        <label>Primary Use</label>
+                        <select id="preference">
+                            <option value="gaming">Gaming / Performance</option>
+                            <option value="camera">Camera (for Mobiles)</option>
+                            <option value="battery">Battery Life</option>
+                            <option value="office">Office / Productivity</option>
+                        </select>
+                    </div>
+
+                    <!-- Dynamic Specs Section -->
+                    <div id="specs-section">
+                        <div class="form-group">
+                            <label>Minimum RAM (GB)</label>
+                            <select id="min_ram">
+                                <option value="0">Any</option>
+                                <option value="4">4GB+</option>
+                                <option value="8">8GB+</option>
+                                <option value="12">12GB+</option>
+                                <option value="16">16GB+</option>
+                                <option value="32">32GB+</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Minimum Storage (GB)</label>
+                            <select id="min_storage">
+                                <option value="0">Any</option>
+                                <option value="128">128GB+</option>
+                                <option value="256">256GB+</option>
+                                <option value="512">512GB+</option>
+                                <option value="1024">1TB+</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group" id="cpu-group">
+                            <label id="cpu-label">Minimum CPU Power</label>
+                            <select id="min_cpu">
+                                <option value="0">Any</option>
+                                <option value="70">Balanced (70+)</option>
+                                <option value="85">High Performance (85+)</option>
+                                <option value="95">Extreme (95+)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group" id="rtx-group" style="display: flex; align-items: center; gap: 10px;">
+                            <input type="checkbox" id="needs_rtx" style="width: auto;">
+                            <label for="needs_rtx" style="margin-bottom: 0;">Dedicated GPU / RTX Required</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Preferred Brand (Optional)</label>
+                        <select id="brand">
+                            <option value="">Any Brand</option>
+                        </select>
+                    </div>
+
+                    <div style="display: flex; gap: 15px; margin-top: 30px;">
+                        <button type="button" class="btn btn-secondary" style="flex: 1;"
+                            onclick="window.history.back()">← Back</button>
+                        <button type="submit" class="btn btn-primary" style="flex: 2;">Get Suggestions →</button>
+                    </div>
+
+                    <div style="margin-top: 40px; border-top: 1px solid var(--light-gray); padding-top: 20px;">
+                        <p style="font-size: 0.8rem; color: var(--primary-light); text-align: center;">
+                            Designed & Developed by <strong>Rudra Kumar Gupta</strong>
+                        </p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="visual-side">
+                <div id="loading-step" class="step-badge">Step 1 of 1</div>
+
+                <div id="mobile-mockup-container" class="mockup-container" style="display: none;">
+                    <div class="device-photo-wrap">
+                        <img src="mobile_photo.png" alt="Mobile Preview" class="device-photo">
+                    </div>
+                </div>
+
+                <div id="laptop-mockup-container" class="mockup-container">
+                    <div class="device-photo-wrap">
+                        <img src="laptop_photo.png" alt="Laptop Preview" class="device-photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container">
+        <p class="footer-credit">Created by: <strong>Rudra Kumar Gupta</strong></p>
+    </footer>
     <script src="script.js"></script>
 </body>
 

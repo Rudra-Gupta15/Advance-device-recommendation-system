@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Catalog | VersusTech</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="sidebar">
+        <a href="https://rudra-portfolio-liart.vercel.app/" target="_blank" class="logo"><img src="logo.jpg"
+                alt="Logo"></a>
+        <div class="sidebar-nav">
+            <a href="index.html" class="nav-item">🏠</a>
+            <a href="form.html" class="nav-item">📋</a>
+            <a href="catalog.html" class="nav-item active">📱</a>
+            <a href="#" class="nav-item">⚙️</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <header style="margin-top: 40px; text-align: center; margin-bottom: 30px;">
+            <h2>Browse All Devices</h2>
+            <p style="color: #94a3b8; margin-bottom: 20px;">Explore our entire collection, organized by brand</p>
+
+            <!-- Category Toggle -->
+            <div class="category-toggle">
+                <button id="mobileCatBtn" class="cat-btn active" onclick="loadCatalog('mobile')">📱 Mobile</button>
+                <button id="laptopCatBtn" class="cat-btn" onclick="loadCatalog('laptop')">💻 Laptop</button>
+            </div>
+        </header>
+
+        <div id="catalogContainer" class="catalog-container">
+            <!-- Brand rows will be injected here -->
+            <div class="loader-container">
+                <div class="loader"></div>
+                <p>Loading catalog...</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container">
+        <p class="footer-credit">Created by: <strong>Rudra Kumar Gupta</strong></p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        let currentCategory = 'mobile';
+
+        async function loadCatalog(category) {
+            currentCategory = category;
+
+            // Update button states
+            document.getElementById('mobileCatBtn').classList.toggle('active', category === 'mobile');
+            document.getElementById('laptopCatBtn').classList.toggle('active', category === 'laptop');
+
+            const container = document.getElementById('catalogContainer');
+            container.innerHTML = '<div class="loader-container"><div class="loader"></div><p>Loading catalog...</p></div>';
+
+            try {
+                const response = await fetch(`${API_URL}/catalog?category=${category}`);
+                const catalog = await response.json();
+
+                if (Object.keys(catalog).length === 0) {
+                    container.innerHTML = '<div class="empty-state"><p>No devices found in this category</p></div>';
+                    return;
+                }
+
+                renderCatalog(catalog, category);
+            } catch (error) {
+                console.error('Error loading catalog:', error);
+                container.innerHTML = '<div class="error-state"><p>Failed to load catalog. Please ensure the backend is running.</p></div>';
+            }
+        }
+
+        function renderCatalog(catalog, category) {
+            const container = document.getElementById('catalogContainer');
+
+            const html = Object.entries(catalog).map(([brand, devices]) => `
+                <div class="brand-section">
+                    <div class="brand-header">
+                        <h3>${brand}</h3>
+                        <span class="device-count">${devices.length} ${devices.length === 1 ? 'device' : 'devices'}</span>
+                    </div>
+                    <div class="brand-scroll-container">
+                        ${devices.map(device => createCatalogCard(device, category)).join('')}
+                    </div>
+                </div>
+            `).join('');
+
+            container.innerHTML = html;
+        }
+
+        function createCatalogCard(device, category) {
+            const name = device.model || device.name;
+            const price = device.price ? `₹${device.price.toLocaleString()}` : 'Price N/A';
+
+            let specs = '';
+            if (category === 'mobile') {
+                specs = `
+                    <div class="catalog-spec"><span>RAM:</span> ${device.ram || 0}GB</div>
+                    <div class="catalog-spec"><span>Storage:</span> ${device.storage || 0}GB</div>
+                    <div class="catalog-spec"><span>Camera:</span> ${device.camera || device.camera_mp || 0}MP</div>
+                `;
+            } else {
+                specs = `
+                    <div class="catalog-spec"><span>RAM:</span> ${device.ram || 0}GB</div>
+                    <div class="catalog-spec"><span>CPU:</span> ${device.cpu_score || 0}</div>
+                    <div class="catalog-spec"><span>GPU:</span> ${device.gpu_score || 0}</div>
+                `;
+            }
+
+            return `
+                <div class="catalog-card">
+                    <div class="catalog-card-name">${name}</div>
+                    <div class="catalog-card-price">${price}</div>
+                    <div class="catalog-specs">
+                        ${specs}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Load mobile catalog on page load
+        window.onload = () => loadCatalog('mobile');
+    </script>
+</body>
+
+</html>

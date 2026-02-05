@@ -6,36 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comparison | VersusTech</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Orbitron:wght@400;600;800;900&family=Roboto+Mono:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <nav>
-            <a href="index.html" class="logo">VersusTech</a>
-        </nav>
+    <div class="sidebar">
+        <a href="https://rudra-portfolio-liart.vercel.app/" target="_blank" class="logo"><img src="logo.jpg"
+                alt="Logo"></a>
+        <div class="sidebar-nav">
+            <a href="index.html" class="nav-item">🏠</a>
+            <a href="form.html" class="nav-item">📋</a>
+            <a href="catalog.html" class="nav-item">📱</a>
+            <a href="#" class="nav-item">⚙️</a>
+        </div>
+    </div>
 
-        <div class="vs-container">
-            <div id="item1" class="compare-card">
-                <!-- Data injected here -->
+    <div class="container">
+        <!-- New Comparison Layout -->
+        <div class="comparison-hero">
+            <div id="hero1" class="hero-item"></div>
+            <div class="vs-badge">VS</div>
+            <div id="hero2" class="hero-item"></div>
+        </div>
+
+        <div class="analysis-section">
+            <div class="radar-container">
+                <canvas id="comparisonChart"></canvas>
             </div>
-            <div class="vs-box">VS</div>
-            <div id="item2" class="compare-card">
-                <!-- Data injected here -->
+
+            <div class="reasons-container">
+                <div id="reasons1" class="reasons-column"></div>
+                <div id="reasons2" class="reasons-column"></div>
             </div>
         </div>
 
-        <div class="winners-box" id="winnersContainer">
-            <h3 style="margin-bottom: 20px; color: var(--accent);">Analysis Winners</h3>
-            <div id="winnersList">
-                <!-- Winners injected here -->
-            </div>
+
+
+        <div class="specs-table-container" id="specsTable">
+            <!-- Full Specs Table Injected Here -->
         </div>
 
         <div style="margin-top: 30px; text-align: center;">
             <a href="form.html" class="btn btn-primary">Start New Search</a>
         </div>
     </div>
+    <footer class="container">
+        <p class="footer-credit">Created by: <strong>Rudra Kumar Gupta</strong></p>
+    </footer>
     <script src="script.js"></script>
     <script>
         window.onload = () => {
