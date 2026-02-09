@@ -86,4 +86,5 @@ def get_options():
     return jsonify(options)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    print("Starting backend on port 5001...")
+    app.run(debug=True, port=5001)

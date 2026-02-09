@@ -1,0 +1,26 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDEs
+.vscode/
+.idea/
+
+# Large Files / Media
+*.mp4
+*.mkv
+*.avi
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Static analysis
+.mypy_cache/
+.pytest_cache/

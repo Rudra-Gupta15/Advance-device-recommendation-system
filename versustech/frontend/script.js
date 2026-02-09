@@ -1,4 +1,4 @@
-const API_URL = 'http://127.0.0.1:5000/api';
+const API_URL = 'http://127.0.0.1:5001/api';
 
 // Handle Initial Category Selection (index.html)
 function selectCategory(cat) {
@@ -480,57 +480,77 @@ async function renderComparison(item1, item2, category) {
         }
     });
 
-    // 3. Generate "Why Better" Pros
-    const generatePros = (main, other, label, unit = '', higherIsBetter = true) => {
-        let val1 = parseFloat(main[label.toLowerCase().replace(' ', '_')] || main[label.split(' ')[0].toLowerCase()] || 0);
-        let val2 = parseFloat(other[label.toLowerCase().replace(' ', '_')] || other[label.split(' ')[0].toLowerCase()] || 0);
+    // 3. Generate Spec Showdown
+    const showdownContainer = document.getElementById('specShowdown');
+    if (showdownContainer) {
+        showdownContainer.innerHTML = ''; // Clear previous
 
-        // Handle field mapping exceptions
-        if (label === 'RAM') { val1 = main.ram; val2 = other.ram; }
-        if (label === 'Storage') { val1 = main.storage; val2 = other.storage; }
+        const createSpecRow = (label, val1Raw, val2Raw, unit = '', higherIsBetter = true) => {
+            let val1 = parseFloat(String(val1Raw).replace(/[^0-9.]/g, '')) || 0;
+            let val2 = parseFloat(String(val2Raw).replace(/[^0-9.]/g, '')) || 0;
 
-        if (val1 === val2) return null;
+            // Handle specific logic for known fields if raw parsing isn't enough
+            if (label === 'Score') { val1 = score1; val2 = score2; }
 
-        const diff = Math.abs(val1 - val2);
-        const percent = ((diff / Math.min(val1, val2)) * 100).toFixed(0);
+            let class1 = '';
+            let class2 = '';
 
-        const isBetter = higherIsBetter ? (val1 > val2) : (val1 < val2);
+            if (val1 !== val2) {
+                const isBetter = higherIsBetter ? (val1 > val2) : (val1 < val2);
+                if (isBetter) class1 = 'winner-glow';
+                else class2 = 'winner-glow';
+            }
 
-        if (isBetter) {
-            if (label === 'RAM') return `${diff}GB more RAM memory`;
-            if (label === 'Storage') return `${diff}GB more internal storage`;
-            if (label === 'Battery') return `${diff}${unit} larger battery capacity`;
-            if (label === 'Weight') return `${diff.toFixed(2)}kg lighter`;
-            if (label === 'Screen') return `${diff.toFixed(1)}" larger screen size`;
-            if (label === 'CPU') return `Faster Processor (Score +${diff.toFixed(0)})`;
-            if (label === 'GPU') return `Better Gaming Performance (+${diff.toFixed(0)} pts)`;
-        }
-        return null;
-    };
+            const row = document.createElement('div');
+            row.className = 'spec-row';
+            row.innerHTML = `
+                <div class="spec-val ${class1}">${val1Raw}${unit}</div>
+                <div class="spec-label">${label}</div>
+                <div class="spec-val ${class2}">${val2Raw}${unit}</div>
+            `;
+            return row;
+        };
 
-    const attributes = isMobile
-        ? ['RAM', 'Storage', 'Battery', 'Camera', 'Screen']
-        : ['RAM', 'Storage', 'Weight', 'CPU', 'GPU'];
+        const attributes = isMobile
+            ? [
+                { label: 'RAM', key: 'ram', unit: 'GB' },
+                { label: 'Storage', key: 'storage', unit: 'GB' },
+                { label: 'Battery', key: 'battery', unit: 'mAh' },
+                { label: 'Camera', key: 'camera', unit: 'MP' },
+                { label: 'Screen', key: 'screen_size', unit: '"' }
+            ]
+            : [
+                { label: 'RAM', key: 'ram', unit: 'GB' },
+                { label: 'Storage', key: 'storage', unit: 'GB' },
+                { label: 'Weight', key: 'weight', unit: 'kg', lowBetter: true },
+                { label: 'CPU Score', key: 'cpu_score', unit: ' pts' },
+                { label: 'GPU Score', key: 'gpu_score', unit: ' pts' }
+            ];
 
-    let html1 = `<h4>Why is ${item1.model} better?</h4><ul class="pro-list">`;
-    let html2 = `<h4>Why is ${item2.model} better?</h4><ul class="pro-list">`;
+        // Add Header
+        const header = document.createElement('div');
+        header.className = 'spec-header';
+        header.innerHTML = `
+            <div>${item1.model}</div>
+            <div>VS</div>
+            <div>${item2.model}</div>
+         `;
+        showdownContainer.appendChild(header);
 
-    attributes.forEach(attr => {
-        const unit = (attr === 'Battery' && isMobile) ? 'mAh' : '';
-        const higherBetter = (attr !== 'Weight');
+        attributes.forEach(attr => {
+            const val1 = item1[attr.key] || 0;
+            const val2 = item2[attr.key] || 0;
+            // CPU/GPU scores for laptops might be directly in the item or calculated, assuming they are in item based on chart logic
 
-        const p1 = generatePros(item1, item2, attr, unit, higherBetter);
-        const p2 = generatePros(item2, item1, attr, unit, higherBetter);
-
-        if (p1) html1 += `<li>${p1}</li>`;
-        if (p2) html2 += `<li>${p2}</li>`;
-    });
-
-    html1 += '</ul>';
-    html2 += '</ul>';
-
-    reasons1.innerHTML = html1;
-    reasons2.innerHTML = html2;
+            showdownContainer.appendChild(createSpecRow(
+                attr.label,
+                val1,
+                val2,
+                attr.unit,
+                !attr.lowBetter
+            ));
+        });
+    }
 }
 
 
