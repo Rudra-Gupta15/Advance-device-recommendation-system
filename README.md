@@ -89,14 +89,6 @@ python test_api.py
 python test_best_column.py
 ```
 
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## 📧 Support
 
 For issues, questions, or suggestions, please open an issue on GitHub.
